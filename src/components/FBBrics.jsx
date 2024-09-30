@@ -171,7 +171,7 @@ const FBBrics = () => {
                       <p class=" align-center display-7">
                         Travel trunk from the Bellagio collection by Bric's.
                         Elegant cowhide inserts combine with the high-tech
-                        Makrolon&reg; polycarbonate shell
+                        Makrolon &reg; polycarbonate shell
                       </p>
                     </div>
                   </div>
