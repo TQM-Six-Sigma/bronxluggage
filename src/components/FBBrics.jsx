@@ -9,21 +9,28 @@ const FBBrics = () => {
           <NavBar />
         </div>
         <div>
-          <section
-            class="header2  mbr-parallax-background"
-            id="header2-m"
-          >
-            <div
-              class="mbr-overlay"
-              style={{ opacity: 0.7, backgroundColor: "rgb(255, 255, 255)" }}
-            ></div>
-
+          <section class="header2" id="header2-m">
+            
+            <section class="video2 " id="video2-n">
+              <figure class=" align-center container-fluid" style={{width: "100%", height: "500px"}}>
+                <div class="video-block" style={{ width: "100%", height: "100%", display: "flex", justifyContent: "center", alignItems: "center" }}>
+                  <div style={{width: "100%", height: "100%"}}>
+                    <iframe
+                      title="vimeo-player"
+                      src="https://player.vimeo.com/video/482721857?h=cbe3602f60"
+                      width="100%"
+                      height="100%"
+                      frameborder="0"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
+                </div>
+              </figure>
+            </section>
             <div class="container">
               <div class="row justify-content-center">
                 <div class="col-md-10 col-lg-8 align-center mbr-white">
-                  <h3 class=" display-1">
-                    BRIC'S MILANO
-                  </h3>
+                  <h3 class=" display-1">BRIC'S MILANO</h3>
                   <p class=" display-7">
                     Founded by Mario BricCola in 1952, BRIC'S Milan has been
                     creating and producing entirely handmade travel bags and
@@ -45,29 +52,11 @@ const FBBrics = () => {
                 </div>
               </div>
             </div>
+            
+            
           </section>
 
-          <section class="video2 " id="video2-n">
-            <figure class=" align-center container-fluid">
-              <div class="video-block" style={{ width: "77%" }}>
-                <div>
-                  <iframe
-                    title="vimeo-player"
-                    src="https://player.vimeo.com/video/482721857?h=cbe3602f60"
-                    width="640"
-                    height="360"
-                    frameborder="0"
-                    allowfullscreen
-                  ></iframe>
-                </div>
-              </div>
-            </figure>
-          </section>
-
-          <section
-            class=" features6 mbr-parallax-background"
-            id="features6-o"
-          >
+          <section class=" features6 mbr-parallax-background" id="features6-o">
             <div
               class="mbr-overlay"
               style={{ opacity: 0.8, backgroundColor: "rgb(255, 255, 255" }}
@@ -76,9 +65,7 @@ const FBBrics = () => {
             <div class="container-fluid">
               <div class="row">
                 <div class="col-12 text-row col-md-6">
-                  <h2 class="align-center display-2">
-                    BELLAGIO
-                  </h2>
+                  <h2 class="align-center display-2">BELLAGIO</h2>
                   <h3 class="-subtitle align-center mbr-light display-7">
                     A featured collection from BRIC's, the Bellagio pieces are
                     strong and elegant made with fine Italian leather accents.
@@ -214,10 +201,7 @@ const FBBrics = () => {
             </div>
           </section>
 
-          <section
-            class=" features5 "
-            id="features5-p"
-          >
+          <section class=" features5 " id="features5-p">
             <div class="container-fluid">
               <div class="row justify-content-center content-row">
                 <div class="card first-card col-12 col-lg-6">
@@ -262,7 +246,6 @@ const FBBrics = () => {
                             }
                             alt="FBBrics"
                             loading="lazy"
-
                           />
                         </div>
                       </div>
@@ -277,7 +260,6 @@ const FBBrics = () => {
                             }
                             alt="FBBrics"
                             loading="lazy"
-
                           />
                         </div>
                       </div>
@@ -295,7 +277,6 @@ const FBBrics = () => {
                             }
                             alt="FBBrics"
                             loading="lazy"
-
                           />
                         </div>
                       </div>
@@ -310,7 +291,6 @@ const FBBrics = () => {
                             }
                             alt="FBBrics"
                             loading="lazy"
-
                           />
                         </div>
                       </div>
@@ -321,10 +301,7 @@ const FBBrics = () => {
             </div>
           </section>
 
-          <section
-            class=" features6 mbr-parallax-background"
-            id="features6-q"
-          >
+          <section class=" features6 mbr-parallax-background" id="features6-q">
             <div
               class="mbr-overlay"
               style={{ opacity: 0.8, backgroundColor: "rgb(255, 255, 255)" }}
@@ -333,9 +310,7 @@ const FBBrics = () => {
             <div class="container-fluid">
               <div class="row">
                 <div class="col-12 text-row col-md-6">
-                  <h2 class="align-center display-2">
-                    X-TRAVEL
-                  </h2>
+                  <h2 class="align-center display-2">X-TRAVEL</h2>
                   <h3 class="-subtitle align-center mbr-light display-7">
                     This collection offers the perfect combination of
                     lightweight and strong pieces. The trolley (luggage) from
