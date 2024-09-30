@@ -8,10 +8,7 @@ const FBAffordableBrands = () => {
           <NavBar />
         </div>
         <div>
-          <section
-            class="mbr-section features5 luxurym4_features5 cid-sB2L1AU1Ip"
-            id="features5-14"
-          >
+          <section class="mbr-section features5" id="features5-14">
             <div class="container-fluid">
               <h2 class="mbr-section-title main-title mbr-fonts-style align-center pb-5 display-2">
                 BRONX LUGGAGE AFFORDABLE COLLECTIONS
@@ -53,9 +50,8 @@ const FBAffordableBrands = () => {
                               process.env.PUBLIC_URL +
                               "/images/it-1-183x275.jpg"
                             }
-                            alt="Mobirise"
+                            alt="Affordable"
                             loading="lazy"
-                            class="lazyload"
                             data-src={
                               process.env.PUBLIC_URL +
                               "/images/it-1-183x275.jpg"
@@ -72,9 +68,8 @@ const FBAffordableBrands = () => {
                               process.env.PUBLIC_URL +
                               "/images/it-3-183x275.jpg"
                             }
-                            alt="Mobirise"
+                            alt="Affordable"
                             loading="lazy"
-                            class="lazyload"
                             data-src={
                               process.env.PUBLIC_URL +
                               "/images/it-3-183x275.jpg"
@@ -94,9 +89,8 @@ const FBAffordableBrands = () => {
                               process.env.PUBLIC_URL +
                               "/images/it-2-172x293.jpg"
                             }
-                            alt="Mobirise"
+                            alt="Affordable"
                             loading="lazy"
-                            class="lazyload"
                             data-src={
                               process.env.PUBLIC_URL +
                               "/images/it-2-172x293.jpg"
@@ -113,9 +107,8 @@ const FBAffordableBrands = () => {
                               process.env.PUBLIC_URL +
                               "/images/it-4-179x281.jpg"
                             }
-                            alt="Mobirise"
+                            alt="Affordable"
                             loading="lazy"
-                            class="lazyload"
                             data-src={
                               process.env.PUBLIC_URL +
                               "/images/it-4-179x281.jpg"
@@ -129,10 +122,7 @@ const FBAffordableBrands = () => {
               </div>
             </div>
           </section>
-          <section
-            class="mbr-section features3 luxurym4_features3 cid-sB2L4WUwXp"
-            id="features3-15"
-          >
+          <section class="mbr-section features3" id="features3-15">
             <div class="container-fluid">
               <h2 class="mbr-section-title main-title mbr-fonts-style align-center pb-5 display-2">
                 GABBIANO LUGGAGE
@@ -174,9 +164,8 @@ const FBAffordableBrands = () => {
                               process.env.PUBLIC_URL +
                               "/images/gabbiano-1-368x355.jpg"
                             }
-                            alt="Mobirise"
+                            alt="Affordable"
                             loading="lazy"
-                            class="lazyload"
                           />
                         </div>
                       </div>
@@ -189,9 +178,8 @@ const FBAffordableBrands = () => {
                               process.env.PUBLIC_URL +
                               "/images/gabbiano-5-593x593.jpg"
                             }
-                            alt="Mobirise"
+                            alt="Affordable"
                             loading="lazy"
-                            class="lazyload"
                           />
                         </div>
                       </div>
@@ -207,9 +195,8 @@ const FBAffordableBrands = () => {
                               process.env.PUBLIC_URL +
                               "/images/gabbiano-3-593x593.jpg"
                             }
-                            alt="Mobirise"
+                            alt="Affordable"
                             loading="lazy"
-                            class="lazyload"
                           />
                         </div>
                       </div>
@@ -222,9 +209,8 @@ const FBAffordableBrands = () => {
                               process.env.PUBLIC_URL +
                               "/images/gabbiano-6-593x593.jpg"
                             }
-                            alt="Mobirise"
+                            alt="Affordable"
                             loading="lazy"
-                            class="lazyload"
                           />
                         </div>
                       </div>
@@ -234,10 +220,7 @@ const FBAffordableBrands = () => {
               </div>
             </div>
           </section>
-          <section
-            class="mbr-section features5 luxurym4_features5 cid-sB2L5E4pt0"
-            id="features5-16"
-          >
+          <section class="mbr-section features5" id="features5-16">
             <div class="container-fluid">
               <h2 class="mbr-section-title main-title mbr-fonts-style align-center pb-5 display-2">
                 WISDOM LUGGAGE
@@ -272,9 +255,8 @@ const FBAffordableBrands = () => {
                               process.env.PUBLIC_URL +
                               "/images/wisdom-soft-601x400.jpg"
                             }
-                            alt="Mobirise"
+                            alt="Affordable"
                             loading="lazy"
-                            class="lazyload"
                           />
                         </div>
                       </div>
@@ -287,9 +269,8 @@ const FBAffordableBrands = () => {
                               process.env.PUBLIC_URL +
                               "/images/wisdom-hard-601x400.jpg"
                             }
-                            alt="Mobirise"
+                            alt="Affordable"
                             loading="lazy"
-                            class="lazyload"
                           />
                         </div>
                       </div>
@@ -306,12 +287,10 @@ const FBAffordableBrands = () => {
                   <div class="image-block">
                     <img
                       src={
-                        process.env.PUBLIC_URL +
-                        "/images/img-9700-640x480.jpg"
+                        process.env.PUBLIC_URL + "/images/img-9700-640x480.jpg"
                       }
-                      alt="Mobirise"
+                      alt="Affordable"
                       loading="lazy"
-                      class="lazyload"
                     />
                     <figcaption class="mbr-figure-caption mbr-figure-caption-over">
                       <div class="wrap">
@@ -327,12 +306,10 @@ const FBAffordableBrands = () => {
                   <div class="image-block">
                     <img
                       src={
-                        process.env.PUBLIC_URL +
-                        "/images/brics-venezia1-601x830.jpg"
+                        process.env.PUBLIC_URL + "/images/img-9691-480x640.jpeg"
                       }
-                      alt="Mobirise"
+                      alt="Affordable"
                       loading="lazy"
-                      class="lazyload"
                     />
                     <figcaption class="mbr-figure-caption mbr-figure-caption-over">
                       <div class="wrap">
@@ -348,12 +325,10 @@ const FBAffordableBrands = () => {
                   <div class="image-block">
                     <img
                       src={
-                        process.env.PUBLIC_URL +
-                        "/images/brics-venezia2-601x830.jpg"
+                        process.env.PUBLIC_URL + "/images/img-9688-640x480.jpg"
                       }
-                      alt="Mobirise"
+                      alt="Affordable"
                       loading="lazy"
-                      class="lazyload"
                     />
                     <figcaption class="mbr-figure-caption mbr-figure-caption-over">
                       <div class="wrap">
