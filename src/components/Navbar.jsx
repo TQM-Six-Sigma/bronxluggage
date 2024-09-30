@@ -7,6 +7,7 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 import { Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import LogoBronx from "./LogoBronx";
+import Counter from "./Counter";
 
 function navBar() {
   return (
@@ -14,7 +15,7 @@ function navBar() {
       <div className="d-none d-lg-block col-lg-12 bg-body-secondary d-flex ">
         <LogoBronx />
       </div>
-
+      <div><Counter /></div>
       <Navbar expand="lg" className="bg-body-secondary">
         <Container fluid>
           <div className="d-block d-lg-none navbar-brand">

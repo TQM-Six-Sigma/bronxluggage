@@ -1,5 +1,6 @@
+import Counter from "./Counter";
 const FBSamsonite = () => {
-    return ( <><div>Samsonite</div></> );
+    return ( <><div><Counter /></div></> );
 }
  
 export default FBSamsonite;
