@@ -8,7 +8,7 @@ import FeatureBrand from "./components/FeatureBrand";
 import FBBrics from "./components/FBBrics";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import Content from "./components/Content";
+import Content from "./components/HomeCarousel";
 import FBAffordableBrands from "./components/FBAffordableBrands";
 import FBBriggRiley from "./components/FBBriggRiley";
 import FBDelseyRicardo from "./components/FBDelseyRicardo";
@@ -55,7 +55,6 @@ const App = () => {
           <Route path="/fbDelseyRicardo" element={<FBDelseyRicardo />} />
           <Route path="/fbSamsonite" element={<FBSamsonite />} />
           <Route path="/fbTravelPro" element={<FBTravelPro />} />
-          <Route path="/content" element={<Content />} />
           <Route path="/footer" element={<Footer />} />
           <Route path="/navbar" element={<Navbar />} />
 

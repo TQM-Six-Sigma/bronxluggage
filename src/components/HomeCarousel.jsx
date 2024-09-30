@@ -16,7 +16,7 @@ const HomeCarousel = () => {
           <Carousel.Item key={index}>
             <div className="container-fluid">
               <img
-                style={{ width: "auto", height: "480px" }}
+                style={{ width: "auto", height: "auto" }}
                 className="d-block w-100"
                 src={process.env.PUBLIC_URL + item.src}
                 alt={item.alt}
