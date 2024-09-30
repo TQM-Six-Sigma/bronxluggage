@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/bronxluggage/static/css/main.acac0eed.css",
-    "main.js": "/bronxluggage/static/js/main.f8285572.js",
+    "main.css": "/bronxluggage/static/css/main.284b363c.css",
+    "main.js": "/bronxluggage/static/js/main.c86ebead.js",
     "index.html": "/bronxluggage/index.html",
-    "main.acac0eed.css.map": "/bronxluggage/static/css/main.acac0eed.css.map",
-    "main.f8285572.js.map": "/bronxluggage/static/js/main.f8285572.js.map"
+    "main.284b363c.css.map": "/bronxluggage/static/css/main.284b363c.css.map",
+    "main.c86ebead.js.map": "/bronxluggage/static/js/main.c86ebead.js.map"
   },
   "entrypoints": [
-    "static/css/main.acac0eed.css",
-    "static/js/main.f8285572.js"
+    "static/css/main.284b363c.css",
+    "static/js/main.c86ebead.js"
   ]
 }
