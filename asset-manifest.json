@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/bronxluggage/static/css/main.acac0eed.css",
+    "main.js": "/bronxluggage/static/js/main.f4c89e1c.js",
+    "index.html": "/bronxluggage/index.html",
+    "main.acac0eed.css.map": "/bronxluggage/static/css/main.acac0eed.css.map",
+    "main.f4c89e1c.js.map": "/bronxluggage/static/js/main.f4c89e1c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.acac0eed.css",
+    "static/js/main.f4c89e1c.js"
+  ]
+}
