@@ -6,7 +6,7 @@ import Blog from './Blog';
 import FeatureBrand from './FeatureBrand' */
 import Navbar from "./Navbar";
 import Footer from "./Footer";
-import Content from "./Content";
+import Content from "./HomeCarousel";
 import Ticker from "./Ticker";
 const Home = () => {
   return (

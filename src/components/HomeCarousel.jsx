@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Carousel } from "react-bootstrap";
 import imageList from "../databaseJSON/imageList.json";
 
-const Content = () => {
+const HomeCarousel = () => {
   const [index, setIndex] = useState(0);
 
   const handleSelect = (selectedIndex) => {
@@ -28,4 +28,4 @@ const Content = () => {
     </>
   );
 };
-export default Content;
+export default HomeCarousel;
