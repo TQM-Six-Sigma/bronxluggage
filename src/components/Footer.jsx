@@ -54,12 +54,9 @@ const Footer = () => {
         <div className="row mt-auto">
           <div className="col-12 text-center text-white">
             Copyright &copy; 2024. All Rights Reserved.
-            <br />
-            <br />
-            <br />
-            <Ticker />
           </div>
         </div>
+        <div><Ticker /></div>
       </div>
     </footer>
   );

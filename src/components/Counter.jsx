@@ -23,7 +23,7 @@ function Counter() {
 
   return (
     <div style={{
-      position: 'fixed',
+      position: 'absolute',
       top: 10,
       right: 20,
       zIndex: 9999,
