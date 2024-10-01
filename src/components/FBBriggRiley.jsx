@@ -118,13 +118,13 @@ const FBBriggRiley = () => {
         <br />
           <div className="container col-lg-12 col-sm-12">
             <div className="ratio ratio-16x9">
-            <iframe width="840" height="473" src="https://www.youtube.com/embed/bMCrIfQJsG8?list=TLGGrLBPMGsf5rgyOTA5MjAyNA" title="The Baseline Collection - CX expansion compression demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/bMCrIfQJsG8?si=DTzNCju5flar9DNe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
           </div>
           <br />
           <div className="container col-lg-12 col-sm-12">
             <div className="ratio ratio-16x9">
-            <iframe width="831" height="468" src="https://www.youtube.com/embed/0horaDXNmLM?list=TLGGwavpz7pbhJYyOTA5MjAyNA" title="Briggs &amp; Riley - Travel Reality Checks" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/0horaDXNmLM?si=kTUc1nDd9RyFLRom" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
           </div>
         <br />

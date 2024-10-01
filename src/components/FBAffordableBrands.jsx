@@ -8,19 +8,19 @@ const FBAffordableBrands = () => {
           <NavBar />
         </div>
         <div>
-          <section class="mbr-section features5" id="features5-14">
+          <section class="features5" id="features5-14">
             <div class="container-fluid">
-              <h2 class="mbr-section-title main-title mbr-fonts-style align-center pb-5 display-2">
+              <h2 class=" main-title align-center pb-5 display-2">
                 BRONX LUGGAGE AFFORDABLE COLLECTIONS
               </h2>
               <div class="row justify-content-center content-row">
                 <div class="card first-card col-12 col-lg-6">
                   <div class="card-wrapper">
                     <div class="card-box">
-                      <h2 class="first-card-title mbr-fonts-style display-2">
+                      <h2 class="first-card-title display-2">
                         it Luggage
                       </h2>
-                      <p class="mbr-text first-card-text mbr-fonts-style mbr-lighter display-7">
+                      <p class=" first-card-text display-7">
                         it luggage is recognized throughout the world as a
                         leader in the travel industry by offering exceptional
                         value, modern design and excellent
@@ -122,19 +122,19 @@ const FBAffordableBrands = () => {
               </div>
             </div>
           </section>
-          <section class="mbr-section features3" id="features3-15">
+          <section class="features3" id="features3-15">
             <div class="container-fluid">
-              <h2 class="mbr-section-title main-title mbr-fonts-style align-center pb-5 display-2">
+              <h2 class=" main-title align-center pb-5 display-2">
                 GABBIANO LUGGAGE
               </h2>
               <div class="row justify-content-center content-row">
                 <div class="card first-card col-12 col-lg-6">
                   <div class="card-wrapper">
                     <div class="card-box">
-                      <h2 class="first-card-title mbr-fonts-style display-2">
+                      <h2 class="first-card-title display-2">
                         Gabbiano Luggage
                       </h2>
-                      <p class="mbr-text first-card-text mbr-fonts-style mbr-lighter display-7">
+                      <p class=" first-card-text display-7">
                         Gabbiano Luggage is inspired by the wayward travelers
                         journey through life. In ancient times sailors relied on
                         seagulls to tell when they were getting close to land.
@@ -220,16 +220,16 @@ const FBAffordableBrands = () => {
               </div>
             </div>
           </section>
-          <section class="mbr-section features5" id="features5-16">
+          <section class="features5" id="features5-16">
             <div class="container-fluid">
-              <h2 class="mbr-section-title main-title mbr-fonts-style align-center pb-5 display-2">
+              <h2 class=" main-title align-center pb-5 display-2">
                 WISDOM LUGGAGE
               </h2>
               <div class="row justify-content-center content-row">
                 <div class="card first-card col-12 col-lg-6">
                   <div class="card-wrapper">
                     <div class="card-box">
-                      <p class="mbr-text first-card-text mbr-fonts-style mbr-lighter display-7">
+                      <p class=" first-card-text display-7">
                         Wisdom Luggage has been in business since 2010.&nbsp;
                         They offer an excellent selection of elegant, high
                         quality, lightweight luggage which includes hard-sided
@@ -280,7 +280,7 @@ const FBAffordableBrands = () => {
               </div>
             </div>
           </section>
-          <section class="cid-sB2LcqY0TF" id="extImage1-17">
+          <section class="" id="">
             <div class="container-fluid">
               <div class="row">
                 <div class="col-md-4 p-0">
@@ -294,7 +294,7 @@ const FBAffordableBrands = () => {
                     />
                     <figcaption class="mbr-figure-caption mbr-figure-caption-over">
                       <div class="wrap">
-                        <h4 class="pb-2 mbr-white mbr-bold align-center mbr-fonts-style display-7">
+                        <h4 class="pb-2 mbr-white mbr-bold align-center display-7">
                           LARGE INVENTORY
                         </h4>
                       </div>
@@ -313,7 +313,7 @@ const FBAffordableBrands = () => {
                     />
                     <figcaption class="mbr-figure-caption mbr-figure-caption-over">
                       <div class="wrap">
-                        <h4 class="pb-2 mbr-white mbr-bold align-center mbr-fonts-style display-7">
+                        <h4 class="pb-2 mbr-white mbr-bold align-center display-7">
                           GREAT SELECTION
                         </h4>
                       </div>
@@ -330,9 +330,9 @@ const FBAffordableBrands = () => {
                       alt="Affordable"
                       loading="lazy"
                     />
-                    <figcaption class="mbr-figure-caption mbr-figure-caption-over">
+                    <figcaption class="">
                       <div class="wrap">
-                        <h4 class="pb-2 mbr-white mbr-bold align-center mbr-fonts-style display-7">
+                        <h4 class="pb-2 align-center display-7">
                           EXCELLENT UNBEATABLE PRICES
                         </h4>
                       </div>

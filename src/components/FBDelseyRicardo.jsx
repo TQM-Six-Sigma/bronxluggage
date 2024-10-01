@@ -9,16 +9,16 @@ const FBDelseyRicardo = () => {
           <Navbar />
         </div>
         <h1 align="center">DELSEY PARIS | RICARDO BEVERLY HILLS</h1>
-        <section class="mbr-section features5 " id="features5-y">
+        <section class=" features5 " id="features5-y">
           <div class="container-fluid">
             <div class="row justify-content-center content-row">
               <div class="card first-card col-12 col-lg-6">
                 <div class="card-wrapper">
                   <div class="card-box">
-                    <h2 class="first-card-title mbr-fonts-style display-2">
+                    <h2 class="first-card-title display-2">
                       New Arrivals
                     </h2>
-                    <p class="mbr-text first-card-text mbr-fonts-style mbr-lighter display-7">
+                    <p class=" first-card-text display-7">
                       Bronx Luggage proudly has been selling luggage collections
                       from Samsonite, Ricardo Beverly Hills, and Delsey luggage
                       for decades. These high quality luggage collections offer
@@ -39,9 +39,9 @@ const FBDelseyRicardo = () => {
                             process.env.PUBLIC_URL +
                             "/images/samsonite-voltage-a-183x275.jpg"
                           }
-                          alt="Mobirise"
+                          alt="DelseyRicardo"
                           loading="lazy"
-                          class="lazyload"
+                        
                         />
                       </div>
                     </div>
@@ -54,9 +54,9 @@ const FBDelseyRicardo = () => {
                             process.env.PUBLIC_URL +
                             "/images/delsey-a-601x601.jpg"
                           }
-                          alt="Mobirise"
+                          alt="DelseyRicardo"
                           loading="lazy"
-                          class="lazyload"
+                        
                         />
                       </div>
                     </div>
@@ -72,9 +72,9 @@ const FBDelseyRicardo = () => {
                             process.env.PUBLIC_URL +
                             "/images/ricardo-a-300x300.jpg"
                           }
-                          alt="Mobirise"
+                          alt="DelseyRicardo"
                           loading="lazy"
-                          class="lazyload"
+                        
                         />
                       </div>
                     </div>
@@ -87,9 +87,9 @@ const FBDelseyRicardo = () => {
                             process.env.PUBLIC_URL +
                             "/images/ricardo-b-601x799.jpg"
                           }
-                          alt="Mobirise"
+                          alt="DelseyRicardo"
                           loading="lazy"
-                          class="lazyload"
+                        
                         />
                       </div>
                     </div>
@@ -100,18 +100,18 @@ const FBDelseyRicardo = () => {
           </div>
         </section>
         <section
-          class="mbr-section features5 luxurym4_features5 cid-sB1ZrVlvKp"
+          class=" features5"
           id="features5-v"
         >
           <div class="container-fluid">
-            <h2 class="mbr-section-title main-title mbr-fonts-style align-center pb-5 display-2">
+            <h2 class=" main-title align-center pb-5 display-2">
               DELSEY PARIS
             </h2>
             <div class="row justify-content-center content-row">
               <div class="card first-card col-12 col-lg-6">
                 <div class="card-wrapper">
                   <div class="card-box">
-                    <p class="mbr-text first-card-text mbr-fonts-style mbr-lighter">
+                    <p class=" first-card-text">
                       Since 1946, DELSEY has been accompanying travelers from
                       all around the world on both their personal and
                       professional travel. The reason for this longevity is
@@ -139,9 +139,9 @@ const FBDelseyRicardo = () => {
                             process.env.PUBLIC_URL +
                             "/images/delsey-a-601x601.jpg"
                           }
-                          alt="Mobirise"
+                          alt="DelseyRicardo"
                           loading="lazy"
-                          class="lazyload"
+                        
                         />
                       </div>
                     </div>
@@ -154,9 +154,9 @@ const FBDelseyRicardo = () => {
                             process.env.PUBLIC_URL +
                             "/images/delsey-b-600x600.jpg"
                           }
-                          alt="Mobirise"
+                          alt="DelseyRicardo"
                           loading="lazy"
-                          class="lazyload"
+                        
                         />
                       </div>
                     </div>
@@ -172,9 +172,9 @@ const FBDelseyRicardo = () => {
                             process.env.PUBLIC_URL +
                             "/images/delsey-montrouge-2-183x275.jpg"
                           }
-                          alt="Mobirise"
+                          alt="DelseyRicardo"
                           loading="lazy"
-                          class="lazyload"
+                        
                         />
                       </div>
                     </div>
@@ -187,9 +187,9 @@ const FBDelseyRicardo = () => {
                             process.env.PUBLIC_URL +
                             "/images/delsey-st-tropez-1-1-203x248.jpg"
                           }
-                          alt="Mobirise"
+                          alt="DelseyRicardo"
                           loading="lazy"
-                          class="lazyload"
+                        
                         />
                       </div>
                     </div>
@@ -200,7 +200,7 @@ const FBDelseyRicardo = () => {
           </div>
         </section>
         <section
-          class="features2 luxurym4_features2 cid-sB1Zvh2ReT"
+          class="features2"
           id="features2-w"
         >
           <div class="container-fluid">
@@ -225,11 +225,11 @@ const FBDelseyRicardo = () => {
               </div>
               <div class="col-lg-4 text-element">
                 <div class="text-content">
-                  <h3 class="mbr-section-title mbr-fonts-style align-left display-2">
+                  <h3 class="-title align-left display-2">
                     Delsey Montrouge
                   </h3>
-                  <div class=" mbr-section-text">
-                    <p class="mbr-text first-card-text mbr-fonts-style mbr-lighter display-7">
+                  <div class=" -text">
+                    <p class=" first-card-text display-7">
                       Elegant, functional and lightweight, the MONTROUGE
                       collection will make fashion forward travelers feel and
                       look fabulous on the go! The gold metal accents,
@@ -243,20 +243,20 @@ const FBDelseyRicardo = () => {
           </div>
         </section>
         <section
-          class="features2 luxurym4_features2 cid-sB2qiiFiyD"
+          class="features2"
           id="features2-10"
         >
           <div class="container-fluid">
             <div class="row main align-items-center">
               <div class="col-lg-8">
-                <figure class="mbr-figure align-center pt-3">
+                <figure class="align-center pt-3">
                   <div class="video-block">
                     <div>
                       <iframe
                         width="725"
                         height="408"
                         src="https://www.youtube.com/embed/yewLDYuRi7k"
-                        title="DELSEY CHÂTELET AIR - the iconic and timeless range!"
+                        title="DELSEY AIR - the iconic and timeless range!"
                         frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         referrerpolicy="strict-origin-when-cross-origin"
@@ -268,11 +268,11 @@ const FBDelseyRicardo = () => {
               </div>
               <div class="col-lg-4 text-element">
                 <div class="text-content">
-                  <h3 class="mbr-section-title mbr-fonts-style align-left display-2">
+                  <h3 class="-title align-left display-2">
                     Delsey Chatelet Air
                   </h3>
-                  <div class=" mbr-section-text">
-                    <p class="mbr-text first-card-text mbr-fonts-style mbr-lighter display-7">
+                  <div class=" -text">
+                    <p class=" first-card-text display-7">
                       DELSEY CHÂTELET AIR is a complete range, offering
                       backpacks, duffles, suitcases and more. With its unique,
                       refined design, enjoy the perfect matching travel set full
@@ -286,19 +286,19 @@ const FBDelseyRicardo = () => {
             </div>
           </div>
         </section>
-        <section class="mbr-section features3 " id="features3-11">
+        <section class=" features3 " id="features3-11">
           <div class="container-fluid">
-            <h2 class="mbr-section-title main-title mbr-fonts-style align-center pb-5 display-2">
+            <h2 class=" main-title align-center pb-5 display-2">
               RICARDO BEVERLY HILLS
             </h2>
             <div class="row justify-content-center content-row">
               <div class="card first-card col-12 col-lg-6">
                 <div class="card-wrapper">
                   <div class="card-box">
-                    <h2 class="first-card-title mbr-fonts-style display-2">
+                    <h2 class="first-card-title display-2">
                       Your Jewelry
                     </h2>
-                    <p class="mbr-text first-card-text mbr-fonts-style mbr-lighter display-7">
+                    <p class=" first-card-text display-7">
                       Ricardo Beverly Hills is a travel lifestyle company on a
                       mission to inspire people to explore the world.&nbsp;
                       Every day and in every way, they work to ensure that they
@@ -334,9 +334,9 @@ const FBDelseyRicardo = () => {
                             process.env.PUBLIC_URL +
                             "/images/ricardo-malibu-1-225x225.jpg"
                           }
-                          alt="Mobirise"
+                          alt="DelseyRicardo"
                           loading="lazy"
-                          class="lazyload"
+                        
                         />
                       </div>
                     </div>
@@ -349,9 +349,9 @@ const FBDelseyRicardo = () => {
                             process.env.PUBLIC_URL +
                             "/images/ricardo-malibu-2-176x286.jpg"
                           }
-                          alt="Mobirise"
+                          alt="DelseyRicardo"
                           loading="lazy"
-                          class="lazyload"
+                        
                         />
                       </div>
                     </div>
@@ -367,9 +367,9 @@ const FBDelseyRicardo = () => {
                             process.env.PUBLIC_URL +
                             "/images/ricardo-montecito-3-225x225.jpg"
                           }
-                          alt="Mobirise"
+                          alt="DelseyRicardo"
                           loading="lazy"
-                          class="lazyload"
+                        
                         />
                       </div>
                     </div>
@@ -382,9 +382,9 @@ const FBDelseyRicardo = () => {
                             process.env.PUBLIC_URL +
                             "/images/ricardo-montecito-2-225x225.jpg"
                           }
-                          alt="Mobirise"
+                          alt="DelseyRicardo"
                           loading="lazy"
-                          class="lazyload"
+                        
                         />
                       </div>
                     </div>

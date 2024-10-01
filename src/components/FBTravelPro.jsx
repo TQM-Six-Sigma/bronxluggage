@@ -21,7 +21,7 @@ const FBTravelPro = () => {
               <div class="line"></div>
             </div>
 
-            <h2 class="-title main-title align-center pb-5 display-2">
+            <h2 class="main-title align-center pb-5 display-2">
               <strong>Travelpro</strong>®
             </h2>
             <div class="row justify-content-center content-row">
@@ -31,7 +31,7 @@ const FBTravelPro = () => {
                     <h2 class="first-card-title display-2">
                       Platnium® Elite
                     </h2>
-                    <p class="mbr-text first-card-text display-7">
+                    <p class=" first-card-text display-7">
                       Finally, great looking checked luggage that is as
                       functional and durable as it is stylish. The Platinum®
                       Elite 25” Expandable Spinner is perfect for medium and
@@ -127,7 +127,7 @@ const FBTravelPro = () => {
           </div>
         </section>
         <section class="video2 " id="video2-b">
-          <figure class="mbr-figure align-center container-fluid">
+          <figure class=" align-center container-fluid">
             <div class="video-block d-flex align-items-center justify-content-center">
               <div>
                 <iframe
@@ -156,7 +156,7 @@ const FBTravelPro = () => {
                     <h2 class="first-card-title display-2">
                       Travelpro Maxlite® 5
                     </h2>
-                    <p class="mbr-text first-card-text display-7">
+                    <p class=" first-card-text display-7">
                       Lighten up with the Maxlite® 5 25” Expandable Spinner—the
                       lighter weight, ultra-durable soft-sided spinner suitcase
                       in a checked baggage size designed to accommodate
@@ -274,7 +274,7 @@ const FBTravelPro = () => {
                     <h2 class="first-card-title display-2">
                       Travelpro Crew®
                     </h2>
-                    <p class="mbr-text first-card-text display-7">
+                    <p class=" first-card-text display-7">
                       Take this versatile luggage set for a spin anywhere. The
                       Crew™ Versapack™ Global Expandable Carry-on Spinner and
                       25" Expandable Checked Spinner deliver effortless mobility
@@ -356,7 +356,7 @@ const FBTravelPro = () => {
           </div>
         </section>
         <section class="video2 " id="video2-g">
-          <figure class="mbr-figure align-center container-fluid">
+          <figure class=" align-center container-fluid">
             <div class="video-block d-flex align-items-center justify-content-center">
               <div>
                 <iframe

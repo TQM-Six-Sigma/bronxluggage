@@ -55,9 +55,9 @@ const FBBrics = () => {
             
           </section>
 
-          <section class=" features6 mbr-parallax-background" id="features6-o">
+          <section class=" features6" id="features6-o">
             <div
-              class="mbr-overlay"
+              class=""
               style={{ opacity: 0.8, backgroundColor: "rgb(255, 255, 255" }}
             ></div>
 
@@ -65,7 +65,7 @@ const FBBrics = () => {
               <div class="row">
                 <div class="col-12 text-row col-md-6">
                   <h2 class="align-center display-2">BELLAGIO</h2>
-                  <h3 class="-subtitle align-center mbr-light display-7">
+                  <h3 class=" align-center display-7">
                     A featured collection from BRIC's, the Bellagio pieces are
                     strong and elegant made with fine Italian leather accents.
                   </h3>
@@ -209,7 +209,7 @@ const FBBrics = () => {
                       <h2 class="first-card-title display-2">
                         Venezia Collection
                       </h2>
-                      <p class=" first-card-text mbr-lighter display-7">
+                      <p class=" first-card-text display-7">
                         Venezia hard-case trolley (Luggage). Made from SRPP
                         (self reinforced polypropylene), a material used in
                         aeronautics and made in Italy which guarantees that
@@ -300,9 +300,9 @@ const FBBrics = () => {
             </div>
           </section>
 
-          <section class=" features6 mbr-parallax-background" id="features6-q">
+          <section class=" features6" id="features6-q">
             <div
-              class="mbr-overlay"
+              class=""
               style={{ opacity: 0.8, backgroundColor: "rgb(255, 255, 255)" }}
             ></div>
 
@@ -310,7 +310,7 @@ const FBBrics = () => {
               <div class="row">
                 <div class="col-12 text-row col-md-6">
                   <h2 class="align-center display-2">X-TRAVEL</h2>
-                  <h3 class="-subtitle align-center mbr-light display-7">
+                  <h3 class=" align-center display-7">
                     This collection offers the perfect combination of
                     lightweight and strong pieces. The trolley (luggage) from
                     the X-Travel collection is made from satin nylon and has

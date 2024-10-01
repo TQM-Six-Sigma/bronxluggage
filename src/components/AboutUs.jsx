@@ -1,9 +1,14 @@
 import React from "react";
 import "../css/AboutUS.css";
+import NavBar from "./Navbar";
+import Footer from "./Footer";
 
 const AboutUs = () => {
   return (
     <>
+      <div>
+        <NavBar />
+      </div>
       <div className="about-us">
         <div className="img-list">
           <h1
@@ -16,11 +21,12 @@ const AboutUs = () => {
               margin: "25px",
               textShadow: "3px 3px 5px rgba(0, 0, 0, 0.3)",
               transform: "skew(-10deg)",
-
             }}
           >
             About US Bronx Luggage
           </h1>
+        </div>
+        <div className="ratio ratio-16x9">
           <iframe
             width="600"
             height="300"
@@ -128,26 +134,9 @@ const AboutUs = () => {
             </div>
           </div>
         </section>
-
-        <section className="contact-information">
-          <div className="container">
-            <div className="row">
-              <div className="col-md-4 contact-info">
-                <h2>Ten</h2>
-                <p>sdt: 0383038108</p>
-                <p>fb: Hồ Anh Toàn</p>
-              </div>
-              <div className="col-md-4 contact-info">
-                <h2>Our Address</h2>
-                <p>Festival Marketplace, 1515 N Miami Ave, Miami, FL 33127</p>
-              </div>
-              <div className="col-md-4 contact-info">
-                <h2>Our Hours</h2>
-                <p>Mon - Sat: 9am - 6pm, Sun: 10am - 5pm</p>
-              </div>
-            </div>
-          </div>
-        </section>
+      </div>
+      <div>
+        <Footer />
       </div>
     </>
   );

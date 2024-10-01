@@ -7,7 +7,6 @@ import FeatureBrand from './FeatureBrand' */
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 import Content from "./HomeCarousel";
-import Ticker from "./Ticker";
 const Home = () => {
   return (
     <>
@@ -41,9 +40,6 @@ const Home = () => {
               className="img-fluid"
             />
           </div>
-        </div>
-        <div>
-          <Ticker />
         </div>
         <div>
           <Footer />
