@@ -29,7 +29,7 @@ function Ticker() {
   
 
   return (
-    <div className="ticker bg-secondary ">
+    <div className="ticker bg-dark d-flex justify-content-center">
       <span>{date.toLocaleDateString()}</span>
       <span>{date.toLocaleTimeString()}</span>
       <span><Location /></span>

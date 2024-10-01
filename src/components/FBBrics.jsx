@@ -10,7 +10,6 @@ const FBBrics = () => {
         </div>
         <div>
           <section class="header2" id="header2-m">
-            
             <section class="video2 " id="video2-n">
               <figure class=" align-center container-fluid" style={{width: "100%", height: "500px"}}>
                 <div class="video-block" style={{ width: "100%", height: "100%", display: "flex", justifyContent: "center", alignItems: "center" }}>
