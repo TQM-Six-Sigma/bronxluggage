@@ -1,0 +1,91 @@
+[
+    {
+      "name": "Briggs & Riley",
+      "brand": "Briggs & Riley",
+      "image": "HomeBriggsRileyCabinSpinner.png",
+      "link": "fbBriggRiley",
+      "background": "HomeBriggsRileyBackground.png",
+      "price": "400$",
+      "individual": "woman",
+      "color": "black",
+      "stat": "5"
+    },
+    {
+      "name": "TravelPro",
+      "brand": "TravelPro",
+      "image": "HomeTravelpro.png",
+      "link": "fbBriggRiley",
+      "background": "HomeBriggsRileyBackground.png",
+      "price": "400$",
+      "individual": "woman",
+      "color": "blue",
+      "stat": "5"
+    },
+    {
+      "name": "Bric'S",
+      "brand": "Bric'S",
+      "image": "HomeBricsBellagio.png",
+      "link": "fbBriggRiley",
+      "background": "HomeBriggsRileyBackground.png",
+      "price": "500$",
+      "individual": "man",
+      "color": "Red",
+      "stat": "5"
+    },
+    {
+        "name": "Delsey",
+        "brand": "Delsey",
+        "image": "HomeDelsey.png",
+        "link": "fbBriggRiley",
+      "background": "HomeBriggsRileyBackground.png",
+      "price": "300$",
+      "individual": "man woman",
+      "color": "Red",
+      "stat": "5"
+      },
+      {
+        "name": "Ricardo",
+        "brand": "Ricardo",
+        "image": "HomeRicardo.png",
+        "link": "fbBriggRiley",
+      "background": "HomeBriggsRileyBackground.png",
+      "price": "300$",
+      "individual": "man",
+      "color": "Red",
+      "stat": "5"
+      },
+      {
+        "name": "Kit Style Samsonite",
+        "brand": "Samsonite",
+        "image": "HomeSamsoniteKitte.png",
+        "link": "fbBriggRiley",
+      "background": "HomeBriggsRileyBackground.png",
+      "price": "200$",
+      "individual": "child kit",
+      "color": "Red",
+      "stat": "5"
+      },{
+        "name": "Woman Style",
+        "brand": "Woman Style",
+        "image": "HomeWomanStyle.png",
+        "link": "fbBriggRiley",
+      "background": "HomeBriggsRileyBackground.png",
+      "price": "1000$",
+      "individual": "woman",
+      "color": "green",
+      "stat": "5"
+      },
+      {
+        "name": "Men Style",
+        "brand": "Men Style",
+        "image": "HomeManStyle.png",
+        "link": "fbBriggRiley",
+      "background": "HomeBriggsRileyBackground.png",
+      "price": "700$",
+      "individual": "man",
+      "color": "blue",
+      "stat": "5"
+      }
+     
+  ]
+

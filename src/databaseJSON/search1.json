@@ -1,0 +1,35 @@
+[
+    {
+      "id": 1,
+      "image": "2.png",
+      "name": "Sản phẩm 1",
+      "brand": "Thương hiệu 1",
+      "type": "Loại sản phẩm 1",
+      "size": "Kích thước 1",
+      "color": "Màu sắc 1",
+      "individual": "Cá nhân 1",
+      "price": "Giá 1"
+    },
+    {
+      "id": 2,
+      "image": "2.png",
+      "name": "Sản phẩm 2",
+      "brand": "Thương hiệu 2",
+      "type": "Loại sản phẩm 2",
+      "size": "Kích thước 2",
+      "color": "Màu sắc 2",
+      "individual": "Cá nhân 2",
+      "price": "Giá 2"
+    },
+    {
+      "id": 3,
+      "image": "2.png",
+      "name": "Sản phẩm 3",
+      "brand": "Thương hiệu 3",
+      "type": "Loại sản phẩm 3",
+      "size": "Kích thước 3",
+      "color": "Màu sắc 3",
+      "individual": "Cá nhân 3",
+      "price": "Giá 3"
+    }
+  ]

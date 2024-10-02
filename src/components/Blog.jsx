@@ -1,8 +1,9 @@
 
+import Search from "./Search";
 const Blog = () => {
     return ( <>
     <div>
-        <h1>Blogs</h1>
+        <Search />
        
     </div>
     </> );
