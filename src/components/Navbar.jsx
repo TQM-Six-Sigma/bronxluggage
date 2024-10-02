@@ -15,7 +15,9 @@ function navBar() {
       <div className="d-none d-lg-block col-lg-12 bg-body-secondary d-flex ">
         <LogoBronx />
       </div>
-      <div><Counter /></div>
+      <div>
+        <Counter />
+      </div>
       <Navbar expand="lg" className="bg-body-secondary">
         <Container fluid>
           <div className="d-block d-lg-none navbar-brand">
@@ -65,7 +67,6 @@ function navBar() {
                     as={Link}
                     to="/fbTravelPro"
                     className="text-center"
-                   
                   >
                     Crew
                   </NavDropdown.Item>
@@ -82,7 +83,6 @@ function navBar() {
                     as={Link}
                     to="/fbBrics"
                     className="text-center"
-                   
                   >
                     Bellagio
                   </NavDropdown.Item>
@@ -168,8 +168,11 @@ function navBar() {
                 placeholder="Search"
                 className="me-2"
                 aria-label="Search"
-              />
-              <Button variant="outline-success">Search</Button>
+              onClick={() => {
+                window.location.href = "/search";
+              }}
+              />{""}
+              <Button variant="outline-success" as={Link} to="/search">Search</Button>
             </Form>
           </Navbar.Collapse>
         </Container>

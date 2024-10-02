@@ -8,12 +8,13 @@ import FeatureBrand from "./components/FeatureBrand";
 import FBBrics from "./components/FBBrics";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import Content from "./components/HomeCarousel";
+//import Content from "./components/HomeCarousel";
 import FBAffordableBrands from "./components/FBAffordableBrands";
 import FBBriggRiley from "./components/FBBriggRiley";
 import FBDelseyRicardo from "./components/FBDelseyRicardo";
 import FBSamsonite from "./components/FBSamsonite";
 import FBTravelPro from "./components/FBTravelPro";
+import Search from "./components/Search";
 
 /**
  * The main app component, which handles client-side routing for the app.
@@ -57,7 +58,7 @@ const App = () => {
           <Route path="/fbTravelPro" element={<FBTravelPro />} />
           <Route path="/footer" element={<Footer />} />
           <Route path="/navbar" element={<Navbar />} />
-
+          <Route path="/search" element={<Search />} />
           <Route path="*" element={<Home />} />
         </Routes>
       </BrowserRouter>
