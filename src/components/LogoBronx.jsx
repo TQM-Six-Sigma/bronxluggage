@@ -7,7 +7,7 @@ const LogoBronx = () => {
           alt="logo"
           style={{ display: "block", margin: "auto"  }}
         />
-       <span className="navbar-caption-wrap d-flex align-items-center justify-content-center" style={{width: "100%"}}>
+       <span className="navbar-caption-wrap d-flex align-items-center justify-content-center " style={{width: "100%"}}>
               <h1>BRONX LUGGAGE</h1>
             </span>
       </div>

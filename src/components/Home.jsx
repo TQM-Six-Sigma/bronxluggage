@@ -7,6 +7,7 @@ import FeatureBrand from './FeatureBrand' */
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 import Content from "./HomeCarousel";
+import HomeIntroduction from "./HomeIntroduction";
 const Home = () => {
   return (
     <>
@@ -21,6 +22,7 @@ const Home = () => {
             <br />
           </div>
         </div>
+<div><HomeIntroduction /></div>
         <div className="row">
           <div className="col-md-6 col-sm-12">
             <p>
