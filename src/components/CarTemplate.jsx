@@ -8,8 +8,8 @@ const CardTemplate = () => {
     <Container>
       <Row className="g-4">
         {cardData.map((card, index) => (
-          <Col key={index} xs={9} md={3} lg={3}>
-            <Link to={`/${card.link}`}>
+          <Col key={index} xs={9} md={4} lg={3}>
+            <Link to={`/${card.link}`} style={{ textDecoration: "none" }}>
               <div
                 className="card"
                 style={{
@@ -20,6 +20,9 @@ const CardTemplate = () => {
                   flexDirection: "column",
                   justifyContent: "center",
                   alignItems: "center",
+                  backgroundImage: `url(${require(`../../public/images/${card.background}`)})`,
+                  backgroundSize: "cover",
+                  backgroundRepeat: "no-repeat",
                 }}
               >
                 <img
@@ -32,7 +35,7 @@ const CardTemplate = () => {
                   className="card-body"
                   style={{ flex: 1, padding: "1rem", display: "flex", justifyContent: "center", alignItems: "center" }}
                 >
-                  <h5 className="card-title">{card.name}</h5>
+                  <h5 className="card-title" style={{ textDecoration: "none" }}>{card.name}</h5>
                 </div>
               </div>
             </Link>
@@ -44,3 +47,4 @@ const CardTemplate = () => {
 };
 
 export default CardTemplate;
+

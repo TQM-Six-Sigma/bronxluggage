@@ -23,26 +23,7 @@ const Home = () => {
           </div>
         </div>
 <div><HomeIntroduction /></div>
-        <div className="row">
-          <div className="col-md-6 col-sm-12">
-            <p>
-              <h2>Our Story</h2>
-              BRONX LUGGAGE HAS BEEN IN BUSINESS FOR 27 YEARS WITH OVER 60 YEARS
-              OF EXPERIENCE. THE OWNERS AND MANAGEMENT OF BRONX LUGGAGE WILL
-              MATCH YOU WITH ONE OF THE MANY BRANDS THAT WILL BEST FILL YOUR
-              LUGGAGE NEEDS. WE ARE AN AUTHORIZED BRIGGS & RILEY REPAIR CENTER
-              AND THE ONLY AUTHORIZED DEALER IN THE FESTIVAL MARKETPLACE. WE
-              STAND BEHIND OUR PRODUCTS AND TREAT OUR CUSTOMERS LIKE FAMILY.
-            </p>
-          </div>
-          <div className="col-md-6 col-sm-12">
-            <img
-              src={process.env.PUBLIC_URL + "/images/ourstory-1206x678.jpg"}
-              alt="ourStory"
-              className="img-fluid"
-            />
-          </div>
-        </div>
+       
         <div>
           <Footer />
         </div>

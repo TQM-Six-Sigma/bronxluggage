@@ -2,41 +2,49 @@
     {
       "name": "Briggs & Riley",
       "image": "HomeBriggsRileyCabinSpinner.png",
-      "link": "fbBriggRiley"
+      "link": "fbBriggRiley",
+      "background": "HomeBriggsRileyBackground.png"
     },
     {
       "name": "TravelPro",
       "image": "HomeTravelpro.png",
-      "link": "fbBriggRiley"
+      "link": "fbBriggRiley",
+      "background": "HomeBriggsRileyBackground.png"
     },
     {
       "name": "Bric'S",
       "image": "HomeBricsBellagio.png",
-      "link": "fbBriggRiley"
+      "link": "fbBriggRiley",
+      "background": "HomeBriggsRileyBackground.png"
     },
     {
         "name": "Delsey",
         "image": "HomeDelsey.png",
-        "link": "fbBriggRiley"
+        "link": "fbBriggRiley",
+      "background": "HomeBriggsRileyBackground.png"
       },
       {
         "name": "Ricardo",
         "image": "HomeRicardo.png",
-        "link": "fbBriggRiley"
+        "link": "fbBriggRiley",
+      "background": "HomeBriggsRileyBackground.png"
       },
       {
         "name": "Kit Style Samsonite",
         "image": "HomeSamsoniteKitte.png",
-        "link": "fbBriggRiley"
+        "link": "fbBriggRiley",
+      "background": "HomeBriggsRileyBackground.png"
       },{
         "name": "Woman Style",
         "image": "HomeWomanStyle.png",
-        "link": "fbBriggRiley"
+        "link": "fbBriggRiley",
+      "background": "HomeBriggsRileyBackground.png"
       },
       {
         "name": "Men Style",
         "image": "HomeManStyle.png",
-        "link": "fbBriggRiley"
+        "link": "fbBriggRiley",
+      "background": "HomeBriggsRileyBackground.png"
       }
      
   ]
