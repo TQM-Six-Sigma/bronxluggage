@@ -1,14 +1,15 @@
 import CarTemplate from "./CarTemplate";
 const HomeIntroduction = () => {
-
-    return ( <>
-    
-    <div>
+  return (
+    <>
+      <div>
         <h2>Welcome to Bronx Luggage, What Are You Looking For?</h2>
-<div><CarTemplate /></div>
+        <div className="container">
+          <CarTemplate />
+        </div>
+      </div>
+    </>
+  );
+};
 
-    </div>
-    </> );
-}
- 
 export default HomeIntroduction;

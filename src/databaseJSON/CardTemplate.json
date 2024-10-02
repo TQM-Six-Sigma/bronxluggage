@@ -1,41 +1,41 @@
 [
     {
       "name": "Briggs & Riley",
-      "image": "2.png",
+      "image": "HomeBriggsRileyCabinSpinner.png",
       "link": "fbBriggRiley"
     },
     {
       "name": "TravelPro",
-      "image": "3.png",
+      "image": "HomeTravelpro.png",
       "link": "fbBriggRiley"
     },
     {
       "name": "Bric'S",
-      "image": "4.png",
+      "image": "HomeBricsBellagio.png",
       "link": "fbBriggRiley"
     },
     {
-        "name": "Briggs & Riley",
-        "image": "2.png",
+        "name": "Delsey",
+        "image": "HomeDelsey.png",
         "link": "fbBriggRiley"
       },
       {
-        "name": "TravelPro",
-        "image": "3.png",
+        "name": "Ricardo",
+        "image": "HomeRicardo.png",
         "link": "fbBriggRiley"
       },
       {
-        "name": "Bric'S",
-        "image": "4.png",
+        "name": "Kit Style Samsonite",
+        "image": "HomeSamsoniteKitte.png",
         "link": "fbBriggRiley"
       },{
-        "name": "Briggs & Riley",
-        "image": "2.png",
+        "name": "Woman Style",
+        "image": "HomeWomanStyle.png",
         "link": "fbBriggRiley"
       },
       {
-        "name": "TravelPro",
-        "image": "3.png",
+        "name": "Men Style",
+        "image": "HomeManStyle.png",
         "link": "fbBriggRiley"
       }
      
