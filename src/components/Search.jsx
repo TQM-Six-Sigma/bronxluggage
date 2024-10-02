@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Container, Row, Col, Form } from "react-bootstrap";
+import { Container, Row, Col, Form, Carousel } from "react-bootstrap";
 import cardData from "../databaseJSON/Search.json";
 import { Link } from "react-router-dom";
 
@@ -33,7 +33,6 @@ const CardTemplate = () => {
               placeholder="Search by name, price, brand..."
             />
           </Form>
-
         </Col>
       </Row>
       <Row className="g-0">
@@ -45,26 +44,48 @@ const CardTemplate = () => {
                 style={{
                   width: "100%",
                   aspectRatio: "9/13",
-                  height: "100%",
-                  display: "flex",
-                  flexDirection: "column",
-                  justifyContent: "center",
-                  alignItems: "center",
-                  backgroundImage: `url(${require(`../../public/images/${card.background}`)})`,
+                  backgroundImage: `url(${require(`../../public/images/${card.background}.png`)})`,
                   backgroundSize: "cover",
                   backgroundRepeat: "no-repeat",
                 }}
               >
-                <img
-                  src={require(`../../public/images/${card.image}`)}
-                  className="card-img-top"
-                  alt={card.name}
-                  style={{ width: "100%", height: "100%", objectFit: "cover" }}
-                />
-                <div className="w-100 text-black">
-                  <p className="card-text m-0">{card.name}</p>
-                  <h5 className="card-text m-0">{card.brand}</h5>
-                  <p className="card-text">{card.price}</p>
+                <Carousel>
+                  <Carousel.Item>
+                    <img
+                      src={require(`../../public/images/${card.image}1.png`)}
+                      className="d-block w-100"
+                      alt={card.name + " 1"}
+                    />
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <img
+                      src={require(`../../public/images/${card.image}2.png`)}
+                      className="d-block w-100"
+                      alt={card.name + " 2"}
+                    />
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <img
+                      src={require(`../../public/images/${card.image}3.png`)}
+                      className="d-block w-100"
+                      alt={card.name + " 3"}
+                    />
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <img
+                      src={require(`../../public/images/${card.image}4.png`)}
+                      className="d-block w-100"
+                      alt={card.name + " 4"}
+                    />
+                  </Carousel.Item>
+                </Carousel>
+                <div className="card-body">
+                  <h5 className="card-title">{card.name}</h5>
+                  <p className="card-text">
+                    {card.brand}
+                    <br />
+                    {card.price}
+                  </p>
                 </div>
               </div>
             </Link>

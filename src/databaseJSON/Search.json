@@ -2,9 +2,9 @@
     {
       "name": "Briggs & Riley",
       "brand": "Briggs & Riley",
-      "image": "HomeBriggsRileyCabinSpinner.png",
+      "image": "HomeBriggsRileyCabinSpinner",
       "link": "fbBriggRiley",
-      "background": "HomeBriggsRileyBackground.png",
+      "background": "HomeBriggsRileyBackground",
       "price": "400$",
       "individual": "woman",
       "color": "black",
@@ -13,9 +13,9 @@
     {
       "name": "TravelPro",
       "brand": "TravelPro",
-      "image": "HomeTravelpro.png",
+      "image": "HomeTravelpro",
       "link": "fbBriggRiley",
-      "background": "HomeBriggsRileyBackground.png",
+      "background": "HomeBriggsRileyBackground",
       "price": "400$",
       "individual": "woman",
       "color": "blue",
@@ -24,9 +24,9 @@
     {
       "name": "Bric'S",
       "brand": "Bric'S",
-      "image": "HomeBricsBellagio.png",
+      "image": "HomeBricsBellagio",
       "link": "fbBriggRiley",
-      "background": "HomeBriggsRileyBackground.png",
+      "background": "HomeBriggsRileyBackground",
       "price": "500$",
       "individual": "man",
       "color": "Red",
@@ -35,9 +35,9 @@
     {
         "name": "Delsey",
         "brand": "Delsey",
-        "image": "HomeDelsey.png",
+        "image": "HomeDelsey",
         "link": "fbBriggRiley",
-      "background": "HomeBriggsRileyBackground.png",
+      "background": "HomeBriggsRileyBackground",
       "price": "300$",
       "individual": "man woman",
       "color": "Red",
@@ -46,46 +46,27 @@
       {
         "name": "Ricardo",
         "brand": "Ricardo",
-        "image": "HomeRicardo.png",
+        "image": "HomeRicardo",
         "link": "fbBriggRiley",
-      "background": "HomeBriggsRileyBackground.png",
+      "background": "HomeBriggsRileyBackground",
       "price": "300$",
       "individual": "man",
       "color": "Red",
       "stat": "5"
       },
+      
       {
-        "name": "Kit Style Samsonite",
-        "brand": "Samsonite",
-        "image": "HomeSamsoniteKitte.png",
-        "link": "fbBriggRiley",
-      "background": "HomeBriggsRileyBackground.png",
-      "price": "200$",
-      "individual": "child kit",
-      "color": "Red",
-      "stat": "5"
-      },{
         "name": "Woman Style",
         "brand": "Woman Style",
-        "image": "HomeWomanStyle.png",
+        "image": "HomeWomanStyle",
         "link": "fbBriggRiley",
-      "background": "HomeBriggsRileyBackground.png",
+      "background": "HomeBriggsRileyBackground",
       "price": "1000$",
       "individual": "woman",
       "color": "green",
       "stat": "5"
-      },
-      {
-        "name": "Men Style",
-        "brand": "Men Style",
-        "image": "HomeManStyle.png",
-        "link": "fbBriggRiley",
-      "background": "HomeBriggsRileyBackground.png",
-      "price": "700$",
-      "individual": "man",
-      "color": "blue",
-      "stat": "5"
       }
+      
      
   ]
 
