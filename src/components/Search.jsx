@@ -97,4 +97,3 @@ const CardTemplate = () => {
 };
 
 export default CardTemplate;
-
