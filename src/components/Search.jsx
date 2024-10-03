@@ -24,7 +24,7 @@ const CardTemplate = () => {
   return (
     <Container>
       <Row className="g-0">
-        <Col xs={9} md={6} lg={4}>
+        <Col xs={12} md={6} lg={4}>
           <Form>
             <Form.Control
               type="text"
@@ -37,7 +37,7 @@ const CardTemplate = () => {
       </Row>
       <Row className="g-0">
         {filteredCards.map((card, index) => (
-          <Col key={index} xs={9} md={4} lg={3}>
+          <Col key={index} xs={6} md={4} lg={3}>
             <Link to={`/${card.link}`} style={{ textDecoration: "none" }}>
               <div
                 className="card1"
@@ -79,8 +79,9 @@ const CardTemplate = () => {
                     />
                   </Carousel.Item>
                 </Carousel>
-                <div className="card-body">
-                  <h5 className="card-title">{card.name}</h5>
+                
+                <div className="card-body text-black px-3">
+                  <h6 className="card-title">{card.name}</h6>
                   <p className="card-text">
                     {card.brand}
                     <br />
