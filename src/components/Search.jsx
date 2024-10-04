@@ -82,7 +82,7 @@ const Search = () => {
                 backgroundSize: "cover",
                 backgroundRepeat: "no-repeat",
               }}
-              onClick={() => handleShow(card)}
+              
             >
               <Link to={`/${card.link}`}>
                 <Carousel>
@@ -117,9 +117,11 @@ const Search = () => {
                 </Carousel>
               </Link>
 
-              <div className="card-body text-black px-3 ">
+              <div className="card-body text-black px-3 " >
                 {" "}
                 <h6 className="card-title">{card.name}</h6>
+                <div onClick={() => handleShow(card)}>
+
                 <Rating
                   count={5}
                   size={25}
@@ -127,7 +129,9 @@ const Search = () => {
                   onChange={(newRating) => setRating(newRating)}
                   required
                   z-index={10}
+                  
                 />
+                </div>
                 <p className="card-text">
                   {card.brand}
                   <br />

@@ -1,116 +1,235 @@
 [
-    {
-      "name": "Cabin Spinner",
-      "brand": "Briggs & Riley",
-      "image": "HomeBriggsRileyCabinSpinner",
-      "link": "fbBriggRiley",
-      "background": "HomeBriggsRileyBackground",
-      "price": "400$",
-      "individual": "woman",
-      "color": "black",
-      "stat": "Bestseller"
-    },
-    {
-      "name": "Expandable Spinner",
-      "brand": "Briggs & Riley",
-      "image": "Search/BriggsBlackExpandableSpinner",
-      "link": "fbBriggRiley",
-      "background": "HomeBriggsRileyBackground",
-      "price": "385$",
-      "individual": "woman",
-      "color": "black",
-      "stat": "Sale"
-    },
-    {
-      "name": "Expandable Spinner",
-      "brand": "Briggs & Riley",
-      "image": "Search/BriggsExpandableSpinner",
-      "link": "fbBriggRiley",
-      "background": "HomeBriggsRileyBackground",
-      "price": "400$",
-      "individual": "woman",
-      "color": "Blue",
-      "stat": "Bestseller"
-    },
-    {
-      "name": "Expandable Spinner",
-      "brand": "Briggs & Riley",
-      "image": "Search/BriggsGreenExpandableSpinner",
-      "link": "fbBriggRiley",
-      "background": "HomeBriggsRileyBackground",
-      "price": "385$",
-      "individual": "woman",
-      "color": "Green",
-      "stat": "Bestseller"
-    },
-    {
-      "name": "Garment Duffle",
-      "brand": "Briggs & Riley",
-      "image": "Search/GarmentDuffle",
-      "link": "fbBriggRiley",
-      "background": "HomeBriggsRileyBackground",
-      "price": "300$",
-      "individual": "man men",
-      "color": "Blue",
-      "stat": "Bestseller"
-    },
-    {
-      "name": "Platinum® Elite Spinner",
-      "brand": "TravelPro",
-      "image": "HomeTravelpro",
-      "link": "fbBriggRiley",
-      "background": "HomeBriggsRileyBackground",
-      "price": "400$",
-      "individual": "woman",
-      "color": "blue",
-      "stat": "Bestseller"
-    },
-    {
-      "name": "BELLAGIO TRUNK",
-      "brand": "Bric'S",
-      "image": "HomeBricsBellagio",
-      "link": "fbBriggRiley",
-      "background": "HomeBriggsRileyBackground",
-      "price": "500$",
-      "individual": "man men",
-      "color": "Yellow cream brown",
-      "stat": "Bestseller"
-    },
-    {
-      "name": "SUITCASE - ROLAND",
-      "brand": "Delsey",
-      "image": "HomeDelsey",
-      "link": "fbBriggRiley",
-      "background": "HomeBriggsRileyBackground",
-      "price": "300$",
-      "individual": "men woman",
-      "color": "Blue",
-      "stat": "Bestseller"
-      },
-      {
-      "name": "Indio 2-Piece Set",
-      "brand": "Ricardo",
-      "image": "HomeRicardo",
-      "link": "fbBriggRiley",
-      "background": "HomeBriggsRileyBackground",
-      "price": "300$",
-      "individual": "woman",
-      "color": "Red",
-      "stat": "Bestseller"
-      },
-      
-      {
-      "name": "Woman Style",
-      "brand": "Woman Style",
-      "image": "HomeWomanStyle",
-      "link": "fbBriggRiley",
-      "background": "HomeBriggsRileyBackground",
-      "price": "1000$",
-      "individual": "woman",
-      "color": "green",
-      "stat": "Bestseller"
-      }
-      
-     
-  ]
+  {
+    "name": "Cabin Spinner",
+    "brand": "Briggs & Riley",
+    "image": "HomeBriggsRileyCabinSpinner",
+    "link": "fbBriggRiley",
+    "background": "HomeBriggsRileyBackground",
+    "price": "400$",
+    "individual": "woman",
+    "color": "black",
+    "stat": "Bestseller"
+  },
+  {
+    "name": "Expandable Spinner",
+    "brand": "Briggs & Riley",
+    "image": "Search/BriggsBlackExpandableSpinner",
+    "link": "fbBriggRiley",
+    "background": "HomeBriggsRileyBackground",
+    "price": "385$",
+    "individual": "woman",
+    "color": "black",
+    "stat": "Sale"
+  },
+  {
+    "name": "Expandable Spinner",
+    "brand": "Briggs & Riley",
+    "image": "Search/BriggsExpandableSpinner",
+    "link": "fbBriggRiley",
+    "background": "HomeBriggsRileyBackground",
+    "price": "400$",
+    "individual": "woman",
+    "color": "Blue",
+    "stat": "Bestseller"
+  },
+  {
+    "name": "Expandable Spinner",
+    "brand": "Briggs & Riley",
+    "image": "Search/BriggsGreenExpandableSpinner",
+    "link": "fbBriggRiley",
+    "background": "HomeBriggsRileyBackground",
+    "price": "385$",
+    "individual": "woman",
+    "color": "Green",
+    "stat": "Bestseller"
+  },
+  {
+    "name": "Garment Duffle",
+    "brand": "Briggs & Riley",
+    "image": "Search/GarmentDuffle",
+    "link": "fbBriggRiley",
+    "background": "HomeBriggsRileyBackground",
+    "price": "300$",
+    "individual": "man men",
+    "color": "Blue",
+    "stat": "Bestseller"
+  },
+  {
+    "name": "Platinum Elite Spinner",
+    "brand": "TravelPro",
+    "image": "HomeTravelpro",
+    "link": "fbBriggRiley",
+    "background": "HomeBriggsRileyBackground",
+    "price": "400$",
+    "individual": "woman",
+    "color": "blue",
+    "stat": "Bestseller"
+  },
+  {
+    "name": "BELLAGIO TRUNK",
+    "brand": "Bric'S",
+    "image": "HomeBricsBellagio",
+    "link": "fbBriggRiley",
+    "background": "HomeBriggsRileyBackground",
+    "price": "500$",
+    "individual": "man men",
+    "color": "Yellow cream brown",
+    "stat": "Bestseller"
+  },
+  {
+    "name": "SUITCASE - ROLAND",
+    "brand": "Delsey",
+    "image": "HomeDelsey",
+    "link": "fbBriggRiley",
+    "background": "HomeBriggsRileyBackground",
+    "price": "300$",
+    "individual": "men woman",
+    "color": "Blue",
+    "stat": "Bestseller"
+  },
+  {
+    "name": "Indio 2-Piece Set",
+    "brand": "Ricardo",
+    "image": "HomeRicardo",
+    "link": "fbBriggRiley",
+    "background": "HomeBriggsRileyBackground",
+    "price": "300$",
+    "individual": "woman",
+    "color": "Red",
+    "stat": "Bestseller"
+  },
+  {
+    "name": "Woman Style",
+    "brand": "Woman Style",
+    "image": "HomeWomanStyle",
+    "link": "fbBriggRiley",
+    "background": "HomeBriggsRileyBackground",
+    "price": "1000$",
+    "individual": "woman",
+    "color": "green",
+    "stat": "Bestseller"
+  },
+  {
+    "name": "Large Brief",
+    "brand": "Briggs & Riley",
+    "image": "Search/BriggsBlack629LargeSpinnerBrief",
+    "link": "fbBriggRiley",
+    "background": "HomeBriggsRileyBackground",
+    "price": "629$",
+    "individual": "woman",
+    "color": "Black",
+    "stat": "Bestseller All"
+  },
+  {
+    "name": "Wheeled Garment",
+    "brand": "Briggs & Riley",
+    "image": "Search/BriggsBlack779CarryWheeledGarmentSpinner",
+    "link": "fbBriggRiley",
+    "background": "HomeBriggsRileyBackground",
+    "price": "779$",
+    "individual": "woman",
+    "color": "Black",
+    "stat": "Bestseller All"
+  },
+  {
+    "name": "Medium Spinner",
+    "brand": "Briggs & Riley",
+    "image": "Search/BriggsBlack799BaselineMediumExpandableSpinner",
+    "link": "fbBriggRiley",
+    "background": "HomeBriggsRileyBackground",
+    "price": "799$",
+    "individual": "woman",
+    "color": "Black",
+    "stat": "Bestseller All"
+  },
+  {
+    "name": "Under Seat Duffle",
+    "brand": "Briggs & Riley",
+    "image": "Search/BriggsBlue289ManUnderseatDuffle",
+    "link": "fbBriggRiley",
+    "background": "HomeBriggsRileyBackground",
+    "price": "289$",
+    "individual": "man men",
+    "color": "Blue",
+    "stat": "Bestseller All"
+  },
+  {
+    "name": "Medium Spinner",
+    "brand": "Briggs & Riley",
+    "image": "Search/BriggsBlue779BaselineMediumExpandableSpinner",
+    "link": "fbBriggRiley",
+    "background": "HomeBriggsRileyBackground",
+    "price": "779$",
+    "individual": "man woman men",
+    "color": "Blue",
+    "stat": "Bestseller All"
+  },
+  {
+    "name": "Deluxe Wardrobe",
+    "brand": "Briggs & Riley",
+    "image": "Search/BriggsBlue1089DeluxeWardrobeSpinner",
+    "link": "fbBriggRiley",
+    "background": "HomeBriggsRileyBackground",
+    "price": "1089$",
+    "individual": "man",
+    "color": "Blue",
+    "stat": "Bestseller All"
+  },
+  {
+    "name": "Base Medium Spinner",
+    "brand": "Briggs & Riley",
+    "image": "Search/BriggsGreen799BaselineMediumExpandableSpinner",
+    "link": "fbBriggRiley",
+    "background": "HomeBriggsRileyBackground",
+    "price": "799$",
+    "individual": "man",
+    "color": "Blue",
+    "stat": "Bestseller All"
+  },
+  {
+    "name": "Extra Large Trunk",
+    "brand": "Briggs & Riley",
+    "image": "Search/BriggsGreenHunter729ExtraLargeTrunkSpinner",
+    "link": "fbBriggRiley",
+    "background": "HomeBriggsRileyBackground",
+    "price": "729$",
+    "individual": "man men",
+    "color": "Green Hunter",
+    "stat": "sale All"
+  },
+  {
+    "name": "Multi-Pocket Cabin",
+    "brand": "Briggs & Riley",
+    "image": "Search/BriggsNavyBlue279Multi-PocketCabinBag",
+    "link": "fbBriggRiley",
+    "background": "HomeBriggsRileyBackground",
+    "price": "279$",
+    "individual": "man men",
+    "color": "Blue Navy",
+    "stat": "sale All"
+  },
+  {
+    "name": "Under Seat Duffle",
+    "brand": "Briggs & Riley",
+    "image": "Search/BriggsOlive289ManUnderseatDuffle",
+    "link": "fbBriggRiley",
+    "background": "HomeBriggsRileyBackground",
+    "price": "289$",
+    "individual": "man men",
+    "color": "Green Olive",
+    "stat": "sale All"
+  },
+  {
+    "name": "Base Medium Spinner",
+    "brand": "Briggs & Riley",
+    "image": "Search/BriggsPurple799BaselineMediumExpandableSpinner",
+    "link": "fbBriggRiley",
+    "background": "HomeBriggsRileyBackground",
+    "price": "799$",
+    "individual": "man men",
+    "color": "Green Olive",
+    "stat": "sale All"
+  }
+  
+]
 
