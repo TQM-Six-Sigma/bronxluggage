@@ -8,42 +8,42 @@
     {
       "name": "TravelPro",
       "image": "HomeTravelpro.png",
-      "link": "fbBriggRiley",
+      "link": "fbTravelPro",
       "background": "HomeBriggsRileyBackground.png"
     },
     {
       "name": "Bric'S",
       "image": "HomeBricsBellagio.png",
-      "link": "fbBriggRiley",
+      "link": "fbBrics",
       "background": "HomeBriggsRileyBackground.png"
     },
     {
         "name": "Delsey",
         "image": "HomeDelsey.png",
-        "link": "fbBriggRiley",
+        "link": "fbDelseyRicardo",
       "background": "HomeBriggsRileyBackground.png"
       },
       {
         "name": "Ricardo",
         "image": "HomeRicardo.png",
-        "link": "fbBriggRiley",
+        "link": "fbDelseyRicardo",
       "background": "HomeBriggsRileyBackground.png"
       },
       {
         "name": "Kid Style Samsonite",
         "image": "HomeSamsoniteKitte.png",
-        "link": "fbBriggRiley",
+        "link": "fbSamsonite",
       "background": "HomeBriggsRileyBackground.png"
       },{
         "name": "Woman Style",
         "image": "HomeWomanStyle.png",
-        "link": "fbBriggRiley",
+        "link": "search?keyword=woman",
       "background": "HomeBriggsRileyBackground.png"
       },
       {
         "name": "Men Style",
         "image": "HomeManStyle.png",
-        "link": "fbBriggRiley",
+        "link": "search?keyword=men",
       "background": "HomeBriggsRileyBackground.png"
       }
      

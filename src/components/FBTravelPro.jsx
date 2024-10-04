@@ -1,21 +1,29 @@
 import NavBar from "./Navbar";
 import Footer from "./Footer";
+import React, { useEffect } from 'react';
+import { useLocation } from 'react-router-dom'
+
 
 const FBTravelPro = () => {
+  const location = useLocation();
+
+  useEffect(() => {
+    if (location.hash) {
+      const element = document.getElementById(location.hash.substring(1));
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+  }, [location]);
   return (
     <>
       <div>
         <div>
           <NavBar />
         </div>
-        <section
-          class="features5"
-          id="features5-a"
-        >
+        <section class="" id="">
           <div class="container-fluid">
-            <h3 class="align-center display-4">
-              LUXURY
-            </h3>
+            <h3 class="align-center display-4">LUXURY</h3>
 
             <div class="underline align-center pb-3">
               <div class="line"></div>
@@ -28,9 +36,7 @@ const FBTravelPro = () => {
               <div class="card first-card col-12 col-lg-6">
                 <div class="card-wrapper">
                   <div class="card-box">
-                    <h2 class="first-card-title display-2">
-                      Platnium® Elite
-                    </h2>
+                    <h2 class="first-card-title display-2">Platnium® Elite</h2>
                     <p class=" first-card-text display-7">
                       Finally, great looking checked luggage that is as
                       functional and durable as it is stylish. The Platinum®
@@ -67,8 +73,6 @@ const FBTravelPro = () => {
                             "/images/travelpro-pe1-601x601.jpg"
                           }
                           alt="TravelProImg"
-                          loading="lazy"
-                          class="lazyload"
                         />
                       </div>
                     </div>
@@ -82,8 +86,6 @@ const FBTravelPro = () => {
                             "/images/travelpro-pe2-601x601.jpg"
                           }
                           alt="TravelProImg"
-                          loading="lazy"
-                          class="lazyload"
                         />
                       </div>
                     </div>
@@ -100,8 +102,6 @@ const FBTravelPro = () => {
                             "/images/travelpro-pe3-601x601.jpg"
                           }
                           alt="TravelProImg"
-                          loading="lazy"
-                          class="lazyload"
                         />
                       </div>
                     </div>
@@ -115,8 +115,6 @@ const FBTravelPro = () => {
                             "/images/travelpro-pe4-601x601.jpg"
                           }
                           alt="TravelProImg"
-                          loading="lazy"
-                          class="lazyload"
                         />
                       </div>
                     </div>
@@ -144,16 +142,13 @@ const FBTravelPro = () => {
             </div>
           </figure>
         </section>
-        <section
-          class="features5"
-          id="features5-c"
-        >
+        <section class="" id="-c">
           <div class="container-fluid">
             <div class="row justify-content-center content-row">
               <div class="card first-card col-12 col-lg-6">
                 <div class="card-wrapper">
                   <div class="card-box">
-                    <h2 class="first-card-title display-2">
+                    <h2 id="Maxlite" class="first-card-title display-2">
                       Travelpro Maxlite® 5
                     </h2>
                     <p class=" first-card-text display-7">
@@ -185,8 +180,6 @@ const FBTravelPro = () => {
                             "/images/travelpro-maxlite-21-5-590x590.jpg"
                           }
                           alt="TravelProImg"
-                          loading="lazy"
-                          class="lazyload"
                         />
                       </div>
                     </div>
@@ -200,8 +193,6 @@ const FBTravelPro = () => {
                             "/images/travelpro-maxlite-21-1-550x550.jpg"
                           }
                           alt="TravelProImg"
-                          loading="lazy"
-                          class="lazyload"
                         />
                       </div>
                     </div>
@@ -218,8 +209,6 @@ const FBTravelPro = () => {
                             "/images/travelpro-maxlite-21-4-590x590.jpg"
                           }
                           alt="TravelProImg"
-                          loading="lazy"
-                          class="lazyload"
                         />
                       </div>
                     </div>
@@ -233,8 +222,6 @@ const FBTravelPro = () => {
                             "/images/travelpro-maxlite-21-3-431x431.png"
                           }
                           alt="TravelProImg"
-                          loading="lazy"
-                          class="lazyload"
                         />
                       </div>
                     </div>
@@ -262,19 +249,14 @@ const FBTravelPro = () => {
             </div>
           </figure>
         </section>
-        <section
-          class="features3"
-          id="features3-f"
-        >
+        <section class="" id="">
           <div class="container-fluid">
             <div class="row justify-content-center content-row">
               <div class="card first-card col-12 col-lg-6">
                 <div class="card-wrapper">
                   <div class="card-box">
-                    <h2 class="first-card-title display-2">
-                      Travelpro Crew®
-                    </h2>
-                    <p class=" first-card-text display-7">
+                    <h2  class="first-card-title display-2">Travelpro Crew®</h2>
+                    <p id="TravelproCrew" class=" first-card-text display-7">
                       Take this versatile luggage set for a spin anywhere. The
                       Crew™ Versapack™ Global Expandable Carry-on Spinner and
                       25" Expandable Checked Spinner deliver effortless mobility
@@ -292,7 +274,6 @@ const FBTravelPro = () => {
                       the comprehensive Built For a Lifetime Limited Warranty
                       with our Trusted Companion Promise.
                     </p>
-                    
                   </div>
                 </div>
               </div>
@@ -303,10 +284,11 @@ const FBTravelPro = () => {
                     <div class="card-wrapper">
                       <div class="card-img">
                         <img
-                          src={process.env.PUBLIC_URL + "/images/travelpro-crew-1-593x593.jpg"}
+                          src={
+                            process.env.PUBLIC_URL +
+                            "/images/travelpro-crew-1-593x593.jpg"
+                          }
                           alt="TravelProImg"
-                          loading="lazy"
-                          class="lazyload"
                         />
                       </div>
                     </div>
@@ -315,10 +297,11 @@ const FBTravelPro = () => {
                     <div class="card-wrapper">
                       <div class="card-img">
                         <img
-                          src={process.env.PUBLIC_URL + "/images/travelpro-crew-2-593x593.jpg"}
+                          src={
+                            process.env.PUBLIC_URL +
+                            "/images/travelpro-crew-2-593x593.jpg"
+                          }
                           alt="TravelProImg"
-                          loading="lazy"
-                          class="lazyload"
                         />
                       </div>
                     </div>
@@ -330,10 +313,11 @@ const FBTravelPro = () => {
                     <div class="card-wrapper">
                       <div class="card-img">
                         <img
-                          src={process.env.PUBLIC_URL + "/images/travelpro-crew-3-593x593.jpg"}
+                          src={
+                            process.env.PUBLIC_URL +
+                            "/images/travelpro-crew-3-593x593.jpg"
+                          }
                           alt="TravelProImg"
-                          loading="lazy"
-                          class="lazyload"
                         />
                       </div>
                     </div>
@@ -342,10 +326,11 @@ const FBTravelPro = () => {
                     <div class="card-wrapper">
                       <div class="card-img">
                         <img
-                          src={process.env.PUBLIC_URL + "/images/travelpro-crew-4-593x593.jpg"}
+                          src={
+                            process.env.PUBLIC_URL +
+                            "/images/travelpro-crew-4-593x593.jpg"
+                          }
                           alt="TravelProImg"
-                          loading="lazy"
-                          class="lazyload"
                         />
                       </div>
                     </div>

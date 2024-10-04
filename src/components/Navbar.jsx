@@ -57,7 +57,7 @@ function navBar() {
                   <NavDropdown.Divider />
                   <NavDropdown.Item
                     as={Link}
-                    to="/fbTravelPro"
+                    to="/fbTravelPro/#Maxlite"
                     className="text-center"
                   >
                     Maxlite 5
@@ -65,7 +65,7 @@ function navBar() {
                   <NavDropdown.Divider />
                   <NavDropdown.Item
                     as={Link}
-                    to="/fbTravelPro"
+                    to="/fbTravelPro#TravelproCrew"
                     className="text-center"
                   >
                     Crew
@@ -168,11 +168,14 @@ function navBar() {
                 placeholder="Search"
                 className="me-2"
                 aria-label="Search"
-              onClick={() => {
-                window.location.href = "/search";
-              }}
-              />{""}
-              <Button variant="outline-success" as={Link} to="/search">Search</Button>
+                onClick={() => {
+                  window.location.href = "/search";
+                }}
+              />
+              {""}
+              <Button variant="outline-success" as={Link} to="/search">
+                Search
+              </Button>
             </Form>
           </Navbar.Collapse>
         </Container>

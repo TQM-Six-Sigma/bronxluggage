@@ -50,7 +50,7 @@
       "link": "fbBriggRiley",
       "background": "HomeBriggsRileyBackground",
       "price": "300$",
-      "individual": "man men",
+      "individual": "man",
       "color": "Blue",
       "stat": "Bestseller"
     },
@@ -72,7 +72,7 @@
       "link": "fbBriggRiley",
       "background": "HomeBriggsRileyBackground",
       "price": "500$",
-      "individual": "man men",
+      "individual": "man",
       "color": "Yellow cream brown",
       "stat": "Bestseller"
     },
@@ -83,7 +83,7 @@
       "link": "fbBriggRiley",
       "background": "HomeBriggsRileyBackground",
       "price": "300$",
-      "individual": "men woman",
+      "individual": "man woman",
       "color": "Blue",
       "stat": "Bestseller"
       },
@@ -94,7 +94,7 @@
       "link": "fbBriggRiley",
       "background": "HomeBriggsRileyBackground",
       "price": "300$",
-      "individual": "woman",
+      "individual": "man",
       "color": "Red",
       "stat": "Bestseller"
       },
