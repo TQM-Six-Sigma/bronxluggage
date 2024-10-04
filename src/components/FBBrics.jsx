@@ -9,11 +9,22 @@ const FBBrics = () => {
           <NavBar />
         </div>
         <div>
-          <section class="header2" id="header2-m">
-            <section class="video2 " id="video2-n">
-              <figure class=" align-center container-fluid" style={{width: "100%", height: "500px"}}>
-                <div class="video-block" style={{ width: "100%", height: "100%", display: "flex", justifyContent: "center", alignItems: "center" }}>
-                  <div style={{width: "100%", height: "100%"}}>
+          <section>
+            <section>
+              <figure
+                class=" align-center container-fluid"
+                style={{ width: "100%", height: "500px" }}
+              >
+                <div
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    display: "flex",
+                    justifyContent: "center",
+                    alignItems: "center",
+                  }}
+                >
+                  <div style={{ width: "100%", height: "100%" }}>
                     <iframe
                       title="vimeo-player"
                       src="https://player.vimeo.com/video/482721857?h=cbe3602f60"
@@ -28,7 +39,7 @@ const FBBrics = () => {
             </section>
             <div class="container">
               <div class="row justify-content-center">
-                <div class="col-md-10 col-lg-8 align-center mbr-white">
+                <div class="col-md-10 col-lg-8 align-center">
                   <h3 class=" display-1">BRIC'S MILANO</h3>
                   <p class=" display-7">
                     Founded by Mario BricCola in 1952, BRIC'S Milan has been
@@ -51,38 +62,30 @@ const FBBrics = () => {
                 </div>
               </div>
             </div>
-            
-            
           </section>
 
-          <section class=" features6" id="features6-o">
-            <div
-              class=""
-              style={{ opacity: 0.8, backgroundColor: "rgb(255, 255, 255" }}
-            ></div>
-
+          <section>
             <div class="container-fluid">
               <div class="row">
-                <div class="col-12 text-row col-md-6">
+                <div class="row">
                   <h2 class="align-center display-2">BELLAGIO</h2>
                   <h3 class=" align-center display-7">
                     A featured collection from BRIC's, the Bellagio pieces are
                     strong and elegant made with fine Italian leather accents.
                   </h3>
                 </div>
-                <div class="card px-2 py-4 col-12 col-md-6 col-lg-4 col-xl-3">
-                  <div class="card-wrapper">
-                    <div class="card-img">
+                <div class="  col-12 col-md-4 col-lg-4 col-xl-2">
+                  <div>
+                    <div>
                       <img
                         src={
                           process.env.PUBLIC_URL +
                           "/images/brics-trolley1-601x830.jpg"
                         }
                         alt="FBBrics"
-                        loading="lazy"
                       />
                     </div>
-                    <div class="card-box">
+                    <div>
                       <p class=" align-center display-7">
                         Trolley - available in 5 different sizes (55cm, 70cm,
                         76cm and 82cm) and 4 different colors
@@ -91,19 +94,18 @@ const FBBrics = () => {
                   </div>
                 </div>
 
-                <div class="card px-2 py-4 col-12 col-md-6 col-lg-4 col-xl-3">
-                  <div class="card-wrapper">
-                    <div class="card-img">
+                <div class="col-12 col-md-3 col-lg-4 col-xl-3">
+                  <div>
+                    <div>
                       <img
                         src={
                           process.env.PUBLIC_URL +
                           "/images/bric-bellagio-2-601x830.jpg"
                         }
                         alt="FBBrics"
-                        loading="lazy"
                       />
                     </div>
-                    <div class="card-box">
+                    <div>
                       <p class=" align-center display-7">
                         Trolley Organizer (55cm) - available in 4 different
                         colors
@@ -112,19 +114,18 @@ const FBBrics = () => {
                   </div>
                 </div>
 
-                <div class="card px-2 py-4 col-12 col-md-6 col-lg-4 col-xl-3">
-                  <div class="card-wrapper">
-                    <div class="card-img">
+                <div class="col-12 col-md-3 col-lg-4 col-xl-3">
+                  <div>
+                    <div>
                       <img
                         src={
                           process.env.PUBLIC_URL +
                           "/images/bric-bellagio-3-601x830.jpg"
                         }
                         alt="FBBrics"
-                        loading="lazy"
                       />
                     </div>
-                    <div class="card-box">
+                    <div>
                       <p class=" align-center display-7">
                         Trunk - (40cm) available in 3 different sizes including
                         40cm, 65cm and 75cm
@@ -133,19 +134,18 @@ const FBBrics = () => {
                   </div>
                 </div>
 
-                <div class="card px-2 py-4 col-12 col-md-6 col-lg-4 col-xl-3">
-                  <div class="card-wrapper">
-                    <div class="card-img">
+                <div class=" col-12 col-md-3 col-lg-4 col-xl-3">
+                  <div>
+                    <div>
                       <img
                         src={
                           process.env.PUBLIC_URL +
                           "/images/bric-bellagio-4-601x830.jpg"
                         }
                         alt="FBBrics"
-                        loading="lazy"
                       />
                     </div>
-                    <div class="card-box">
+                    <div>
                       <p class=" align-center display-7">
                         Trunk - available in 4 colors including beige, glue,
                         black (above) and green
@@ -154,19 +154,18 @@ const FBBrics = () => {
                   </div>
                 </div>
 
-                <div class="card px-2 py-4 col-12 col-md-6 col-lg-4 col-xl-3">
-                  <div class="card-wrapper">
-                    <div class="card-img">
+                <div class=" col-12 col-md-3 col-lg-4 col-xl-3">
+                  <div>
+                    <div>
                       <img
                         src={
                           process.env.PUBLIC_URL +
                           "/images/bric-bellagio-5-601x830.jpg"
                         }
                         alt="FBBrics"
-                        loading="lazy"
                       />
                     </div>
-                    <div class="card-box">
+                    <div>
                       <p class=" align-center display-7">
                         Travel trunk from the Bellagio collection by Bric's.
                         Elegant cowhide inserts combine with the high-tech
@@ -176,19 +175,18 @@ const FBBrics = () => {
                   </div>
                 </div>
 
-                <div class="card px-2 py-4 col-12 col-md-6 col-lg-4 col-xl-3">
-                  <div class="card-wrapper">
-                    <div class="card-img">
+                <div class=" col-12 col-md-3 col-lg-4 col-xl-3">
+                  <div>
+                    <div>
                       <img
                         src={
                           process.env.PUBLIC_URL +
                           "/images/bric-bellagio-6-601x830.jpg"
                         }
                         alt="FBBrics"
-                        loading="lazy"
                       />
                     </div>
-                    <div class="card-box">
+                    <div>
                       <p class=" align-center display-7">
                         Trunk - perfect for extended travel.&nbsp; Above is the
                         blue model
@@ -200,16 +198,14 @@ const FBBrics = () => {
             </div>
           </section>
 
-          <section class=" features5 " id="features5-p">
+          <section>
             <div class="container-fluid">
-              <div class="row justify-content-center content-row">
-                <div class="card first-card col-12 col-lg-6">
-                  <div class="card-wrapper">
-                    <div class="card-box">
-                      <h2 class="first-card-title display-2">
-                        Venezia Collection
-                      </h2>
-                      <p class=" first-card-text display-7">
+              <div class="row">
+                <div>
+                  <div>
+                    <div>
+                      <h2 class="display-2">Venezia Collection</h2>
+                      <p class=" display-7">
                         Venezia hard-case trolley (Luggage). Made from SRPP
                         (self reinforced polypropylene), a material used in
                         aeronautics and made in Italy which guarantees that
@@ -233,65 +229,56 @@ const FBBrics = () => {
                   </div>
                 </div>
 
-                <div class="media-container-column col-lg-6">
-                  <div class="row first-row">
-                    <div class="card col-sm-12 col-md-6 first-child">
-                      <div class="card-wrapper">
-                        <div class="card-img">
-                          <img
-                            src={
-                              process.env.PUBLIC_URL +
-                              "/images/brics-venezia3-601x830.jpg"
-                            }
-                            alt="FBBrics"
-                            loading="lazy"
-                          />
-                        </div>
-                      </div>
-                    </div>
-                    <div class="card col-sm-12 col-md-6">
-                      <div class="card-wrapper">
-                        <div class="card-img">
-                          <img
-                            src={
-                              process.env.PUBLIC_URL +
-                              "/images/brics-venezia2-601x830.jpg"
-                            }
-                            alt="FBBrics"
-                            loading="lazy"
-                          />
-                        </div>
+                <div class="row">
+                  <div class="col-sm-3 col-md-3">
+                    <div>
+                      <div>
+                        <img
+                          src={
+                            process.env.PUBLIC_URL +
+                            "/images/brics-venezia3-601x830.jpg"
+                          }
+                          alt="FBBrics"
+                        />
                       </div>
                     </div>
                   </div>
-
-                  <div class="row second-row">
-                    <div class="card col-sm-12 col-md-6 first-child">
-                      <div class="card-wrapper">
-                        <div class="card-img">
-                          <img
-                            src={
-                              process.env.PUBLIC_URL +
-                              "/images/brics-venezia1-601x830.jpg"
-                            }
-                            alt="FBBrics"
-                            loading="lazy"
-                          />
-                        </div>
+                  <div class="col-sm-3 col-md-3">
+                    <div>
+                      <div>
+                        <img
+                          src={
+                            process.env.PUBLIC_URL +
+                            "/images/brics-venezia2-601x830.jpg"
+                          }
+                          alt="FBBrics"
+                        />
                       </div>
                     </div>
-                    <div class="card col-sm-12 col-md-6">
-                      <div class="card-wrapper">
-                        <div class="card-img">
-                          <img
-                            src={
-                              process.env.PUBLIC_URL +
-                              "/images/brics-venezia5-601x830.jpg"
-                            }
-                            alt="FBBrics"
-                            loading="lazy"
-                          />
-                        </div>
+                  </div>
+                  <div class="col-sm-3 col-md-3">
+                    <div>
+                      <div>
+                        <img
+                          src={
+                            process.env.PUBLIC_URL +
+                            "/images/brics-venezia1-601x830.jpg"
+                          }
+                          alt="FBBrics"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-3 col-md-3">
+                    <div>
+                      <div>
+                        <img
+                          src={
+                            process.env.PUBLIC_URL +
+                            "/images/brics-venezia5-601x830.jpg"
+                          }
+                          alt="FBBrics"
+                        />
                       </div>
                     </div>
                   </div>
@@ -300,15 +287,14 @@ const FBBrics = () => {
             </div>
           </section>
 
-          <section class=" features6" id="features6-q">
+          <section>
             <div
-              class=""
               style={{ opacity: 0.8, backgroundColor: "rgb(255, 255, 255)" }}
             ></div>
 
             <div class="container-fluid">
               <div class="row">
-                <div class="col-12 text-row col-md-6">
+                <div>
                   <h2 class="align-center display-2">X-TRAVEL</h2>
                   <h3 class=" align-center display-7">
                     This collection offers the perfect combination of
@@ -323,19 +309,18 @@ const FBBrics = () => {
                     Briefcase and a Ladies Commuter Tote.
                   </h3>
                 </div>
-                <div class="card px-2 py-4 col-12 col-md-6 col-lg-4 col-xl-3">
-                  <div class="card-wrapper">
-                    <div class="card-img">
+                <div class="  col-12 col-md-3 col-lg-4 col-xl-3">
+                  <div>
+                    <div>
                       <img
                         src={
                           process.env.PUBLIC_URL +
                           "/images/bric-x-1-601x830.jpg"
                         }
                         alt="FBBrics"
-                        loading="lazy"
                       />
                     </div>
-                    <div class="card-box">
+                    <div>
                       <p class=" align-center display-7">
                         Trolley is available in multiple sizes ranging from 50cm
                         to 77cm
@@ -344,19 +329,18 @@ const FBBrics = () => {
                   </div>
                 </div>
 
-                <div class="card px-2 py-4 col-12 col-md-6 col-lg-4 col-xl-3">
-                  <div class="card-wrapper">
-                    <div class="card-img">
+                <div class="  col-12 col-md-3 col-lg-4 col-xl-3">
+                  <div>
+                    <div>
                       <img
                         src={
                           process.env.PUBLIC_URL +
                           "/images/bric-x-2-601x830.jpg"
                         }
                         alt="FBBrics"
-                        loading="lazy"
                       />
                     </div>
-                    <div class="card-box">
+                    <div>
                       <p class=" align-center display-7">
                         Trolley are available in 7 different colors including
                         green, blue, red, tan, black, black with tan and navy
@@ -365,19 +349,18 @@ const FBBrics = () => {
                   </div>
                 </div>
 
-                <div class="card px-2 py-4 col-12 col-md-6 col-lg-4 col-xl-3">
-                  <div class="card-wrapper">
-                    <div class="card-img">
+                <div class="  col-12 col-md-3 col-lg-4 col-xl-3">
+                  <div>
+                    <div>
                       <img
                         src={
                           process.env.PUBLIC_URL +
                           "/images/bric-x-3-601x830.jpg"
                         }
                         alt="FBBrics"
-                        loading="lazy"
                       />
                     </div>
-                    <div class="card-box">
+                    <div>
                       <p class=" align-center display-7">
                         Trolley in green with tan leather accent
                       </p>
@@ -385,19 +368,18 @@ const FBBrics = () => {
                   </div>
                 </div>
 
-                <div class="card px-2 py-4 col-12 col-md-6 col-lg-4 col-xl-3">
-                  <div class="card-wrapper">
-                    <div class="card-img">
+                <div class="  col-12 col-md-3 col-lg-4 col-xl-3">
+                  <div>
+                    <div>
                       <img
                         src={
                           process.env.PUBLIC_URL +
                           "/images/bric-x-6-601x830.jpg"
                         }
                         alt="FBBrics"
-                        loading="lazy"
                       />
                     </div>
-                    <div class="card-box">
+                    <div>
                       <p class=" align-center display-7">
                         Trolley in red with tan leather accent
                       </p>
@@ -405,19 +387,18 @@ const FBBrics = () => {
                   </div>
                 </div>
 
-                <div class="card px-2 py-4 col-12 col-md-6 col-lg-4 col-xl-3">
-                  <div class="card-wrapper">
-                    <div class="card-img">
+                <div class="  col-12 col-md-3 col-lg-4 col-xl-3">
+                  <div>
+                    <div>
                       <img
                         src={
                           process.env.PUBLIC_URL +
                           "/images/bric-x-5-601x830.jpg"
                         }
                         alt="FBBrics"
-                        loading="lazy"
                       />
                     </div>
-                    <div class="card-box">
+                    <div>
                       <p class=" align-center display-7">
                         Trolley in tan with tan leather accent
                       </p>
@@ -425,19 +406,18 @@ const FBBrics = () => {
                   </div>
                 </div>
 
-                <div class="card px-2 py-4 col-12 col-md-6 col-lg-4 col-xl-3">
-                  <div class="card-wrapper">
-                    <div class="card-img">
+                <div class="  col-12 col-md-3 col-lg-4 col-xl-3">
+                  <div>
+                    <div>
                       <img
                         src={
                           process.env.PUBLIC_URL +
                           "/images/bric-x-7-601x830.jpg"
                         }
                         alt="FBBrics"
-                        loading="lazy"
                       />
                     </div>
-                    <div class="card-box">
+                    <div>
                       <p class=" align-center display-7">
                         Trolley in black with tan leather accent
                       </p>

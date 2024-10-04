@@ -21,7 +21,7 @@ const FBTravelPro = () => {
         <div>
           <NavBar />
         </div>
-        <section class="" id="">
+        <section >
           <div class="container-fluid">
             <h3 class="align-center display-4">LUXURY</h3>
 
@@ -29,15 +29,15 @@ const FBTravelPro = () => {
               <div class="line"></div>
             </div>
 
-            <h2 class="main-title align-center pb-5 display-2">
+            <h2 class=" align-center pb-5 display-2">
               <strong>Travelpro</strong>®
             </h2>
-            <div class="row justify-content-center content-row">
-              <div class="card first-card col-12 col-lg-6">
-                <div class="card-wrapper">
-                  <div class="card-box">
-                    <h2 class="first-card-title display-2">Platnium® Elite</h2>
-                    <p class=" first-card-text display-7">
+            <div class="row justify-content-center">
+              <div class="card  col-12 col-lg-6">
+                <div >
+                  <div >
+                    <h2 class=" display-2">Platinum® Elite</h2>
+                    <p class="  display-7">
                       Finally, great looking checked luggage that is as
                       functional and durable as it is stylish. The Platinum®
                       Elite 25” Expandable Spinner is perfect for medium and
@@ -62,10 +62,10 @@ const FBTravelPro = () => {
                 </div>
               </div>
 
-              <div class="media-container-column col-lg-6">
-                <div class="row first-row">
+              <div class=" col-lg-6">
+                <div class="row ">
                   <div class="card col-sm-12 col-md-6 first-child">
-                    <div class="card-wrapper">
+                    <div >
                       <div class="card-img">
                         <img
                           src={
@@ -78,7 +78,7 @@ const FBTravelPro = () => {
                     </div>
                   </div>
                   <div class="card col-sm-12 col-md-6">
-                    <div class="card-wrapper">
+                    <div >
                       <div class="card-img">
                         <img
                           src={
@@ -92,9 +92,9 @@ const FBTravelPro = () => {
                   </div>
                 </div>
 
-                <div class="row second-row">
+                <div class="row ">
                   <div class="card col-sm-12 col-md-6 first-child">
-                    <div class="card-wrapper">
+                    <div >
                       <div class="card-img">
                         <img
                           src={
@@ -107,7 +107,7 @@ const FBTravelPro = () => {
                     </div>
                   </div>
                   <div class="card col-sm-12 col-md-6">
-                    <div class="card-wrapper">
+                    <div >
                       <div class="card-img">
                         <img
                           src={
@@ -124,9 +124,9 @@ const FBTravelPro = () => {
             </div>
           </div>
         </section>
-        <section class="video2 " id="video2-b">
+        <section >
           <figure class=" align-center container-fluid">
-            <div class="video-block d-flex align-items-center justify-content-center">
+            <div class=" d-flex align-items-center justify-content-center">
               <div>
                 <iframe
                   width="667"
@@ -142,16 +142,16 @@ const FBTravelPro = () => {
             </div>
           </figure>
         </section>
-        <section class="" id="-c">
+        <section id="-c">
           <div class="container-fluid">
-            <div class="row justify-content-center content-row">
-              <div class="card first-card col-12 col-lg-6">
-                <div class="card-wrapper">
-                  <div class="card-box">
-                    <h2 id="Maxlite" class="first-card-title display-2">
+            <div class="row justify-content-center">
+              <div class="card  col-12 col-lg-6">
+                <div >
+                  <div >
+                    <h2 id="Maxlite" class=" display-2">
                       Travelpro Maxlite® 5
                     </h2>
-                    <p class=" first-card-text display-7">
+                    <p class="  display-7">
                       Lighten up with the Maxlite® 5 25” Expandable Spinner—the
                       lighter weight, ultra-durable soft-sided spinner suitcase
                       in a checked baggage size designed to accommodate
@@ -169,10 +169,10 @@ const FBTravelPro = () => {
                 </div>
               </div>
 
-              <div class="media-container-column col-lg-6">
-                <div class="row first-row">
+              <div class=" col-lg-6">
+                <div class="row ">
                   <div class="card col-sm-12 col-md-6 first-child">
-                    <div class="card-wrapper">
+                    <div >
                       <div class="card-img">
                         <img
                           src={
@@ -185,7 +185,7 @@ const FBTravelPro = () => {
                     </div>
                   </div>
                   <div class="card col-sm-12 col-md-6">
-                    <div class="card-wrapper">
+                    <div >
                       <div class="card-img">
                         <img
                           src={
@@ -199,9 +199,9 @@ const FBTravelPro = () => {
                   </div>
                 </div>
 
-                <div class="row second-row">
+                <div class="row ">
                   <div class="card col-sm-12 col-md-6 first-child">
-                    <div class="card-wrapper">
+                    <div >
                       <div class="card-img">
                         <img
                           src={
@@ -214,7 +214,7 @@ const FBTravelPro = () => {
                     </div>
                   </div>
                   <div class="card col-sm-12 col-md-6">
-                    <div class="card-wrapper">
+                    <div >
                       <div class="card-img">
                         <img
                           src={
@@ -231,9 +231,9 @@ const FBTravelPro = () => {
             </div>
           </div>
         </section>
-        <section class="video2" id="video2-d">
+        <section>
           <figure class=" align-center container-fluid">
-            <div class="video-block d-flex align-items-center justify-content-center">
+            <div class=" d-flex align-items-center justify-content-center">
               <div>
                 <iframe
                   width="467"
@@ -249,14 +249,14 @@ const FBTravelPro = () => {
             </div>
           </figure>
         </section>
-        <section class="" id="">
+        <section >
           <div class="container-fluid">
-            <div class="row justify-content-center content-row">
-              <div class="card first-card col-12 col-lg-6">
-                <div class="card-wrapper">
-                  <div class="card-box">
-                    <h2  class="first-card-title display-2">Travelpro Crew®</h2>
-                    <p id="TravelproCrew" class=" first-card-text display-7">
+            <div class="row justify-content-center">
+              <div class="card  col-12 col-lg-6">
+                <div >
+                  <div >
+                    <h2  class=" display-2">Travelpro Crew®</h2>
+                    <p id="TravelproCrew" class="  display-7">
                       Take this versatile luggage set for a spin anywhere. The
                       Crew™ Versapack™ Global Expandable Carry-on Spinner and
                       25" Expandable Checked Spinner deliver effortless mobility
@@ -278,10 +278,10 @@ const FBTravelPro = () => {
                 </div>
               </div>
 
-              <div class="media-container-column col-lg-6">
-                <div class="row first-row">
+              <div class=" col-lg-6">
+                <div class="row ">
                   <div class="card col-sm-12 col-md-6 first-child">
-                    <div class="card-wrapper">
+                    <div >
                       <div class="card-img">
                         <img
                           src={
@@ -294,7 +294,7 @@ const FBTravelPro = () => {
                     </div>
                   </div>
                   <div class="card col-sm-12 col-md-6">
-                    <div class="card-wrapper">
+                    <div >
                       <div class="card-img">
                         <img
                           src={
@@ -308,9 +308,9 @@ const FBTravelPro = () => {
                   </div>
                 </div>
 
-                <div class="row second-row">
+                <div class="row ">
                   <div class="card col-sm-12 col-md-6 first-child">
-                    <div class="card-wrapper">
+                    <div >
                       <div class="card-img">
                         <img
                           src={
@@ -323,7 +323,7 @@ const FBTravelPro = () => {
                     </div>
                   </div>
                   <div class="card col-sm-12 col-md-6">
-                    <div class="card-wrapper">
+                    <div >
                       <div class="card-img">
                         <img
                           src={
@@ -340,9 +340,9 @@ const FBTravelPro = () => {
             </div>
           </div>
         </section>
-        <section class="video2 " id="video2-g">
+        <section>
           <figure class=" align-center container-fluid">
-            <div class="video-block d-flex align-items-center justify-content-center">
+            <div class=" d-flex align-items-center justify-content-center">
               <div>
                 <iframe
                   width="467"

@@ -1,5 +1,5 @@
 import NavBar from "./Navbar";
-import '../css/FBBriggRiley.css';
+import "../css/FBBriggRiley.css";
 import Footer from "./Footer";
 const FBBriggRiley = () => {
   return (
@@ -62,16 +62,12 @@ const FBBriggRiley = () => {
                 }
                 className="card-img-top"
                 alt="BriggRiley1"
-                
               />
               <div className="card-body text-center">
                 <h5 className="card-title">Brigg & Riley</h5>
                 <p className="card-text">
                   INTERNATIONAL EXPANDABLE ROLLING CARRY-ON SUITCASE
                 </p>
-                <a href="#" className="btn btn-primary">
-                  Buy Now
-                </a>
               </div>
             </div>
           </div>
@@ -84,14 +80,10 @@ const FBBriggRiley = () => {
                 }
                 className="card-img-top"
                 alt="BriggRiley2"
-                
               />
               <div className="card-body text-center">
                 <h5 className="card-title">Brigg & Riley</h5>
                 <p className="card-text">SUITER</p>
-                <a href="#" className="btn btn-primary">
-                  Buy Now
-                </a>
               </div>
             </div>
           </div>
@@ -104,32 +96,47 @@ const FBBriggRiley = () => {
                 }
                 className="card-img-top"
                 alt="BriggRiley3"
-                              />
+              />
               <div className="card-body text-center">
                 <h5 className="card-title">Brigg & Riley</h5>
                 <p className="card-text">LARGE SUITCASE</p>
-                <a href="#" className="btn btn-primary">
-                  Buy Now
-                </a>
               </div>
             </div>
           </div>
         </div>
         <br />
-          <div className="container col-lg-12 col-sm-12">
-            <div className="ratio ratio-16x9">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/bMCrIfQJsG8?si=DTzNCju5flar9DNe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
+        <div className="container col-lg-12 col-sm-12">
+          <div className="ratio ratio-16x9">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/bMCrIfQJsG8?si=DTzNCju5flar9DNe"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
           </div>
-          <br />
-          <div className="container col-lg-12 col-sm-12">
-            <div className="ratio ratio-16x9">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/0horaDXNmLM?si=kTUc1nDd9RyFLRom" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
+        </div>
+        <br />
+        <div className="container col-lg-12 col-sm-12">
+          <div className="ratio ratio-16x9">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/0horaDXNmLM?si=kTUc1nDd9RyFLRom"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
           </div>
+        </div>
         <br />
         <div>
-            <Footer />
+          <Footer />
         </div>
       </div>
     </>

@@ -8,19 +8,17 @@ const FBAffordableBrands = () => {
           <NavBar />
         </div>
         <div>
-          <section class="features5" id="features5-14">
+          <section>
             <div class="container-fluid">
-              <h2 class=" main-title align-center pb-5 display-2">
+              <h2 class="  align-center pb-5 display-2">
                 BRONX LUGGAGE AFFORDABLE COLLECTIONS
               </h2>
-              <div class="row justify-content-center content-row">
-                <div class="card first-card col-12 col-lg-6">
-                  <div class="card-wrapper">
-                    <div class="card-box">
-                      <h2 class="first-card-title display-2">
-                        it Luggage
-                      </h2>
-                      <p class=" first-card-text display-7">
+              <div class="row justify-content-center">
+                <div class="card col-12 col-lg-6">
+                  <div>
+                    <div>
+                      <h2 class=" display-2">it Luggage</h2>
+                      <p class="display-7">
                         it luggage is recognized throughout the world as a
                         leader in the travel industry by offering exceptional
                         value, modern design and excellent
@@ -40,10 +38,10 @@ const FBAffordableBrands = () => {
                   </div>
                 </div>
 
-                <div class="media-container-column col-lg-6">
-                  <div class="row first-row">
+                <div class="col-lg-6">
+                  <div class="row ">
                     <div class="card col-sm-12 col-md-6 first-child">
-                      <div class="card-wrapper">
+                      <div>
                         <div class="card-img">
                           <img
                             src={
@@ -51,7 +49,6 @@ const FBAffordableBrands = () => {
                               "/images/it-1-183x275.jpg"
                             }
                             alt="Affordable"
-                            loading="lazy"
                             data-src={
                               process.env.PUBLIC_URL +
                               "/images/it-1-183x275.jpg"
@@ -61,7 +58,7 @@ const FBAffordableBrands = () => {
                       </div>
                     </div>
                     <div class="card col-sm-12 col-md-6">
-                      <div class="card-wrapper">
+                      <div>
                         <div class="card-img">
                           <img
                             src={
@@ -69,7 +66,6 @@ const FBAffordableBrands = () => {
                               "/images/it-3-183x275.jpg"
                             }
                             alt="Affordable"
-                            loading="lazy"
                             data-src={
                               process.env.PUBLIC_URL +
                               "/images/it-3-183x275.jpg"
@@ -80,9 +76,9 @@ const FBAffordableBrands = () => {
                     </div>
                   </div>
 
-                  <div class="row second-row">
+                  <div class="row">
                     <div class="card col-sm-12 col-md-6 first-child">
-                      <div class="card-wrapper">
+                      <div>
                         <div class="card-img">
                           <img
                             src={
@@ -90,7 +86,6 @@ const FBAffordableBrands = () => {
                               "/images/it-2-172x293.jpg"
                             }
                             alt="Affordable"
-                            loading="lazy"
                             data-src={
                               process.env.PUBLIC_URL +
                               "/images/it-2-172x293.jpg"
@@ -100,7 +95,7 @@ const FBAffordableBrands = () => {
                       </div>
                     </div>
                     <div class="card col-sm-12 col-md-6">
-                      <div class="card-wrapper">
+                      <div>
                         <div class="card-img">
                           <img
                             src={
@@ -108,7 +103,6 @@ const FBAffordableBrands = () => {
                               "/images/it-4-179x281.jpg"
                             }
                             alt="Affordable"
-                            loading="lazy"
                             data-src={
                               process.env.PUBLIC_URL +
                               "/images/it-4-179x281.jpg"
@@ -122,19 +116,15 @@ const FBAffordableBrands = () => {
               </div>
             </div>
           </section>
-          <section class="features3" id="features3-15">
+          <section>
             <div class="container-fluid">
-              <h2 class=" main-title align-center pb-5 display-2">
-                GABBIANO LUGGAGE
-              </h2>
-              <div class="row justify-content-center content-row">
-                <div class="card first-card col-12 col-lg-6">
-                  <div class="card-wrapper">
-                    <div class="card-box">
-                      <h2 class="first-card-title display-2">
-                        Gabbiano Luggage
-                      </h2>
-                      <p class=" first-card-text display-7">
+              <h2 class="  align-center pb-5 display-2">GABBIANO LUGGAGE</h2>
+              <div class="row justify-content-center">
+                <div class="card  col-12 col-lg-6">
+                  <div>
+                    <div>
+                      <h2 class=" display-2">Gabbiano Luggage</h2>
+                      <p class="  display-7">
                         Gabbiano Luggage is inspired by the wayward travelers
                         journey through life. In ancient times sailors relied on
                         seagulls to tell when they were getting close to land.
@@ -154,10 +144,10 @@ const FBAffordableBrands = () => {
                   </div>
                 </div>
 
-                <div class="media-container-column col-lg-6">
-                  <div class="row first-row">
+                <div class="col-lg-6">
+                  <div class="row ">
                     <div class="card col-sm-12 col-md-6 first-child">
-                      <div class="card-wrapper">
+                      <div>
                         <div class="card-img">
                           <img
                             src={
@@ -165,13 +155,12 @@ const FBAffordableBrands = () => {
                               "/images/gabbiano-1-368x355.jpg"
                             }
                             alt="Affordable"
-                            loading="lazy"
                           />
                         </div>
                       </div>
                     </div>
                     <div class="card col-sm-12 col-md-6">
-                      <div class="card-wrapper">
+                      <div>
                         <div class="card-img">
                           <img
                             src={
@@ -179,16 +168,15 @@ const FBAffordableBrands = () => {
                               "/images/gabbiano-5-593x593.jpg"
                             }
                             alt="Affordable"
-                            loading="lazy"
                           />
                         </div>
                       </div>
                     </div>
                   </div>
 
-                  <div class="row second-row">
+                  <div class="row">
                     <div class="card col-sm-12 col-md-6 first-child">
-                      <div class="card-wrapper">
+                      <div>
                         <div class="card-img">
                           <img
                             src={
@@ -196,13 +184,12 @@ const FBAffordableBrands = () => {
                               "/images/gabbiano-3-593x593.jpg"
                             }
                             alt="Affordable"
-                            loading="lazy"
                           />
                         </div>
                       </div>
                     </div>
                     <div class="card col-sm-12 col-md-6">
-                      <div class="card-wrapper">
+                      <div>
                         <div class="card-img">
                           <img
                             src={
@@ -210,7 +197,6 @@ const FBAffordableBrands = () => {
                               "/images/gabbiano-6-593x593.jpg"
                             }
                             alt="Affordable"
-                            loading="lazy"
                           />
                         </div>
                       </div>
@@ -220,16 +206,14 @@ const FBAffordableBrands = () => {
               </div>
             </div>
           </section>
-          <section class="features5" id="features5-16">
+          <section>
             <div class="container-fluid">
-              <h2 class=" main-title align-center pb-5 display-2">
-                WISDOM LUGGAGE
-              </h2>
-              <div class="row justify-content-center content-row">
-                <div class="card first-card col-12 col-lg-6">
-                  <div class="card-wrapper">
-                    <div class="card-box">
-                      <p class=" first-card-text display-7">
+              <h2 class="  align-center pb-5 display-2">WISDOM LUGGAGE</h2>
+              <div class="row justify-content-center">
+                <div class="card col-12 col-lg-6">
+                  <div>
+                    <div>
+                      <p class="display-7">
                         Wisdom Luggage has been in business since 2010.&nbsp;
                         They offer an excellent selection of elegant, high
                         quality, lightweight luggage which includes hard-sided
@@ -245,10 +229,10 @@ const FBAffordableBrands = () => {
                   </div>
                 </div>
 
-                <div class="media-container-column col-lg-6">
-                  <div class="row first-row only-first-row">
+                <div class="col-lg-6">
+                  <div class="row">
                     <div class="card col-sm-12 col-md-6 first-child">
-                      <div class="card-wrapper">
+                      <div>
                         <div class="card-img">
                           <img
                             src={
@@ -256,13 +240,12 @@ const FBAffordableBrands = () => {
                               "/images/wisdom-soft-601x400.jpg"
                             }
                             alt="Affordable"
-                            loading="lazy"
                           />
                         </div>
                       </div>
                     </div>
                     <div class="card col-sm-12 col-md-6">
-                      <div class="card-wrapper">
+                      <div>
                         <div class="card-img">
                           <img
                             src={
@@ -270,7 +253,6 @@ const FBAffordableBrands = () => {
                               "/images/wisdom-hard-601x400.jpg"
                             }
                             alt="Affordable"
-                            loading="lazy"
                           />
                         </div>
                       </div>
@@ -280,21 +262,20 @@ const FBAffordableBrands = () => {
               </div>
             </div>
           </section>
-          <section class="" id="">
+          <section>
             <div class="container-fluid">
               <div class="row">
                 <div class="col-md-4 p-0">
-                  <div class="image-block">
+                  <div>
                     <img
                       src={
                         process.env.PUBLIC_URL + "/images/img-9700-640x480.jpg"
                       }
                       alt="Affordable"
-                      loading="lazy"
                     />
-                    <figcaption class="mbr-figure-caption mbr-figure-caption-over">
-                      <div class="wrap">
-                        <h4 class="pb-2 mbr-white mbr-bold align-center display-7">
+                    <figcaption>
+                      <div>
+                        <h4 class="pb-2 align-center display-7">
                           LARGE INVENTORY
                         </h4>
                       </div>
@@ -303,17 +284,16 @@ const FBAffordableBrands = () => {
                 </div>
 
                 <div class="col-md-4 p-0">
-                  <div class="image-block">
+                  <div>
                     <img
                       src={
                         process.env.PUBLIC_URL + "/images/img-9691-480x640.jpeg"
                       }
                       alt="Affordable"
-                      loading="lazy"
                     />
-                    <figcaption class="mbr-figure-caption mbr-figure-caption-over">
-                      <div class="wrap">
-                        <h4 class="pb-2 mbr-white mbr-bold align-center display-7">
+                    <figcaption>
+                      <div>
+                        <h4 class="pb-2 align-center display-7">
                           GREAT SELECTION
                         </h4>
                       </div>
@@ -322,16 +302,15 @@ const FBAffordableBrands = () => {
                 </div>
 
                 <div class="col-md-4 p-0">
-                  <div class="image-block">
+                  <div>
                     <img
                       src={
                         process.env.PUBLIC_URL + "/images/img-9688-640x480.jpg"
                       }
                       alt="Affordable"
-                      loading="lazy"
                     />
-                    <figcaption class="">
-                      <div class="wrap">
+                    <figcaption>
+                      <div>
                         <h4 class="pb-2 align-center display-7">
                           EXCELLENT UNBEATABLE PRICES
                         </h4>

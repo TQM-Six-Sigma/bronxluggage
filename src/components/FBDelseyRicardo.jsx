@@ -9,16 +9,14 @@ const FBDelseyRicardo = () => {
           <Navbar />
         </div>
         <h1 align="center">DELSEY PARIS | RICARDO BEVERLY HILLS</h1>
-        <section class=" features5 " id="features5-y">
+        <section>
           <div class="container-fluid">
-            <div class="row justify-content-center content-row">
-              <div class="card first-card col-12 col-lg-6">
-                <div class="card-wrapper">
-                  <div class="card-box">
-                    <h2 class="first-card-title display-2">
-                      New Arrivals
-                    </h2>
-                    <p class=" first-card-text display-7">
+            <div class="row justify-content-center">
+              <div class="card  col-12 col-lg-6">
+                <div>
+                  <div>
+                    <h2 class=" display-2">New Arrivals</h2>
+                    <p class="display-7">
                       Bronx Luggage proudly has been selling luggage collections
                       from Samsonite, Ricardo Beverly Hills, and Delsey luggage
                       for decades. These high quality luggage collections offer
@@ -29,10 +27,10 @@ const FBDelseyRicardo = () => {
                 </div>
               </div>
 
-              <div class="media-container-column col-lg-6">
-                <div class="row first-row">
+              <div class=" col-lg-6">
+                <div class="row">
                   <div class="card col-sm-12 col-md-6 first-child">
-                    <div class="card-wrapper">
+                    <div>
                       <div class="card-img">
                         <img
                           src={
@@ -40,14 +38,12 @@ const FBDelseyRicardo = () => {
                             "/images/samsonite-voltage-a-183x275.jpg"
                           }
                           alt="DelseyRicardo"
-                          loading="lazy"
-                        
                         />
                       </div>
                     </div>
                   </div>
                   <div class="card col-sm-12 col-md-6">
-                    <div class="card-wrapper">
+                    <div>
                       <div class="card-img">
                         <img
                           src={
@@ -55,17 +51,15 @@ const FBDelseyRicardo = () => {
                             "/images/delsey-a-601x601.jpg"
                           }
                           alt="DelseyRicardo"
-                          loading="lazy"
-                        
                         />
                       </div>
                     </div>
                   </div>
                 </div>
 
-                <div class="row second-row">
+                <div class="row">
                   <div class="card col-sm-12 col-md-6 first-child">
-                    <div class="card-wrapper">
+                    <div>
                       <div class="card-img">
                         <img
                           src={
@@ -73,14 +67,12 @@ const FBDelseyRicardo = () => {
                             "/images/ricardo-a-300x300.jpg"
                           }
                           alt="DelseyRicardo"
-                          loading="lazy"
-                        
                         />
                       </div>
                     </div>
                   </div>
                   <div class="card col-sm-12 col-md-6">
-                    <div class="card-wrapper">
+                    <div>
                       <div class="card-img">
                         <img
                           src={
@@ -88,8 +80,6 @@ const FBDelseyRicardo = () => {
                             "/images/ricardo-b-601x799.jpg"
                           }
                           alt="DelseyRicardo"
-                          loading="lazy"
-                        
                         />
                       </div>
                     </div>
@@ -99,19 +89,14 @@ const FBDelseyRicardo = () => {
             </div>
           </div>
         </section>
-        <section
-          class=" features5"
-          id="features5-v"
-        >
+        <section>
           <div class="container-fluid">
-            <h2 class=" main-title align-center pb-5 display-2">
-              DELSEY PARIS
-            </h2>
-            <div class="row justify-content-center content-row">
-              <div class="card first-card col-12 col-lg-6">
-                <div class="card-wrapper">
-                  <div class="card-box">
-                    <p class=" first-card-text">
+            <h2 class="align-center pb-5 display-2">DELSEY PARIS</h2>
+            <div class="row justify-content-center">
+              <div class="card  col-12 col-lg-6">
+                <div>
+                  <div>
+                    <p>
                       Since 1946, DELSEY has been accompanying travelers from
                       all around the world on both their personal and
                       professional travel. The reason for this longevity is
@@ -129,10 +114,10 @@ const FBDelseyRicardo = () => {
                 </div>
               </div>
 
-              <div class="media-container-column col-lg-6">
-                <div class="row first-row">
+              <div class=" col-lg-6">
+                <div class="row">
                   <div class="card col-sm-12 col-md-6 first-child">
-                    <div class="card-wrapper">
+                    <div>
                       <div class="card-img">
                         <img
                           src={
@@ -140,14 +125,12 @@ const FBDelseyRicardo = () => {
                             "/images/delsey-a-601x601.jpg"
                           }
                           alt="DelseyRicardo"
-                          loading="lazy"
-                        
                         />
                       </div>
                     </div>
                   </div>
                   <div class="card col-sm-12 col-md-6">
-                    <div class="card-wrapper">
+                    <div>
                       <div class="card-img">
                         <img
                           src={
@@ -155,17 +138,15 @@ const FBDelseyRicardo = () => {
                             "/images/delsey-b-600x600.jpg"
                           }
                           alt="DelseyRicardo"
-                          loading="lazy"
-                        
                         />
                       </div>
                     </div>
                   </div>
                 </div>
 
-                <div class="row second-row">
+                <div class="row">
                   <div class="card col-sm-12 col-md-6 first-child">
-                    <div class="card-wrapper">
+                    <div>
                       <div class="card-img">
                         <img
                           src={
@@ -173,14 +154,12 @@ const FBDelseyRicardo = () => {
                             "/images/delsey-montrouge-2-183x275.jpg"
                           }
                           alt="DelseyRicardo"
-                          loading="lazy"
-                        
                         />
                       </div>
                     </div>
                   </div>
                   <div class="card col-sm-12 col-md-6">
-                    <div class="card-wrapper">
+                    <div>
                       <div class="card-img">
                         <img
                           src={
@@ -188,8 +167,6 @@ const FBDelseyRicardo = () => {
                             "/images/delsey-st-tropez-1-1-203x248.jpg"
                           }
                           alt="DelseyRicardo"
-                          loading="lazy"
-                        
                         />
                       </div>
                     </div>
@@ -199,15 +176,12 @@ const FBDelseyRicardo = () => {
             </div>
           </div>
         </section>
-        <section
-          class="features2"
-          id="features2-w"
-        >
+        <section>
           <div class="container-fluid">
-            <div class="row main align-items-center">
+            <div class="row align-items-center">
               <div class="col-lg-8">
-                <figure class="mbr-figure align-center pt-3">
-                  <div class="video-block">
+                <figure class=" align-center pt-3">
+                  <div>
                     <div>
                       <iframe
                         width="725"
@@ -223,13 +197,11 @@ const FBDelseyRicardo = () => {
                   </div>
                 </figure>
               </div>
-              <div class="col-lg-4 text-element">
-                <div class="text-content">
-                  <h3 class="-title align-left display-2">
-                    Delsey Montrouge
-                  </h3>
-                  <div class=" -text">
-                    <p class=" first-card-text display-7">
+              <div class="col-lg-4 ">
+                <div>
+                  <h3 class=" align-left display-2">Delsey Montrouge</h3>
+                  <div>
+                    <p class="display-7">
                       Elegant, functional and lightweight, the MONTROUGE
                       collection will make fashion forward travelers feel and
                       look fabulous on the go! The gold metal accents,
@@ -242,15 +214,12 @@ const FBDelseyRicardo = () => {
             </div>
           </div>
         </section>
-        <section
-          class="features2"
-          id="features2-10"
-        >
+        <section>
           <div class="container-fluid">
-            <div class="row main align-items-center">
+            <div class="row align-items-center">
               <div class="col-lg-8">
                 <figure class="align-center pt-3">
-                  <div class="video-block">
+                  <div>
                     <div>
                       <iframe
                         width="725"
@@ -266,14 +235,12 @@ const FBDelseyRicardo = () => {
                   </div>
                 </figure>
               </div>
-              <div class="col-lg-4 text-element">
-                <div class="text-content">
-                  <h3 class="-title align-left display-2">
-                    Delsey Chatelet Air
-                  </h3>
-                  <div class=" -text">
-                    <p class=" first-card-text display-7">
-                      DELSEY CHÂTELET AIR is a complete range, offering
+              <div class="col-lg-4 ">
+                <div>
+                  <h3 class=" align-left display-2">Delsey Chatelet Air</h3>
+                  <div>
+                    <p class="display-7">
+                      DELSEY  AIR is a complete range, offering
                       backpacks, duffles, suitcases and more. With its unique,
                       refined design, enjoy the perfect matching travel set full
                       of features. Secured with a well organized and deluxe
@@ -286,19 +253,15 @@ const FBDelseyRicardo = () => {
             </div>
           </div>
         </section>
-        <section class=" features3 " id="features3-11">
+        <section>
           <div class="container-fluid">
-            <h2 class=" main-title align-center pb-5 display-2">
-              RICARDO BEVERLY HILLS
-            </h2>
-            <div class="row justify-content-center content-row">
-              <div class="card first-card col-12 col-lg-6">
-                <div class="card-wrapper">
-                  <div class="card-box">
-                    <h2 class="first-card-title display-2">
-                      Your Jewelry
-                    </h2>
-                    <p class=" first-card-text display-7">
+            <h2 class=" align-center pb-5 display-2">RICARDO BEVERLY HILLS</h2>
+            <div class="row justify-content-center">
+              <div class="card  col-12 col-lg-6">
+                <div>
+                  <div>
+                    <h2 class=" display-2">Your Jewelry</h2>
+                    <p class="display-7">
                       Ricardo Beverly Hills is a travel lifestyle company on a
                       mission to inspire people to explore the world.&nbsp;
                       Every day and in every way, they work to ensure that they
@@ -324,10 +287,10 @@ const FBDelseyRicardo = () => {
                 </div>
               </div>
 
-              <div class="media-container-column col-lg-6">
-                <div class="row first-row">
+              <div class=" col-lg-6">
+                <div class="row">
                   <div class="card col-sm-12 col-md-6 first-child">
-                    <div class="card-wrapper">
+                    <div>
                       <div class="card-img">
                         <img
                           src={
@@ -335,14 +298,12 @@ const FBDelseyRicardo = () => {
                             "/images/ricardo-malibu-1-225x225.jpg"
                           }
                           alt="DelseyRicardo"
-                          loading="lazy"
-                        
                         />
                       </div>
                     </div>
                   </div>
                   <div class="card col-sm-12 col-md-6">
-                    <div class="card-wrapper">
+                    <div>
                       <div class="card-img">
                         <img
                           src={
@@ -350,17 +311,15 @@ const FBDelseyRicardo = () => {
                             "/images/ricardo-malibu-2-176x286.jpg"
                           }
                           alt="DelseyRicardo"
-                          loading="lazy"
-                        
                         />
                       </div>
                     </div>
                   </div>
                 </div>
 
-                <div class="row second-row">
+                <div class="row">
                   <div class="card col-sm-12 col-md-6 first-child">
-                    <div class="card-wrapper">
+                    <div>
                       <div class="card-img">
                         <img
                           src={
@@ -368,14 +327,12 @@ const FBDelseyRicardo = () => {
                             "/images/ricardo-montecito-3-225x225.jpg"
                           }
                           alt="DelseyRicardo"
-                          loading="lazy"
-                        
                         />
                       </div>
                     </div>
                   </div>
                   <div class="card col-sm-12 col-md-6">
-                    <div class="card-wrapper">
+                    <div>
                       <div class="card-img">
                         <img
                           src={
@@ -383,8 +340,6 @@ const FBDelseyRicardo = () => {
                             "/images/ricardo-montecito-2-225x225.jpg"
                           }
                           alt="DelseyRicardo"
-                          loading="lazy"
-                        
                         />
                       </div>
                     </div>
@@ -394,7 +349,9 @@ const FBDelseyRicardo = () => {
             </div>
           </div>
         </section>
-        <div><Footer /></div>
+        <div>
+          <Footer />
+        </div>
       </div>
     </>
   );
