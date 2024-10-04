@@ -8,7 +8,7 @@
       "price": "400$",
       "individual": "woman",
       "color": "black",
-      "stat": "5"
+      "stat": "Bestseller"
     },
     {
       "name": "Expandable Spinner",
@@ -19,7 +19,7 @@
       "price": "385$",
       "individual": "woman",
       "color": "black",
-      "stat": "5"
+      "stat": "Sale"
     },
     {
       "name": "Expandable Spinner",
@@ -30,7 +30,7 @@
       "price": "400$",
       "individual": "woman",
       "color": "Blue",
-      "stat": "5"
+      "stat": "Bestseller"
     },
     {
       "name": "Expandable Spinner",
@@ -41,7 +41,7 @@
       "price": "385$",
       "individual": "woman",
       "color": "Green",
-      "stat": "5"
+      "stat": "Bestseller"
     },
     {
       "name": "Garment Duffle",
@@ -52,7 +52,7 @@
       "price": "300$",
       "individual": "man",
       "color": "Blue",
-      "stat": "5"
+      "stat": "Bestseller"
     },
     {
       "name": "Platinum® Elite Spinner",
@@ -63,7 +63,7 @@
       "price": "400$",
       "individual": "woman",
       "color": "blue",
-      "stat": "5"
+      "stat": "Bestseller"
     },
     {
       "name": "BELLAGIO TRUNK",
@@ -74,7 +74,7 @@
       "price": "500$",
       "individual": "man",
       "color": "Yellow cream brown",
-      "stat": "5"
+      "stat": "Bestseller"
     },
     {
       "name": "SUITCASE - ROLAND",
@@ -85,7 +85,7 @@
       "price": "300$",
       "individual": "man woman",
       "color": "Blue",
-      "stat": "5"
+      "stat": "Bestseller"
       },
       {
       "name": "Indio 2-Piece Set",
@@ -96,7 +96,7 @@
       "price": "300$",
       "individual": "man",
       "color": "Red",
-      "stat": "5"
+      "stat": "Bestseller"
       },
       
       {
@@ -108,7 +108,7 @@
       "price": "1000$",
       "individual": "woman",
       "color": "green",
-      "stat": "5"
+      "stat": "Bestseller"
       }
       
      

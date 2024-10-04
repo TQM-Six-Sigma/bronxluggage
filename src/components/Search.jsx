@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import { Container, Row, Col, Form, Carousel } from "react-bootstrap";
 import cardData from "../databaseJSON/Search.json";
-import { Link } from "react-router-dom";
+import Rating from "react-rating-stars-component";
+import { Link } from 'react-router-dom'
 
 const CardTemplate = () => {
   const [searchItem, setSearchItem] = useState("");
@@ -17,9 +18,11 @@ const CardTemplate = () => {
       card.brand.toLowerCase().includes(searchItem.toLowerCase()) ||
       card.individual.toLowerCase().includes(searchItem.toLowerCase()) ||
       card.color.toLowerCase().includes(searchItem.toLowerCase()) ||
+      card.stat.toLowerCase().includes(searchItem.toLowerCase()) ||
       card.price.includes(searchItem)
     );
   });
+  const [rating, setRating] = useState(0);
 
   return (
     <Container>
@@ -38,17 +41,17 @@ const CardTemplate = () => {
       <Row className="g-0">
         {filteredCards.map((card, index) => (
           <Col key={index} xs={6} md={4} lg={3}>
-            <Link to={`/${card.link}`} style={{ textDecoration: "none" }}>
-              <div
-                className="card1"
-                style={{
-                  width: "100%",
-                  aspectRatio: "9/13",
-                  backgroundImage: `url(${require(`../../public/images/${card.background}.png`)})`,
-                  backgroundSize: "cover",
-                  backgroundRepeat: "no-repeat",
-                }}
-              >
+            <div
+              className="card1"
+              style={{
+                width: "100%",
+                aspectRatio: "9/13",
+                backgroundImage: `url(${require(`../../public/images/${card.background}.png`)})`,
+                backgroundSize: "cover",
+                backgroundRepeat: "no-repeat",
+              }}
+            >
+              <Link to={`/${card.link}`}>
                 <Carousel>
                   <Carousel.Item>
                     <img
@@ -79,17 +82,26 @@ const CardTemplate = () => {
                     />
                   </Carousel.Item>
                 </Carousel>
-                
-                <div className="card-body text-black px-3">
-                  <h6 className="card-title">{card.name}</h6>
-                  <p className="card-text">
-                    {card.brand}
-                    <br />
-                    {card.price}
-                  </p>
-                </div>
+              </Link>
+
+              <div className="card-body text-black px-3 ">
+                {" "}
+                <h6 className="card-title">{card.name}</h6>
+                <Rating
+                  count={5}
+                  size={25}
+                  value={rating}
+                  onChange={(newRating) => setRating(newRating)}
+                  required
+                  z-index={10}
+                />
+                <p className="card-text">
+                  {card.brand}
+                  <br />
+                  {card.price}
+                </p>
               </div>
-            </Link>
+            </div>
           </Col>
         ))}
       </Row>
@@ -98,3 +110,4 @@ const CardTemplate = () => {
 };
 
 export default CardTemplate;
+

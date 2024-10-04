@@ -1,11 +1,14 @@
-
-import Search from "./Search";
+import Feedback from "./Feedback";
+import ContactUs from "./Contactus";
 const Blog = () => {
     return ( <>
     <div>
-        <Search />
+        <Feedback />
        
     </div>
+<div>
+    <ContactUs />
+</div>
     </> );
 }
  
