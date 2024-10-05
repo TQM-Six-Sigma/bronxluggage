@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/bronxluggage/static/css/main.746d6417.css",
-    "main.js": "/bronxluggage/static/js/main.e3dc0359.js",
+    "main.css": "/bronxluggage/static/css/main.31723b27.css",
+    "main.js": "/bronxluggage/static/js/main.e11e275b.js",
     "static/media/BricsCream595FirenzeTuscanTrainCase3.png": "/bronxluggage/static/media/BricsCream595FirenzeTuscanTrainCase3.f092fc960f17abccb4e0.png",
     "static/media/BricsCream595FirenzeTuscanTrainCase4.png": "/bronxluggage/static/media/BricsCream595FirenzeTuscanTrainCase4.ab36c25e7567193ef6c1.png",
     "static/media/BricsBlack449MySafariExpandableSpinner3.png": "/bronxluggage/static/media/BricsBlack449MySafariExpandableSpinner3.63acd83674dc786c1cff.png",
@@ -282,6 +282,7 @@
     "static/media/TravelProGreen1159PlatiumEliteLuggage4.png": "/bronxluggage/static/media/TravelProGreen1159PlatiumEliteLuggage4.a41b36ec4e439f2ab135.png",
     "static/media/HomeBricsBellagio2.png": "/bronxluggage/static/media/HomeBricsBellagio2.51ad0f6e7d1e48b4e3be.png",
     "static/media/Sam-Apinex-Silver-sm.png": "/bronxluggage/static/media/Sam-Apinex-Silver-sm.b63401bbc98ae8148ac3.png",
+    "static/media/SearchBackGround.png": "/bronxluggage/static/media/SearchBackGround.674e3cba5bf5bbb41368.png",
     "static/media/SBL-RC-Pink-sm.png": "/bronxluggage/static/media/SBL-RC-Pink-sm.09502f777bd5c0b4464d.png",
     "static/media/ourstory-1206x678.jpg": "/bronxluggage/static/media/ourstory-1206x678.0fb16e3ed873023f7e38.jpg",
     "static/media/crew4.png": "/bronxluggage/static/media/crew4.16ee63e085e4dab6295f.png",
@@ -406,11 +407,11 @@
     "index.html": "/bronxluggage/index.html",
     "static/media/travelpro.com.txt": "/bronxluggage/static/media/travelpro.com.16d6e3f5124ce6d2df7c.txt",
     "static/media/samsonite-vietnam.com.txt": "/bronxluggage/static/media/samsonite-vietnam.com.941f25ee7c87e0dff7f1.txt",
-    "main.746d6417.css.map": "/bronxluggage/static/css/main.746d6417.css.map",
-    "main.e3dc0359.js.map": "/bronxluggage/static/js/main.e3dc0359.js.map"
+    "main.31723b27.css.map": "/bronxluggage/static/css/main.31723b27.css.map",
+    "main.e11e275b.js.map": "/bronxluggage/static/js/main.e11e275b.js.map"
   },
   "entrypoints": [
-    "static/css/main.746d6417.css",
-    "static/js/main.e3dc0359.js"
+    "static/css/main.31723b27.css",
+    "static/js/main.e11e275b.js"
   ]
 }
