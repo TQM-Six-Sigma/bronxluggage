@@ -1,5 +1,4 @@
-
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 import Ticker from "./Ticker";
 import "../css/Footer.css";
 const Footer = () => {
@@ -16,7 +15,7 @@ const Footer = () => {
           </div>
           <div className="col-md-4  d-flex justify-content-center">
             <ul className="list-unstyled">
-            <li>
+              <li>
                 <Link>Site Map</Link>
               </li>
               <li>
@@ -56,7 +55,9 @@ const Footer = () => {
             Copyright &copy; 2024. All Rights Reserved.
           </div>
         </div>
-        <div><Ticker /></div>
+        <div>
+          <Ticker />
+        </div>
       </div>
     </footer>
   );

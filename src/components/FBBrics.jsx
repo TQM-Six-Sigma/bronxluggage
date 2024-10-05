@@ -303,7 +303,7 @@ const FBBrics = () => {
                     leather details.This collection consists of a wide range of
                     pieces including Holdall, Holdall with handle and wheels,
                     Expandable Trolley in multiple sizes, Trolley (suitcase) in
-                    multiple sizes and a wide range of colors, Pilotcase,
+                    multiple sizes and a wide range of colors, Pilot case,
                     Multiple styles of backpacks including but not limited to
                     the Urban Backpack, Metro Backpack, City Backpack Piccolo,
                     Briefcase and a Ladies Commuter Tote.
