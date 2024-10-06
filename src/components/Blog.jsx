@@ -1,7 +1,13 @@
 import React from "react";
 import "../css/blogs.css";
+import NavBar from "./Navbar";
+import Footer from "./Footer";
+
 const Blog = () => {
   return (
+    <>
+    <NavBar />
+    
     <div className="blog-container">
       <h1 className="blog-header">Blog</h1>
       <h2 className="blog-header1">
@@ -15,12 +21,15 @@ const Blog = () => {
             <h3>{post.description}</h3>
             <div class="content">{post.content}</div>
             <button>
-              <a href={post.url}>Read More</a>
+              <a className="a" href={post.url}>Read More</a>
             </button>
           </li>
         ))}
       </ul>
     </div>
+
+    <Footer />
+    </>
   );
 };
 

@@ -1,11 +1,22 @@
-import React, { useState } from "react";
-import { Container, Row, Col, Form, Carousel } from "react-bootstrap";
+import React, { useState, useEffect } from "react";
+import { Container, Row, Col, Form, Carousel, Modal } from "react-bootstrap";
 import cardData from "../databaseJSON/Search.json";
 import Rating from "react-rating-stars-component";
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
+import Button from 'react-bootstrap/Button';
 
-const CardTemplate = () => {
+const Search = () => {
   const [searchItem, setSearchItem] = useState("");
+  const location = useLocation();
+  
+
+  useEffect(() => {
+    const params = new URLSearchParams(location.search);
+    const keyword = params.get('keyword');
+    if (keyword) {
+      setSearchItem(keyword);
+    }
+  }, [location]);
 
   const handleInputChange = (e) => {
     const searchTerm = e.target.value;
@@ -22,8 +33,29 @@ const CardTemplate = () => {
       card.price.includes(searchItem)
     );
   });
+  
+  const [show, setShow] = useState(false);
+  const [name, setName] = useState("");
+  const [phone, setPhone] = useState("");
+  const [email, setEmail] = useState("");
+  const [ContactUs, setContactUs] = useState("");
   const [rating, setRating] = useState(0);
 
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    if (name && phone && email && ContactUs && rating) {
+      // Call API to send ContactUs
+      console.log("Send ContactUs");
+      alert("Thank you. We will contact you as soon as possible!");
+      handleClose();
+    } else {
+      alert("Please fill all fields");
+    }
+  };
+  
   return (
     <Container>
       <Row className="g-0">
@@ -50,6 +82,7 @@ const CardTemplate = () => {
                 backgroundSize: "cover",
                 backgroundRepeat: "no-repeat",
               }}
+              
             >
               <Link to={`/${card.link}`}>
                 <Carousel>
@@ -84,9 +117,11 @@ const CardTemplate = () => {
                 </Carousel>
               </Link>
 
-              <div className="card-body text-black px-3 ">
+              <div className="card-body text-black px-3 " >
                 {" "}
                 <h6 className="card-title">{card.name}</h6>
+                <div onClick={() => handleShow(card)}>
+
                 <Rating
                   count={5}
                   size={25}
@@ -94,7 +129,9 @@ const CardTemplate = () => {
                   onChange={(newRating) => setRating(newRating)}
                   required
                   z-index={10}
+                  
                 />
+                </div>
                 <p className="card-text">
                   {card.brand}
                   <br />
@@ -105,9 +142,76 @@ const CardTemplate = () => {
           </Col>
         ))}
       </Row>
+      <Modal show={show} onHide={handleClose}>
+        <Modal.Header closeButton>
+          <Modal.Title>Sending Feedback and Order</Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+          <Form onSubmit={handleSubmit}>
+            <Form.Group className="mb-3" controlId="ContactUsForm.ControlInput1">
+              <Form.Label>Name</Form.Label>
+              <Form.Control
+                type="text"
+                placeholder="Your name"
+                value={name}
+                onChange={(e) => setName(e.target.value)}
+                required
+              />
+            </Form.Group>
+            <Form.Group className="mb-3" controlId="ContactUsForm.ControlInput2">
+              <Form.Label>Phone</Form.Label>
+              <Form.Control
+                type="text"
+                placeholder="Your phone"
+                value={phone}
+                onChange={(e) => setPhone(e.target.value)}
+                required
+              />
+            </Form.Group>
+            <Form.Group className="mb-3" controlId="ContactUsForm.ControlInput3">
+              <Form.Label>Email address</Form.Label>
+              <Form.Control
+                type="email"
+                placeholder="name@email.com"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                required
+              />
+            </Form.Group>
+            <Form.Group
+              className="mb-3"
+              controlId="ContactUsForm.ControlTextarea1"
+            >
+              <Form.Label>ContactUs textarea</Form.Label>
+              <Form.Control
+                as="textarea"
+                rows={3}
+                value={ContactUs}
+                onChange={(e) => setContactUs(e.target.value)}
+                required
+              />
+            </Form.Group>
+            <Rating
+              count={5}
+              size={30}
+              value={rating}
+              onChange={(newRating) => setRating(newRating)}
+              required
+            />
+            <Button variant="primary" type="submit">
+              Send
+            </Button>
+          </Form>
+        </Modal.Body>
+        <Modal.Footer>
+          <Button variant="secondary" onClick={handleClose}>
+            Close
+          </Button>
+        </Modal.Footer>
+      </Modal>
     </Container>
   );
 };
 
-export default CardTemplate;
+export default Search;
 

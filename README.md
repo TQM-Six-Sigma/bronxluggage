@@ -68,3 +68,12 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Using FA free Icon
+
+npm install @fortawesome/react-fontawesome
+npm install --save-dev @fortawesome/fontawesome-free
+
+### Import font
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faHome,faSearch } from '@fortawesome/free-solid-svg-icons';

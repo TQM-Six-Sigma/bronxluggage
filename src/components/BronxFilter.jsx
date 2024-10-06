@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from "react";
 import { Container, Row, Col, Form, Carousel, Modal } from "react-bootstrap";
-import cardData from "../databaseJSON/Search.json";
+import cardData from "../databaseJSON/BronxFilter.json";
 import RatingStarFeedback from "./RatingStarFeedback";
 import { Link, useLocation } from "react-router-dom";
-
 
 const Search = () => {
   const [searchItem, setSearchItem] = useState("");
   const location = useLocation();
+  const [sort, setSort] = useState("asc");
 
   useEffect(() => {
     const params = new URLSearchParams(location.search);
@@ -22,16 +22,24 @@ const Search = () => {
     setSearchItem(searchTerm);
   };
 
-  const filteredCards = cardData.filter((card) => {
-    return (
-      card.name.toLowerCase().includes(searchItem.toLowerCase()) ||
-      card.brand.toLowerCase().includes(searchItem.toLowerCase()) ||
-      card.individual.toLowerCase().includes(searchItem.toLowerCase()) ||
-      card.color.toLowerCase().includes(searchItem.toLowerCase()) ||
-      card.stat.toLowerCase().includes(searchItem.toLowerCase()) ||
-      card.price.includes(searchItem)
-    );
-  });
+  const filteredCards = cardData
+    .filter((card) => {
+      return (
+        card.name.toLowerCase().includes(searchItem.toLowerCase()) ||
+        card.brand.toLowerCase().includes(searchItem.toLowerCase()) ||
+        card.individual.toLowerCase().includes(searchItem.toLowerCase()) ||
+        card.color.toLowerCase().includes(searchItem.toLowerCase()) ||
+        card.stat.toLowerCase().includes(searchItem.toLowerCase()) ||
+        card.price.includes(searchItem)
+      );
+    })
+    .sort((a, b) => {
+      if (sort === "asc") {
+        return a.price - b.price;
+      } else {
+        return b.price - a.price;
+      }
+    });
 
   return (
     <Container>
@@ -44,6 +52,14 @@ const Search = () => {
               onChange={handleInputChange}
               placeholder="Search by name, price, brand..."
             />
+            <Form.Select
+              aria-label="Sort"
+              onChange={(e) => setSort(e.target.value)}
+              value={sort}
+            >
+              <option value="asc">Price: Low to High</option>
+              <option value="desc">Price: High to Low</option>
+            </Form.Select>
           </Form>
         </Col>
       </Row>
@@ -94,12 +110,15 @@ const Search = () => {
               </Link>
 
               <div className="card-body text-black px-3 ">
-               <RatingStarFeedback />
                 <h6 className="card-title">{card.name}</h6>
+                <div>
+                  <RatingStarFeedback />
+                </div>
                 <p className="card-text">
                   {card.brand}
                   <br />
                   {card.price}
+                  {"$"}
                 </p>
               </div>
             </div>

@@ -33,7 +33,7 @@ function ContactUs() {
       <div className="d-block text-primary " variant="primary" onClick={handleShow}>        ContactUs      </div>
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
-          <Modal.Title>Modal heading</Modal.Title>
+          <Modal.Title>Contact Us</Modal.Title>
         </Modal.Header>
         <Modal.Body>
           <Form onSubmit={handleSubmit}>
@@ -71,7 +71,7 @@ function ContactUs() {
               className="mb-3"
               controlId="ContactUsForm.ControlTextarea1"
             >
-              <Form.Label>ContactUs textarea</Form.Label>
+              <Form.Label>Please help us to understand you more</Form.Label>
               <Form.Control
                 as="textarea"
                 rows={3}

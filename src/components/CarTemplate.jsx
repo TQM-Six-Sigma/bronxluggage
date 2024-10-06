@@ -11,7 +11,7 @@ const CardTemplate = () => {
           <Col key={index} xs={9} md={4} lg={3}>
             <Link to={`/${card.link}`} style={{ textDecoration: "none" }}>
               <div
-                className="card"
+                className="cardPage"
                 style={{
                   width: "100%",
                   aspectRatio: "9/13", 
@@ -32,7 +32,7 @@ const CardTemplate = () => {
                   style={{ width: "100%", height: "100%", objectFit: "cover" }}
                 />
                 <div
-                  className="card-body"
+                  className="cardPage-body"
                   style={{ flex: 1, padding: "1rem", display: "flex", justifyContent: "center", alignItems: "center" }}
                 >
                   <h5 className="card-title" style={{ textDecoration: "none" }}>{card.name}</h5>

@@ -8,6 +8,18 @@ import { Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import LogoBronx from "./LogoBronx";
 import Counter from "./Counter";
+import BLFeedback from "./BLFeedback";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faHome,
+  faSearch,
+  faSuitcaseRolling,
+  faSuitcase,
+  faPersonWalkingLuggage,
+  faBagShopping,
+} from "@fortawesome/free-solid-svg-icons";
+import "../css/BackToTop.css";
+import BackToTopButton from "./BacktoTopButtion";
 
 function navBar() {
   return (
@@ -18,7 +30,9 @@ function navBar() {
       <div>
         <Counter />
       </div>
-      <Navbar expand="lg" className="bg-body-secondary">
+      <BackToTopButton />
+
+      <Navbar expand="lg" className="bg-body-tertiary">
         <Container fluid>
           <div className="d-block d-lg-none navbar-brand">
             <LogoBronx />
@@ -31,9 +45,24 @@ function navBar() {
               navbarScroll
             >
               <Nav.Link as={Link} to="/">
-                HOME
+                <FontAwesomeIcon icon={faHome} size="lg" />
               </Nav.Link>
-              <NavDropdown title="FEATURED BRANDS" id="navbarScrollingDropdown">
+
+              <NavDropdown
+                title={
+                  <span>
+                    <FontAwesomeIcon icon={faSuitcaseRolling} size="xl" />
+                    &nbsp;
+                    <FontAwesomeIcon icon={faSuitcase} size="xl" />
+                    &nbsp;
+                    <FontAwesomeIcon icon={faPersonWalkingLuggage} size="xl" />
+                    &nbsp;
+                    <FontAwesomeIcon icon={faBagShopping} size="xl" />
+                    &nbsp;
+                  </span>
+                }
+                id="navbarScrollingDropdown"
+              >
                 <NavDropdown.Item
                   as={Link}
                   to="/fbBriggRiley"
@@ -163,18 +192,20 @@ function navBar() {
               </Nav.Link>
             </Nav>
             <Form className="d-flex">
-              <Form.Control
-                type="search"
-                placeholder="Search"
-                className="me-2"
-                aria-label="Search"
-                onClick={() => {
-                  window.location.href = "/search";
-                }}
-              />
-              {""}
-              <Button variant="outline-success" as={Link} to="/search">
-                Search
+              <BLFeedback>
+                {(handleShow) => (
+                  <Button variant="primary" onClick={handleShow}>
+                    Feedback
+                  </Button>
+                )}
+              </BLFeedback>
+              <Button
+                className="mx-2"
+                variant="outline-success"
+                as={Link}
+                to="/search"
+              >
+                Search <FontAwesomeIcon icon={faSearch} />
               </Button>
             </Form>
           </Navbar.Collapse>

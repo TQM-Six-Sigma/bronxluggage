@@ -2,24 +2,22 @@ import { useState } from "react";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import Modal from "react-bootstrap/Modal";
-import Rating from "react-rating-stars-component";
+import RatingStar from "./RatingStar";
 
-function Feedback() {
+function Feedback(props) {
   const [show, setShow] = useState(false);
   const [name, setName] = useState("");
   const [phone, setPhone] = useState("");
   const [email, setEmail] = useState("");
   const [feedback, setFeedback] = useState("");
-  const [rating, setRating] = useState(0);
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (name && phone && email && feedback && rating) {
-      // Call API to send feedback
-      console.log("Send feedback");
+    if (name && phone && email && feedback) {
+     
       alert("Thank you. We will contact you as soon as possible!");
       handleClose();
     } else {
@@ -29,13 +27,9 @@ function Feedback() {
 
   return (
     <>
-      <Button variant="primary" onClick={handleShow}>
-        Feedback
-      </Button>
-
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
-          <Modal.Title>Modal heading</Modal.Title>
+          <Modal.Title>Thankyou for your time!</Modal.Title>
         </Modal.Header>
         <Modal.Body>
           <Form onSubmit={handleSubmit}>
@@ -73,7 +67,7 @@ function Feedback() {
               className="mb-3"
               controlId="FeedbackForm.ControlTextarea1"
             >
-              <Form.Label>Feedback textarea</Form.Label>
+              <Form.Label>Please, Help us understand you more</Form.Label>
               <Form.Control
                 as="textarea"
                 rows={3}
@@ -82,13 +76,7 @@ function Feedback() {
                 required
               />
             </Form.Group>
-            <Rating
-              count={5}
-              size={30}
-              value={rating}
-              onChange={(newRating) => setRating(newRating)}
-              required
-            />
+            <RatingStar />
             <Button variant="primary" type="submit">
               Send Feedback
             </Button>
@@ -100,9 +88,9 @@ function Feedback() {
           </Button>
         </Modal.Footer>
       </Modal>
+      {props.children(handleShow)}
     </>
   );
 }
 
 export default Feedback;
-

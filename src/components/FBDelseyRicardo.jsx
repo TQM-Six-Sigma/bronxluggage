@@ -12,7 +12,7 @@ const FBDelseyRicardo = () => {
         <section>
           <div class="container-fluid">
             <div class="row justify-content-center">
-              <div class="card  col-12 col-lg-6">
+              <div class="  col-12 col-lg-6">
                 <div>
                   <div>
                     <h2 class=" display-2">New Arrivals</h2>
@@ -29,9 +29,9 @@ const FBDelseyRicardo = () => {
 
               <div class=" col-lg-6">
                 <div class="row">
-                  <div class="card col-sm-12 col-md-6 first-child">
+                  <div class=" col-sm-12 col-md-6 first-child">
                     <div>
-                      <div class="card-img">
+                      <div class="">
                         <img
                           src={
                             process.env.PUBLIC_URL +
@@ -42,7 +42,7 @@ const FBDelseyRicardo = () => {
                       </div>
                     </div>
                   </div>
-                  <div class="card col-sm-12 col-md-6">
+                  <div class=" col-sm-12 col-md-6">
                     <div>
                       <div class="card-img">
                         <img
@@ -58,9 +58,9 @@ const FBDelseyRicardo = () => {
                 </div>
 
                 <div class="row">
-                  <div class="card col-sm-12 col-md-6 first-child">
+                  <div class=" col-sm-12 col-md-6 first-child">
                     <div>
-                      <div class="card-img">
+                      <div class="">
                         <img
                           src={
                             process.env.PUBLIC_URL +
@@ -71,9 +71,9 @@ const FBDelseyRicardo = () => {
                       </div>
                     </div>
                   </div>
-                  <div class="card col-sm-12 col-md-6">
+                  <div class=" col-sm-12 col-md-6">
                     <div>
-                      <div class="card-img">
+                      <div class="">
                         <img
                           src={
                             process.env.PUBLIC_URL +
@@ -93,7 +93,7 @@ const FBDelseyRicardo = () => {
           <div class="container-fluid">
             <h2 class="align-center pb-5 display-2">DELSEY PARIS</h2>
             <div class="row justify-content-center">
-              <div class="card  col-12 col-lg-6">
+              <div class="  col-12 col-lg-6">
                 <div>
                   <div>
                     <p>
@@ -116,9 +116,9 @@ const FBDelseyRicardo = () => {
 
               <div class=" col-lg-6">
                 <div class="row">
-                  <div class="card col-sm-12 col-md-6 first-child">
+                  <div class=" col-sm-12 col-md-6 first-child">
                     <div>
-                      <div class="card-img">
+                      <div class="">
                         <img
                           src={
                             process.env.PUBLIC_URL +
@@ -129,9 +129,9 @@ const FBDelseyRicardo = () => {
                       </div>
                     </div>
                   </div>
-                  <div class="card col-sm-12 col-md-6">
+                  <div class=" col-sm-12 col-md-6">
                     <div>
-                      <div class="card-img">
+                      <div class="">
                         <img
                           src={
                             process.env.PUBLIC_URL +
@@ -145,9 +145,9 @@ const FBDelseyRicardo = () => {
                 </div>
 
                 <div class="row">
-                  <div class="card col-sm-12 col-md-6 first-child">
+                  <div class=" col-sm-12 col-md-6 first-child">
                     <div>
-                      <div class="card-img">
+                      <div class="">
                         <img
                           src={
                             process.env.PUBLIC_URL +
@@ -158,9 +158,9 @@ const FBDelseyRicardo = () => {
                       </div>
                     </div>
                   </div>
-                  <div class="card col-sm-12 col-md-6">
+                  <div class=" col-sm-12 col-md-6">
                     <div>
-                      <div class="card-img">
+                      <div class="">
                         <img
                           src={
                             process.env.PUBLIC_URL +
@@ -257,7 +257,7 @@ const FBDelseyRicardo = () => {
           <div class="container-fluid">
             <h2 class=" align-center pb-5 display-2">RICARDO BEVERLY HILLS</h2>
             <div class="row justify-content-center">
-              <div class="card  col-12 col-lg-6">
+              <div class="  col-12 col-lg-6">
                 <div>
                   <div>
                     <h2 class=" display-2">Your Jewelry</h2>
@@ -289,9 +289,9 @@ const FBDelseyRicardo = () => {
 
               <div class=" col-lg-6">
                 <div class="row">
-                  <div class="card col-sm-12 col-md-6 first-child">
+                  <div class=" col-sm-12 col-md-6 first-child">
                     <div>
-                      <div class="card-img">
+                      <div class="">
                         <img
                           src={
                             process.env.PUBLIC_URL +
@@ -302,9 +302,9 @@ const FBDelseyRicardo = () => {
                       </div>
                     </div>
                   </div>
-                  <div class="card col-sm-12 col-md-6">
+                  <div class=" col-sm-12 col-md-6">
                     <div>
-                      <div class="card-img">
+                      <div class="">
                         <img
                           src={
                             process.env.PUBLIC_URL +
@@ -318,9 +318,9 @@ const FBDelseyRicardo = () => {
                 </div>
 
                 <div class="row">
-                  <div class="card col-sm-12 col-md-6 first-child">
+                  <div class=" col-sm-12 col-md-6 first-child">
                     <div>
-                      <div class="card-img">
+                      <div class="">
                         <img
                           src={
                             process.env.PUBLIC_URL +
@@ -331,9 +331,9 @@ const FBDelseyRicardo = () => {
                       </div>
                     </div>
                   </div>
-                  <div class="card col-sm-12 col-md-6">
+                  <div class=" col-sm-12 col-md-6">
                     <div>
-                      <div class="card-img">
+                      <div class="">
                         <img
                           src={
                             process.env.PUBLIC_URL +
