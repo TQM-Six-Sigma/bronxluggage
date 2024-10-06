@@ -183,7 +183,7 @@
     "background": "SearchBackGround",
     "price": 799,
     "individual": "man",
-    "color": "Blue",
+    "color": "Green",
     "stat": "Bestseller All"
   },
   {
@@ -260,7 +260,7 @@
     "background": "SearchBackGround",
     "price": 1020,
     "individual": "man men woman",
-    "color": "Brown",
+    "color": "Brown Orange",
     "stat": "sale All"
   },
   {

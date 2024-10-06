@@ -19,7 +19,7 @@ import {
   faBagShopping,
 } from "@fortawesome/free-solid-svg-icons";
 import "../css/BackToTop.css";
-import BackToTopButton from "./BacktoTopButtion";
+import BackToTopButton from "./BacktoTopButton";
 
 function navBar() {
   return (

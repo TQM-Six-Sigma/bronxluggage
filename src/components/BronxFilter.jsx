@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from "react";
-import { Container, Row, Col, Form, Carousel, Modal } from "react-bootstrap";
+import { Container, Row, Col, Form, Carousel } from "react-bootstrap";
 import cardData from "../databaseJSON/BronxFilter.json";
 import RatingStarFeedback from "./RatingStarFeedback";
 import { Link, useLocation } from "react-router-dom";
 
 const Search = () => {
   const [searchItem, setSearchItem] = useState("");
-  const location = useLocation();
   const [sort, setSort] = useState("asc");
+  const location = useLocation();
 
   useEffect(() => {
     const params = new URLSearchParams(location.search);
@@ -30,15 +30,28 @@ const Search = () => {
         card.individual.toLowerCase().includes(searchItem.toLowerCase()) ||
         card.color.toLowerCase().includes(searchItem.toLowerCase()) ||
         card.stat.toLowerCase().includes(searchItem.toLowerCase()) ||
-        card.price.includes(searchItem)
+        card.price.toString().includes(searchItem)
       );
     })
     .sort((a, b) => {
-      if (sort === "asc") {
+      if (sort === "ascByName") {
+        return a.name.localeCompare(b.name);
+      } else if (sort === "descByName") {
+        return b.name.localeCompare(a.name);
+      } else if (sort === "asc") {
         return a.price - b.price;
-      } else {
+      } else if (sort === "desc") {
         return b.price - a.price;
+      } else if (sort === "bestseller") {
+        return b.stat.localeCompare(a.stat);
+      } else if (sort === "color") {
+        return a.color.localeCompare(b.color);
+      } else if (sort === "individual") {
+        return a.individual.localeCompare(b.individual);
+      }else if (sort === "brand") {
+        return a.brand.localeCompare(b.brand);
       }
+      return 0;
     });
 
   return (
@@ -57,8 +70,14 @@ const Search = () => {
               onChange={(e) => setSort(e.target.value)}
               value={sort}
             >
+              <option value="ascByName">Name: A-Z</option>
+              <option value="descByName">Name: Z-A</option>
               <option value="asc">Price: Low to High</option>
               <option value="desc">Price: High to Low</option>
+              <option value="bestseller">Bestseller</option>
+              <option value="color">Sort by Color</option>
+              <option value="individual">Sort by Individual</option>
+              <option value="brand">Sort by Brand</option>
             </Form.Select>
           </Form>
         </Col>

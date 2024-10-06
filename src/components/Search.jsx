@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Container, Row, Col, Form, Carousel, Modal } from "react-bootstrap";
+import { Container, Row, Col, Form, Carousel, } from "react-bootstrap";
 import cardData from "../databaseJSON/Search.json";
 import RatingStarFeedback from "./RatingStarFeedback";
 import { Link, useLocation } from "react-router-dom";
