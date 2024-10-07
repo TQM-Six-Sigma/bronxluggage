@@ -1,11 +1,9 @@
-
 import "../css/FBBriggRiley.css";
 
 const FBBriggRiley = () => {
   return (
     <>
       <div>
-        
         <br />
         <div className="row">
           <div className="col-lg-6 col-sm-12">
@@ -133,7 +131,6 @@ const FBBriggRiley = () => {
           </div>
         </div>
         <br />
-        
       </div>
     </>
   );

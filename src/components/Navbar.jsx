@@ -193,7 +193,7 @@ function navBar() {
                 className="mx-2"
                 variant="outline-success"
                 as={Link}
-                to="/search"
+                to="/bronxFilter"
               >
                 Search <ImSearch />
               </Button>

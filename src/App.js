@@ -8,13 +8,13 @@ import FeatureBrand from "./components/FeatureBrand";
 import FBBrics from "./components/FBBrics";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-
+import BronxFilter from "./components/BronxFilter";
 import FBAffordableBrands from "./components/FBAffordableBrands";
 import FBBriggRiley from "./components/FBBriggRiley";
 import FBDelseyRicardo from "./components/FBDelseyRicardo";
 import FBSamsonite from "./components/FBSamsonite";
 import FBTravelPro from "./components/FBTravelPro";
-import Search from "./components/Search";
+
 
 const App = () => {
   return (
@@ -37,7 +37,7 @@ const App = () => {
             <Route path="/fbDelseyRicardo" element={<FBDelseyRicardo />} />
             <Route path="/fbSamsonite" element={<FBSamsonite />} />
             <Route path="/fbTravelPro" element={<FBTravelPro />} />
-            <Route path="/search" element={<Search />} />
+            <Route path="/bronxFilter" element={<BronxFilter />} />
             <Route path="*" element={<Home />} />
           </Routes>
           <Footer />
