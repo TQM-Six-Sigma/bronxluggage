@@ -1,14 +1,9 @@
 import React from "react";
 import "../css/AboutUS.css";
-import NavBar from "./Navbar";
-import Footer from "./Footer";
 
 const AboutUs = () => {
   return (
     <>
-      <div>
-        <NavBar />
-      </div>
       <div className="about-us">
         <div className="img-list">
           <h1
@@ -135,11 +130,9 @@ const AboutUs = () => {
           </div>
         </section>
       </div>
-      <div>
-        <Footer />
-      </div>
     </>
   );
 };
 
 export default AboutUs;
+

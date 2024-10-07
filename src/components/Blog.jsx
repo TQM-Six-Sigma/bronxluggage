@@ -1,13 +1,8 @@
 import React from "react";
 import "../css/blogs.css";
-import NavBar from "./Navbar";
-import Footer from "./Footer";
 
 const Blog = () => {
   return (
-    <>
-    <NavBar />
-    
     <div className="blog-container">
       <h1 className="blog-header">Blog</h1>
       <h2 className="blog-header1">
@@ -27,9 +22,6 @@ const Blog = () => {
         ))}
       </ul>
     </div>
-
-    <Footer />
-    </>
   );
 };
 
@@ -86,3 +78,4 @@ const blogPosts = [
 ];
 
 export default Blog;
+

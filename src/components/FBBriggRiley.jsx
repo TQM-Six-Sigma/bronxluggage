@@ -1,13 +1,11 @@
-import NavBar from "./Navbar";
+
 import "../css/FBBriggRiley.css";
-import Footer from "./Footer";
+
 const FBBriggRiley = () => {
   return (
     <>
       <div>
-        <div>
-          <NavBar />
-        </div>
+        
         <br />
         <div className="row">
           <div className="col-lg-6 col-sm-12">
@@ -135,9 +133,7 @@ const FBBriggRiley = () => {
           </div>
         </div>
         <br />
-        <div>
-          <Footer />
-        </div>
+        
       </div>
     </>
   );

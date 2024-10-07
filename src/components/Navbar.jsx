@@ -1,30 +1,26 @@
+import { Link } from "react-router-dom";
 import Button from "react-bootstrap/Button";
 import Container from "react-bootstrap/Container";
 import Form from "react-bootstrap/Form";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
-import { Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import LogoBronx from "./LogoBronx";
 import Counter from "./Counter";
 import BLFeedback from "./BLFeedback";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faHome,
-  faSearch,
-  faSuitcaseRolling,
-  faSuitcase,
-  faPersonWalkingLuggage,
-  faBagShopping,
-} from "@fortawesome/free-solid-svg-icons";
+import { FcGallery} from "react-icons/fc";
+import { FaBlog,FaHome } from "react-icons/fa";
+import { IoIosContacts } from "react-icons/io";
+import { ImSearch } from "react-icons/im";
+import { BsFillLuggageFill } from "react-icons/bs";
 import "../css/BackToTop.css";
 import BackToTopButton from "./BacktoTopButton";
 
 function navBar() {
   return (
     <>
-      <div className="d-none d-lg-block col-lg-12 bg-body-secondary d-flex ">
+      <div className="d-none d-lg-block col-lg-12 bg-body-secondary d-flex  ">
         <LogoBronx />
       </div>
       <div>
@@ -45,20 +41,14 @@ function navBar() {
               navbarScroll
             >
               <Nav.Link as={Link} to="/">
-                <FontAwesomeIcon icon={faHome} size="lg" />
+                <FaHome style={{ fontSize: "45px" }} />
               </Nav.Link>
 
               <NavDropdown
                 title={
                   <span>
-                    <FontAwesomeIcon icon={faSuitcaseRolling} size="xl" />
-                    &nbsp;
-                    <FontAwesomeIcon icon={faSuitcase} size="xl" />
-                    &nbsp;
-                    <FontAwesomeIcon icon={faPersonWalkingLuggage} size="xl" />
-                    &nbsp;
-                    <FontAwesomeIcon icon={faBagShopping} size="xl" />
-                    &nbsp;
+                    <BsFillLuggageFill style={{ fontSize: "40px" }} /> Brands
+                    
                   </span>
                 }
                 id="navbarScrollingDropdown"
@@ -182,13 +172,13 @@ function navBar() {
                 </NavDropdown>
               </NavDropdown>
               <Nav.Link as={Link} to="/gallery">
-                GALLERY
+                <FcGallery style={{ fontSize: "45px" }} /> Gallery
               </Nav.Link>
               <Nav.Link as={Link} to="/blog">
-                BLOG
+              <FaBlog style={{ fontSize: "40px" }} /> Blog
               </Nav.Link>
               <Nav.Link as={Link} to="/about">
-                ABOUT US
+              <IoIosContacts style={{ fontSize: "45px" }} /> ABOUT US
               </Nav.Link>
             </Nav>
             <Form className="d-flex">
@@ -205,7 +195,7 @@ function navBar() {
                 as={Link}
                 to="/search"
               >
-                Search <FontAwesomeIcon icon={faSearch} />
+                Search <ImSearch />
               </Button>
             </Form>
           </Navbar.Collapse>

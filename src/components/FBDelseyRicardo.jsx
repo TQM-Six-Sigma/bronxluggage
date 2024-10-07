@@ -1,13 +1,10 @@
-import Navbar from "./Navbar";
-import Footer from "./Footer";
+
 import "../css/FBDelseyRicardo.css";
 const FBDelseyRicardo = () => {
   return (
     <>
       <div className="container-fluid">
-        <div>
-          <Navbar />
-        </div>
+        
         <h1 align="center">DELSEY PARIS | RICARDO BEVERLY HILLS</h1>
         <section>
           <div class="container-fluid">
@@ -349,9 +346,7 @@ const FBDelseyRicardo = () => {
             </div>
           </div>
         </section>
-        <div>
-          <Footer />
-        </div>
+        
       </div>
     </>
   );

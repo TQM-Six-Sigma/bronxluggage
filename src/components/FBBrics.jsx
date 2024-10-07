@@ -1,13 +1,10 @@
-import NavBar from "./Navbar";
-import Footer from "./Footer";
+
 
 const FBBrics = () => {
   return (
     <>
       <div>
-        <div>
-          <NavBar />
-        </div>
+        
         <div>
           <section>
             <section>
@@ -428,9 +425,7 @@ const FBBrics = () => {
             </div>
           </section>
         </div>
-        <div>
-          <Footer />
-        </div>
+       
       </div>
     </>
   );

@@ -1,14 +1,12 @@
 import React, { useState, useEffect } from "react";
-import { Container, Row, Col, Form, Carousel, Button } from "react-bootstrap";
+import { Container, Row, Col, Form, Carousel } from "react-bootstrap";
 import cardData from "../databaseJSON/BronxFilter.json";
 import RatingStarFeedback from "./RatingStarFeedback";
 import { Link, useLocation } from "react-router-dom";
 
-
 const Search = () => {
   const [searchItem, setSearchItem] = useState("");
   const [sort, setSort] = useState("asc");
-  const [brandFilter, setBrandFilter] = useState([]);
   const location = useLocation();
 
   useEffect(() => {
@@ -35,9 +33,6 @@ const Search = () => {
         card.price.toString().includes(searchItem)
       );
     })
-    .filter(
-      (card) => brandFilter.includes(card.brand) || brandFilter.length === 0
-    )
     .sort((a, b) => {
       if (sort === "ascByName") {
         return a.name.localeCompare(b.name);
@@ -53,73 +48,14 @@ const Search = () => {
         return a.color.localeCompare(b.color);
       } else if (sort === "individual") {
         return a.individual.localeCompare(b.individual);
-      } else if (sort === "brand") {
+      }else if (sort === "brand") {
         return a.brand.localeCompare(b.brand);
       }
       return 0;
     });
 
-  const handleBrandFilterChange = (brand) => {
-    if (brandFilter.includes(brand)) {
-      setBrandFilter(brandFilter.filter((b) => b !== brand));
-    } else {
-      setBrandFilter([...brandFilter, brand]);
-    }
-  };
-
   return (
     <Container>
-      <Row className="FilterBrand mb-2 col-12 ">
-        <Col xs={12} md={12} lg={8} className={"d-flex justify-content-center"}>
-          <Button 
-            variant={
-              brandFilter.includes("TravelPro") ? "primary" : "outline-primary"
-            }
-            onClick={() => handleBrandFilterChange("TravelPro")}
-            className="me-2"
-          >
-            TravelPro
-          </Button>
-          <Button
-            variant={
-              brandFilter.includes("Briggs & Riley")
-                ? "primary"
-                : "outline-primary"
-            }
-            onClick={() => handleBrandFilterChange("Briggs & Riley")}
-            className="me-2"
-          >
-            Briggs & Riley
-          </Button>
-          <Button
-            variant={
-              brandFilter.includes("Bric'S") ? "primary" : "outline-primary"
-            }
-            onClick={() => handleBrandFilterChange("Bric'S")}
-            className="me-2"
-          >
-            Bric'S
-          </Button>
-          <Button
-            variant={
-              brandFilter.includes("Ricardo") ? "primary" : "outline-primary"
-            }
-            onClick={() => handleBrandFilterChange("Ricardo")}
-            className="me-2"
-          >
-            Ricardo
-          </Button>
-          <Button
-            variant={
-              brandFilter.includes("Delsey") ? "primary" : "outline-primary"
-            }
-            onClick={() => handleBrandFilterChange("Delsey")}
-            className="me-2"
-          >
-            Delsey
-          </Button>{" "}
-        </Col>
-      </Row>
       <Row className="g-0">
         <Col xs={12} md={6} lg={4}>
           <Form>
@@ -130,7 +66,6 @@ const Search = () => {
               placeholder="Search by name, price, brand..."
             />
             <Form.Select
-              className="mt-2"
               aria-label="Sort"
               onChange={(e) => setSort(e.target.value)}
               value={sort}

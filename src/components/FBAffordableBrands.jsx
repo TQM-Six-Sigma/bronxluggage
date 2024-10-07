@@ -1,12 +1,9 @@
-import NavBar from "./Navbar";
-import Footer from "./Footer";
+
 const FBAffordableBrands = () => {
   return (
     <>
       <div>
-        <div>
-          <NavBar />
-        </div>
+        
         <div>
           <section>
             <div class="container-fluid">
@@ -322,9 +319,7 @@ const FBAffordableBrands = () => {
             </div>
           </section>
         </div>
-        <div>
-          <Footer />
-        </div>
+        
       </div>
     </>
   );

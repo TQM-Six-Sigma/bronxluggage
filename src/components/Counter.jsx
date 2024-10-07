@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { LuUser2 } from "react-icons/lu";
 
 function Counter() {
   const [count, setCount] = useState(0);
@@ -28,7 +29,7 @@ function Counter() {
       right: 20,
       zIndex: 9999,
     }}>
-      <p className='text-primary'>Visited: {count}</p>
+      <span className='text-primary'>Visited: {count}<LuUser2 style={{fontSize: "20px"}} /></span>
     </div>
   );
 }

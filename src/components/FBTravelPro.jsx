@@ -1,5 +1,4 @@
-import NavBar from "./Navbar";
-import Footer from "./Footer";
+
 import React, { useEffect } from 'react';
 import { useLocation } from 'react-router-dom'
 
@@ -18,9 +17,7 @@ const FBTravelPro = () => {
   return (
     <>
       <div>
-        <div>
-          <NavBar />
-        </div>
+        
         <section >
           <div class="container-fluid">
             <h3 class="align-center display-4">LUXURY</h3>
@@ -359,9 +356,7 @@ const FBTravelPro = () => {
           </figure>
         </section>
 
-        <div>
-          <Footer />
-        </div>
+        
       </div>
     </>
   );
