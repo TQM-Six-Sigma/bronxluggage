@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/bronxluggage/static/css/main.31723b27.css",
-    "main.js": "/bronxluggage/static/js/main.e11e275b.js",
+    "main.css": "/bronxluggage/static/css/main.892ab91d.css",
+    "main.js": "/bronxluggage/static/js/main.c667baa5.js",
     "static/media/BricsCream595FirenzeTuscanTrainCase3.png": "/bronxluggage/static/media/BricsCream595FirenzeTuscanTrainCase3.f092fc960f17abccb4e0.png",
     "static/media/BricsCream595FirenzeTuscanTrainCase4.png": "/bronxluggage/static/media/BricsCream595FirenzeTuscanTrainCase4.ab36c25e7567193ef6c1.png",
     "static/media/BricsBlack449MySafariExpandableSpinner3.png": "/bronxluggage/static/media/BricsBlack449MySafariExpandableSpinner3.63acd83674dc786c1cff.png",
@@ -407,11 +407,11 @@
     "index.html": "/bronxluggage/index.html",
     "static/media/travelpro.com.txt": "/bronxluggage/static/media/travelpro.com.16d6e3f5124ce6d2df7c.txt",
     "static/media/samsonite-vietnam.com.txt": "/bronxluggage/static/media/samsonite-vietnam.com.941f25ee7c87e0dff7f1.txt",
-    "main.31723b27.css.map": "/bronxluggage/static/css/main.31723b27.css.map",
-    "main.e11e275b.js.map": "/bronxluggage/static/js/main.e11e275b.js.map"
+    "main.892ab91d.css.map": "/bronxluggage/static/css/main.892ab91d.css.map",
+    "main.c667baa5.js.map": "/bronxluggage/static/js/main.c667baa5.js.map"
   },
   "entrypoints": [
-    "static/css/main.31723b27.css",
-    "static/js/main.e11e275b.js"
+    "static/css/main.892ab91d.css",
+    "static/js/main.c667baa5.js"
   ]
 }
