@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { LuUser2 } from "react-icons/lu";
+import { useLocation } from 'react-router-dom';
 
 function Counter() {
   const [count, setCount] = useState(0);
+  const location = useLocation();
 
   useEffect(() => {
     const countStorage = localStorage.getItem('count');
@@ -16,11 +18,18 @@ function Counter() {
   }, [count]);
 
   useEffect(() => {
-    const intervalId = setInterval(() => {
+    const handleBeforeUnload = () => {
       setCount((prevCount) => prevCount + 1);
-    }, 1000);
-    return () => clearInterval(intervalId);
+    };
+
+    window.addEventListener('beforeunload', handleBeforeUnload);
+
+    return () => window.removeEventListener('beforeunload', handleBeforeUnload);
   }, []);
+
+  useEffect(() => {
+    setCount((prevCount) => prevCount + 1);
+  }, [location.pathname]);
 
   return (
     <div style={{
@@ -29,10 +38,9 @@ function Counter() {
       right: 20,
       zIndex: 9999,
     }}>
-      <span className='text-primary'>Visited: {count}<LuUser2 style={{fontSize: "20px"}} /></span>
+      <span className='text-primary' style={{fontSize: "22px", display: "flex", alignItems: "center"}}>Visited: {count}<LuUser2  style={{fontSize: "20px", marginLeft: "5px"}} /></span>
     </div>
   );
 }
 
 export default Counter;
-

@@ -1,5 +1,6 @@
 [
   {
+    "serial": "BRLG001",
     "name": "Cabin Spinner",
     "brand": "Briggs & Riley",
     "image": "HomeBriggsRileyCabinSpinner",
@@ -8,9 +9,11 @@
     "price": 400,
     "individual": "woman",
     "color": "black",
-    "stat": "Bestseller"
+    "stat": "Bestseller",
+    "description": "Exterior Dimensions\n(includes wheels & handles)\n22 x 14 x 9-11.5 in / 55.9 x 35.6 x 22.9-29.2 cm\nInterior Dimensions\n20 x 14 x 7.875 in / 50.8 x 35.5 x 20 cm\n\nCapacity\n2240 - 2940 cu in / 37 - 48 liters\nWeight\n10 lbs / 4.6 kg\nMaterial\nRemarkably strong ballistic nylon fabric resists wear providing exceptional durability that endures the test of time."
   },
   {
+    "serial": "BRLG002",
     "name": "Expandable Spinner",
     "brand": "Briggs & Riley",
     "image": "Search/BriggsBlackExpandableSpinner",
@@ -19,9 +22,11 @@
     "price": 385,
     "individual": "woman",
     "color": "black",
-    "stat": "Sale"
+    "stat": "Sale",
+    "description": "Expandable Spinner"
   },
   {
+    "serial": "BRLG003",
     "name": "Expandable Spinner",
     "brand": "Briggs & Riley",
     "image": "Search/BriggsExpandableSpinner",
@@ -30,9 +35,11 @@
     "price": 400,
     "individual": "woman",
     "color": "Blue",
-    "stat": "Bestseller"
+    "stat": "Bestseller",
+    "description": "Expandable Spinner"
   },
   {
+    "serial": "BRLG004",
     "name": "Expandable Spinner",
     "brand": "Briggs & Riley",
     "image": "Search/BriggsGreenExpandableSpinner",
@@ -41,20 +48,24 @@
     "price": 385,
     "individual": "woman",
     "color": "Green",
-    "stat": "Bestseller"
+    "stat": "Bestseller",
+    "description": "Expandable Spinner"
   },
   {
+    "serial": "BRLG005",
     "name": "Garment Duffle",
     "brand": "Briggs & Riley",
     "image": "Search/GarmentDuffle",
     "link": "fbBriggRiley",
     "background": "SearchBackGround",
     "price": 300,
-    "individual": "man men",
+    "individual": "gentleman",
     "color": "Blue",
-    "stat": "Bestseller"
+    "stat": "Bestseller",
+    "description": "Exterior Dimensions\n12.5 x 22 x 9 in / 31.8 x 55.9 x 22.9 cm\nCapacity\n2788 cu in / 45.7 liters\nWeight\n4.2 lbs. / 2 kg\nStrap Length\n52 in / 132.08 cm\nMaterial\nRemarkably strong ballistic nylon fabric resists wear providing exceptional durability that endures the test of time."
   },
   {
+    "serial": "BRLG006",
     "name": "Platinum Elite Spinner",
     "brand": "TravelPro",
     "image": "HomeTravelpro",
@@ -63,31 +74,37 @@
     "price": 400,
     "individual": "woman",
     "color": "blue",
-    "stat": "Bestseller"
+    "stat": "Bestseller",
+    "description": "Platinum Elite Spinner"
   },
   {
+    "serial": "BRLG007",
     "name": "BELLAGIO TRUNK",
     "brand": "Bric'S",
     "image": "HomeBricsBellagio",
     "link": "fbBriggRiley",
     "background": "SearchBackGround",
     "price": 500,
-    "individual": "man men",
+    "individual": "gentleman",
     "color": "Yellow cream brown",
-    "stat": "Bestseller"
+    "stat": "Bestseller",
+    "description": "BELLAGIO TRUNK"
   },
   {
+    "serial": "BRLG008",
     "name": "SUITCASE - ROLAND",
     "brand": "Delsey",
     "image": "HomeDelsey",
     "link": "fbBriggRiley",
     "background": "SearchBackGround",
     "price": 300,
-    "individual": "men woman",
+    "individual": "woman",
     "color": "Blue",
-    "stat": "Bestseller"
+    "stat": "Bestseller",
+    "description": "SUITCASE - ROLAND"
   },
   {
+    "serial": "BRLG009",
     "name": "Indio 2-Piece Set",
     "brand": "Ricardo",
     "image": "HomeRicardo",
@@ -96,9 +113,11 @@
     "price": 300,
     "individual": "woman",
     "color": "Red",
-    "stat": "Bestseller"
+    "stat": "Bestseller",
+    "description": "Indio 2-Piece Set"
   },
   {
+    "serial": "BRLG010",
     "name": "Woman Style",
     "brand": "Woman Style",
     "image": "HomeWomanStyle",
@@ -107,9 +126,11 @@
     "price": 1000,
     "individual": "woman",
     "color": "green",
-    "stat": "Bestseller"
+    "stat": "Bestseller",
+    "description": "Woman Style"
   },
   {
+    "serial": "BRLG011",
     "name": "Large Brief",
     "brand": "Briggs & Riley",
     "image": "Search/BriggsBlack629LargeSpinnerBrief",
@@ -118,9 +139,11 @@
     "price": 629,
     "individual": "woman",
     "color": "Black",
-    "stat": "Bestseller All"
+    "stat": "Bestseller All",
+    "description": "Large Brief"
   },
   {
+    "serial": "BRLG012",
     "name": "Wheeled Garment",
     "brand": "Briggs & Riley",
     "image": "Search/BriggsBlack779CarryWheeledGarmentSpinner",
@@ -129,9 +152,11 @@
     "price": 779,
     "individual": "woman",
     "color": "Black",
-    "stat": "Bestseller All"
+    "stat": "Bestseller All",
+    "description": "Wheeled Garment"
   },
   {
+    "serial": "BRLG013",
     "name": "Medium Spinner",
     "brand": "Briggs & Riley",
     "image": "Search/BriggsBlack799BaselineMediumExpandableSpinner",
@@ -140,141 +165,167 @@
     "price": 799,
     "individual": "woman",
     "color": "Black",
-    "stat": "Bestseller All"
+    "stat": "Bestseller All",
+    "description": "Medium Spinner"
   },
   {
+    "serial": "BRLG014",
     "name": "Under Seat Duffle",
     "brand": "Briggs & Riley",
     "image": "Search/BriggsBlue289ManUnderseatDuffle",
     "link": "fbBriggRiley",
     "background": "SearchBackGround",
     "price": 289,
-    "individual": "man men",
+    "individual": "gentleman",
     "color": "Blue",
-    "stat": "Bestseller All"
+    "stat": "Bestseller All",
+    "description": "Under Seat Duffle"
   },
   {
+    "serial": "BRLG015",
     "name": "Medium Spinner",
     "brand": "Briggs & Riley",
     "image": "Search/BriggsBlue779BaselineMediumExpandableSpinner",
     "link": "fbBriggRiley",
     "background": "SearchBackGround",
     "price": 779,
-    "individual": "man woman men",
+    "individual": "woman",
     "color": "Blue",
-    "stat": "Bestseller All"
+    "stat": "Bestseller All",
+    "description": "Medium Spinner"
   },
   {
+    "serial": "BRLG016",
     "name": "Deluxe Wardrobe",
     "brand": "Briggs & Riley",
     "image": "Search/BriggsBlue1089DeluxeWardrobeSpinner",
     "link": "fbBriggRiley",
     "background": "SearchBackGround",
     "price": 1089,
-    "individual": "man",
+    "individual": "gentleman",
     "color": "Blue",
-    "stat": "Bestseller All"
+    "stat": "Bestseller All",
+    "description": "Deluxe Wardrobe"
   },
   {
+    "serial": "BRLG017",
     "name": "Base Medium Spinner",
     "brand": "Briggs & Riley",
     "image": "Search/BriggsGreen799BaselineMediumExpandableSpinner",
     "link": "fbBriggRiley",
     "background": "SearchBackGround",
     "price": 799,
-    "individual": "man",
+    "individual": "gentleman",
     "color": "Green",
-    "stat": "Bestseller All"
+    "stat": "Bestseller All",
+    "description": "Base Medium Spinner"
   },
   {
+    "serial": "BRLG018",
     "name": "Extra Large Trunk",
     "brand": "Briggs & Riley",
     "image": "Search/BriggsGreenHunter729ExtraLargeTrunkSpinner",
     "link": "fbBriggRiley",
     "background": "SearchBackGround",
     "price": 729,
-    "individual": "man men",
+    "individual": "gentleman",
     "color": "Green Hunter",
-    "stat": "sale All"
+    "stat": "sale All",
+    "description": "Extra Large Trunk"
   },
   {
+    "serial": "BRLG019",
     "name": "Multi-Pocket Cabin",
     "brand": "Briggs & Riley",
     "image": "Search/BriggsNavyBlue279Multi-PocketCabinBag",
     "link": "fbBriggRiley",
     "background": "SearchBackGround",
     "price": 279,
-    "individual": "man men",
+    "individual": "gentleman",
     "color": "Blue Navy",
-    "stat": "sale All"
+    "stat": "sale All",
+    "description": "Multi-Pocket Cabin"
   },
   {
+    "serial": "BRLG020",
     "name": "Under Seat Duffle",
     "brand": "Briggs & Riley",
     "image": "Search/BriggsOlive289ManUnderseatDuffle",
     "link": "fbBriggRiley",
     "background": "SearchBackGround",
     "price": 289,
-    "individual": "man men",
+    "individual": "gentleman",
     "color": "Green Olive",
-    "stat": "sale All"
+    "stat": "sale All",
+    "description": "Under Seat Duffle"
   },
   {
+    "serial": "BRLG021",
     "name": "Base Medium Spinner",
     "brand": "Briggs & Riley",
     "image": "Search/BriggsPurple799BaselineMediumExpandableSpinner",
     "link": "fbBriggRiley",
     "background": "SearchBackGround",
     "price": 799,
-    "individual": "man men",
+    "individual": "gentleman",
     "color": "Purple",
-    "stat": "sale All"
+    "stat": "sale All",
+    "description": "Base Medium Spinner"
   },
   {
+    "serial": "BRLG022",
     "name": "Ulisse Spinner",
     "brand": "Bric'S",
     "image": "Brics/BricsBlack279ManUlisseExpandableSpinner",
     "link": "fbBrics",
     "background": "SearchBackGround",
     "price": 279,
-    "individual": "man men",
+    "individual": "gentleman",
     "color": "Black",
-    "stat": "sale All"
+    "stat": "sale All",
+    "description": "Ulisse Spinner"
   },
   {
+    "serial": "BRLG023",
     "name": "Safari Spinner",
     "brand": "Bric'S",
     "image": "Brics/BricsBlack449MySafariExpandableSpinner",
     "link": "fbBrics",
     "background": "SearchBackGround",
     "price": 449,
-    "individual": "man men",
+    "individual": "gentleman",
     "color": "Black",
-    "stat": "sale All"
+    "stat": "sale All",
+    "description": "Safari Spinner"
   },
   {
+    "serial": "BRLG024",
     "name": "Life Pelle Cargo",
     "brand": "Bric'S",
     "image": "Brics/BricsBrown1020LifePelleCargoDuffleBag",
     "link": "fbBrics",
     "background": "SearchBackGround",
     "price": 1020,
-    "individual": "man men woman",
+    "individual": "woman",
     "color": "Brown Orange",
-    "stat": "sale All"
+    "stat": "sale All",
+    "description": "Life Pelle Cargo"
   },
   {
+    "serial": "BRLG025",
     "name": "Life Pelle Spinner",
     "brand": "Bric'S",
     "image": "Brics/BricsCognac1870LifePelleSpinnerCarryOn",
     "link": "fbBrics",
     "background": "SearchBackGround",
     "price": 1870,
-    "individual": "man men woman",
+    "individual": "woman",
     "color": "Cognac Brown Orange",
-    "stat": "sale All"
+    "stat": "sale All",
+    "description": "Life Pelle Spinner"
   },
   {
+    "serial": "BRLG026",
     "name": "Firenze Tri-Fold",
     "brand": "Bric'S",
     "image": "Brics/BricsCream360FirenzeTriFoldTraveler",
@@ -283,9 +334,11 @@
     "price": 360,
     "individual": "woman",
     "color": "Cream",
-    "stat": "sale All"
+    "stat": "sale All",
+    "description": "Firenze Tri-Fold"
   },
   {
+    "serial": "BRLG027",
     "name": "Firenze Tuscan Train",
     "brand": "Bric'S",
     "image": "Brics/BricsCream595FirenzeTuscanTrainCase",
@@ -294,9 +347,11 @@
     "price": 595,
     "individual": "woman",
     "color": "Cream",
-    "stat": "Bestseller All"
+    "stat": "Bestseller All",
+    "description": "Firenze Tuscan Train"
   },
   {
+    "serial": "BRLG028",
     "name": "Spinner Compound",
     "brand": "Bric'S",
     "image": "Brics/BricsCream760FirenzeSpinnerCompound",
@@ -305,9 +360,11 @@
     "price": 760,
     "individual": "woman",
     "color": "Cream",
-    "stat": "Bestseller All"
+    "stat": "Bestseller All",
+    "description": "Spinner Compound"
   },
   {
+    "serial": "BRLG029",
     "name": "Woman Ulisse Spinner",
     "brand": "Bric'S",
     "image": "Brics/BricsOrange279ManUlisseExpandableSpinner",
@@ -316,9 +373,11 @@
     "price": 279,
     "individual": "woman",
     "color": "Orange",
-    "stat": "Bestseller All"
+    "stat": "Bestseller All",
+    "description": "Woman Ulisse Spinner"
   },
   {
+    "serial": "BRLG030",
     "name": "Marilyn Spinner",
     "brand": "Bric'S",
     "image": "Brics/BricsSpecial237AndyWarholeSpinnerMarilyn",
@@ -326,10 +385,12 @@
     "background": "SearchBackGround",
     "price": 237,
     "individual": "woman",
-    "color": "Special",
-    "stat": "Bestseller All"
+    "color": "Red",
+    "stat": "Bestseller All",
+    "description": "Marilyn Spinner"
   },
   {
+    "serial": "BRLG031",
     "name": "Woman Ulisse Spinner",
     "brand": "Bric'S",
     "image": "Brics/BricsYellow279ManUlisseExpandableSpinner",
@@ -338,53 +399,63 @@
     "price": 279,
     "individual": "woman",
     "color": "Yellow",
-    "stat": "Bestseller All"
+    "stat": "Bestseller All",
+    "description": "Woman Ulisse Spinner"
   },
   {
+    "serial": "BRLG032",
     "name": "Platinum Elite Lug",
     "brand": "TravelPro",
     "image": "TravelPro/TravelProBlack1159PlatinumEliteLuggage",
     "link": "fbTravelPro",
     "background": "SearchBackGround",
     "price": 1159,
-    "individual": "woman man men",
+    "individual": "gentleman",
     "color": "Black",
-    "stat": "sale All"
+    "stat": "sale All",
+    "description": "Platinum Elite Lug"
   },
   {
+    "serial": "BRLG033",
     "name": "Platinum Elite Slim",
     "brand": "TravelPro",
     "image": "TravelPro/TravelProBrown212PlatinumEliteSlimBusinessBrief",
     "link": "fbTravelPro",
     "background": "SearchBackGround",
     "price": 212,
-    "individual": "woman man men",
+    "individual": "gentleman",
     "color": "Brown",
-    "stat": "sale All"
+    "stat": "sale All",
+    "description": "Platinum Elite Slim"
   },
   {
+    "serial": "BRLG034",
     "name": "Maxlite 5 Rolling",
     "brand": "TravelPro",
     "image": "TravelPro/TravelProGreen127Maxlite5RollingUnderseatBag",
     "link": "fbTravelPro",
     "background": "SearchBackGround",
     "price": 127,
-    "individual": "woman man men",
+    "individual": "gentleman",
     "color": "Green",
-    "stat": "sale All"
+    "stat": "sale All",
+    "description": "Maxlite 5 Rolling"
   },
   {
+    "serial": "BRLG035",
     "name": "Platinum Elite Slim",
     "brand": "TravelPro",
     "image": "TravelPro/TravelProGreen1159PlatinumEliteLuggage",
     "link": "fbTravelPro",
     "background": "SearchBackGround",
     "price": 1159,
-    "individual": "woman man men",
+    "individual": "woman",
     "color": "Green",
-    "stat": "sale All"
+    "stat": "sale All",
+    "description": "Platinum Elite Slim"
   },
   {
+    "serial": "BRLG036",
     "name": "Travel Leisure",
     "brand": "TravelPro",
     "image": "TravelPro/TravelProGrey220TravelLeisureWomenConvertible",
@@ -393,9 +464,11 @@
     "price": 220,
     "individual": "woman",
     "color": "Grey",
-    "stat": "sale All"
+    "stat": "sale All",
+    "description": "Travel Leisure"
   },
   {
+    "serial": "BRLG037",
     "name": "Under Seat Tote",
     "brand": "TravelPro",
     "image": "TravelPro/TravelProGrey616UnderSeatToteLuggage",
@@ -404,9 +477,10 @@
     "price": 616,
     "individual": "woman",
     "color": "Grey",
-    "stat": "sale All"
-  },
-  {
+    "stat": "sale All",
+    "description": "Under Seat Tote"
+  },  {
+    "serial": "BRLG038",
     "name": "Platinum Elite Lug",
     "brand": "TravelPro",
     "image": "TravelPro/TravelProGrey1159PlatinumEliteLuggage",
@@ -415,9 +489,11 @@
     "price": 1159,
     "individual": "woman",
     "color": "Grey",
-    "stat": "sale All"
+    "stat": "sale All",
+    "description": "Platinum Elite Lug"
   },
   {
+    "serial": "BRLG039",
     "name": "Platinum Elite Lug",
     "brand": "TravelPro",
     "image": "TravelPro/TravelProPink1159PlatinumEliteLuggage",
@@ -426,9 +502,11 @@
     "price": 1159,
     "individual": "woman",
     "color": "Pink",
-    "stat": "sale All"
+    "stat": "sale All",
+    "description": "Platinum Elite Lug"
   },
   {
+    "serial": "BRLG040",
     "name": "Under Seat Tote",
     "brand": "TravelPro",
     "image": "TravelPro/TravelProWhite616UnderSeatToteLuggage",
@@ -437,7 +515,8 @@
     "price": 616,
     "individual": "woman",
     "color": "White",
-    "stat": "sale All"
+    "stat": "sale All",
+    "description": "Under Seat Tote"
   }
   
 ]

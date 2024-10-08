@@ -1,10 +1,13 @@
-import BronxFilter from "./BronxFilter";
+import React from 'react';
+import MainContent from "./MainContent";
+import ContentData from "../databaseJSON/fbSamsoniteData.json"
 
 const FBSamsonite = () => {
   return (
     <>
       <div>
-        <BronxFilter />
+        <MainContent data={ContentData}
+         />
       </div>
     </>
   );

@@ -37,13 +37,13 @@
       },{
         "name": "Woman Style",
         "image": "HomeWomanStyle.png",
-        "link": "search?keyword=woman",
+        "link": "BronxFilter?keyword=woman",
       "background": "HomeBriggsRileyBackground.png"
       },
       {
         "name": "Men Style",
         "image": "HomeManStyle.png",
-        "link": "search?keyword=men",
+        "link": "BronxFilter?keyword=gentleman",
       "background": "HomeBriggsRileyBackground.png"
       }
      

@@ -3,12 +3,15 @@ import { Container, Row, Col, Form, Carousel, Button } from "react-bootstrap";
 import cardData from "../databaseJSON/BronxFilter.json";
 import RatingStarFeedback from "./RatingStarFeedback";
 import { Link, useLocation } from "react-router-dom";
+import {Tooltip} from 'react-bootstrap';
 
 
 const Search = () => {
   const [searchItem, setSearchItem] = useState("");
   const [sort, setSort] = useState("asc");
   const [brandFilter, setBrandFilter] = useState([]);
+  const [individualFilter, setIndividualFilter] = useState([]);
+  const [colorFilter, setColorFilter] = useState([]);
   const location = useLocation();
 
   useEffect(() => {
@@ -36,8 +39,11 @@ const Search = () => {
       );
     })
     .filter(
-      (card) => brandFilter.includes(card.brand) || brandFilter.length === 0
+      (card) => (brandFilter.length === 0 || brandFilter.includes(card.brand)) &&
+               (colorFilter.length === 0 || colorFilter.includes(card.color)) &&
+               (individualFilter.length === 0 || individualFilter.includes(card.individual))
     )
+    
     .sort((a, b) => {
       if (sort === "ascByName") {
         return a.name.localeCompare(b.name);
@@ -66,10 +72,24 @@ const Search = () => {
       setBrandFilter([...brandFilter, brand]);
     }
   };
+  const handleIndividualFilterChange = (individual) => {
+    if (individualFilter.includes(individual)) {
+      setIndividualFilter(individualFilter.filter((b) => b !== individual));
+    } else {
+      setIndividualFilter([...individualFilter, individual]);
+    }
+  };
+const handleColorFilterChange = (color) => {
+  if (colorFilter.includes(color)) {
+    setColorFilter(colorFilter.filter((b) => b !== color));
+  } else {
+    setColorFilter([...colorFilter, color]);
+  }
+};
 
   return (
     <Container>
-      <Row className="FilterBrand mb-2 col-12 ">
+      <Row className="mb-2 col-12 ">
         <Col xs={12} md={12} lg={8} className={"d-flex justify-content-center"}>
           <Button 
             variant={
@@ -117,7 +137,34 @@ const Search = () => {
             className="me-2"
           >
             Delsey
-          </Button>{" "}
+          </Button>
+          <Button
+            variant={
+            individualFilter.includes("woman") ? "primary" : "outline-primary"
+            }
+            onClick={() => handleIndividualFilterChange("woman")}
+            className="me-2"
+          >
+            Woman Style
+          </Button>
+          <Button
+            variant={
+            individualFilter.includes("gentleman") ? "primary" : "outline-primary"
+            }
+            onClick={() => handleIndividualFilterChange("gentleman")}
+            className="me-2"
+          >
+            Gentle Man Style
+          </Button>
+          <Button
+            variant={
+              colorFilter.includes("Black") ? "primary" : "outline-primary"
+            }
+            onClick={() => handleColorFilterChange("Black")}
+            className="me-2"
+          >
+            Black
+          </Button>
         </Col>
       </Row>
       <Row className="g-0">
@@ -160,7 +207,8 @@ const Search = () => {
                 backgroundRepeat: "no-repeat",
               }}
             >
-              <Link to={`/${card.link}`}>
+              
+              <Link to={`/${card.link}`} data-bs-toggle="tooltip" data-bs-placement="top" title={card.description}>
                 <Carousel>
                   <Carousel.Item>
                     <img
@@ -168,6 +216,7 @@ const Search = () => {
                       className="d-block w-100"
                       alt={card.name + " 1"}
                     />
+                    <Tooltip/>
                   </Carousel.Item>
                   <Carousel.Item>
                     <img
@@ -194,6 +243,7 @@ const Search = () => {
               </Link>
 
               <div className="card-body text-black px-3 ">
+                <span>{card.serial}</span>
                 <h6 className="card-title">{card.name}</h6>
                 <div>
                   <RatingStarFeedback />

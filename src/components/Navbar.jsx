@@ -47,7 +47,7 @@ function navBar() {
               <NavDropdown
                 title={
                   <span>
-                    <BsFillLuggageFill style={{ fontSize: "40px" }} /> Brands
+                    <BsFillLuggageFill style={{ fontSize: "40px" }} /> BRANDS
                     
                   </span>
                 }
@@ -172,10 +172,10 @@ function navBar() {
                 </NavDropdown>
               </NavDropdown>
               <Nav.Link as={Link} to="/gallery">
-                <FcGallery style={{ fontSize: "45px" }} /> Gallery
+                <FcGallery style={{ fontSize: "45px" }} /> GALLERY
               </Nav.Link>
               <Nav.Link as={Link} to="/blog">
-              <FaBlog style={{ fontSize: "40px" }} /> Blog
+              <FaBlog style={{ fontSize: "40px" }} /> BLOG
               </Nav.Link>
               <Nav.Link as={Link} to="/about">
               <IoIosContacts style={{ fontSize: "45px" }} /> ABOUT US
