@@ -141,35 +141,13 @@ function navBar() {
                   DELSEY | RICARDO
                 </NavDropdown.Item>
                 <NavDropdown.Divider />
-                <NavDropdown
-                  title="AFFORDABLE BRANDS"
-                  id="navbarScrollingDropdown"
+                <NavDropdown.Item
+                  as={Link}
+                  to="/fbDelseyParis"
+                  className="text-center"
                 >
-                  <NavDropdown.Item
-                    as={Link}
-                    to="/fbAffordableBrands"
-                    className="text-center"
-                  >
-                    IT
-                  </NavDropdown.Item>
-                  <NavDropdown.Divider />
-                  <NavDropdown.Item
-                    as={Link}
-                    to="/fbAffordableBrands"
-                    className="text-center"
-                  >
-                    Gabbiano
-                  </NavDropdown.Item>
-                  <NavDropdown.Divider />
-                  <NavDropdown.Item
-                    as={Link}
-                    to="/fbAffordableBrands"
-                    className="text-center"
-                  >
-                    Wisdom
-                  </NavDropdown.Item>
-                  <NavDropdown.Divider />
-                </NavDropdown>
+                  DELSEY PARIS
+                </NavDropdown.Item>
               </NavDropdown>
               <Nav.Link as={Link} to="/gallery">
                 <FcGallery style={{ fontSize: "45px" }} /> GALLERY

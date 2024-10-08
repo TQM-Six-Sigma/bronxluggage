@@ -1,5 +1,6 @@
 import React from 'react';
 import '../css/MainContent.css';
+import YouTube from 'react-youtube';
 
 const MainContent = ({data}) => {
   return (
@@ -57,6 +58,19 @@ const MainContent = ({data}) => {
             <div className="dtp-row-3s col-12">
             <img src={require(`../../public/images/${item.image12}.png`)} alt={item.name + " 12"} />
             </div>
+            <div className="dtp-youtube-container">
+            <iframe
+              width="1200px"
+              height="600px"
+              src={item.video}
+              title="Samsonite Magnum Product Video"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            />
+           
+          </div>
 
         </div>
       ))}
