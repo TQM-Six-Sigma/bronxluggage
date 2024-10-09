@@ -56,7 +56,7 @@ const blogPosts = [
     title: "SAMSONITE ",
     image:
       "https://file.hstatic.net/200000321545/file/banner_web_1920x700px.jpg",
-    description:"VIETNAMMESE BRAND",
+    description:"",
     content:"We are continuously striving to minimize the environmental impact of our business operations. To achieve our goal of reducing carbon emissions by 15% by 2025, we have been rigorously measuring and managing greenhouse gas emissions at all stages of production, increasing the use of renewable energy, and implementing energy-saving measures, as well as researching and applying environmentally friendly production technologies.",
     url: "https://samsonite-vietnam.com/",
   },
