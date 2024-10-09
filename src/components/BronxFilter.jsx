@@ -88,8 +88,8 @@ const handleColorFilterChange = (color) => {
 };
 
   return (
-    <Container>
-      <Row className="mb-2 col-12 ">
+    <Container className="BronxFilter-Container">
+      <Row className="BronxFilter-Filter mb-2 col-12 d-flex justify-content-center">
         <Col xs={12} md={12} lg={8} className={"d-flex justify-content-center"}>
           <Button 
             variant={
@@ -167,7 +167,7 @@ const handleColorFilterChange = (color) => {
           </Button>
         </Col>
       </Row>
-      <Row className="g-0">
+      <Row className="BronxFilter-Sort g-0 d-flex justify-content-center mb-3">
         <Col xs={12} md={6} lg={4}>
           <Form>
             <Form.Control
@@ -194,7 +194,7 @@ const handleColorFilterChange = (color) => {
           </Form>
         </Col>
       </Row>
-      <Row className="g-0">
+      <Row className="BronxFilter-Card g-0">
         {filteredCards.map((card, index) => (
           <Col key={index} xs={6} md={4} lg={3}>
             <div

@@ -61,37 +61,14 @@ function navBar() {
                   BRIGG&RILEY
                 </NavDropdown.Item>
                 <NavDropdown.Divider />
-                <NavDropdown
-                  title="TRAVELPRO"
-                  id="navbarScrollingDropdown"
+                
+                <NavDropdown.Item
+                  as={Link}
+                  to="/fbTravelPro"
                   className="text-center"
                 >
-                  <NavDropdown.Item
-                    as={Link}
-                    to="/fbTravelPro"
-                    className="text-center"
-                  >
-                    Platinum Elite
-                  </NavDropdown.Item>
-                  <NavDropdown.Divider />
-                  <NavDropdown.Item
-                    as={Link}
-                    to="/fbTravelPro/#Maxlite"
-                    className="text-center"
-                  >
-                    Maxlite 5
-                  </NavDropdown.Item>
-                  <NavDropdown.Divider />
-                  <NavDropdown.Item
-                    as={Link}
-                    to="/fbTravelPro#TravelproCrew"
-                    className="text-center"
-                  >
-                    Crew
-                  </NavDropdown.Item>
-                  <NavDropdown.Divider />
-                </NavDropdown>
-
+                  Travel Pro®
+                </NavDropdown.Item>
                 <NavDropdown.Divider />
                 <NavDropdown.Item
                   as={Link}

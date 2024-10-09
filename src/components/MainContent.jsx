@@ -9,7 +9,11 @@ const MainContent = ({ data }) => {
           <h2 className="dtp-title-brand">{item.brandTitle}</h2>
           <h3 className="dtp-subtitle-brand">{item.subBrandTitle}</h3>
           <p className="dtp-title-article">{item.articleTitle}</p>
-          <p className="dtp-content-article">{item.articleContent}</p>
+          <div>
+            {item.articleContent.split("\n").map((line, index) => (
+              <p key={index}>{line}</p>
+            ))}
+          </div>
 
           <div className="dtp-row-1 col-md-12 g-0">
             <div className="dtp-col-left col-md-6">
@@ -108,7 +112,7 @@ const MainContent = ({ data }) => {
               width="100%"
               height="600px"
               src={item.video}
-              title="Samsonite Magnum Product Video"
+              title="Product Video"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               referrerpolicy="strict-origin-when-cross-origin"
