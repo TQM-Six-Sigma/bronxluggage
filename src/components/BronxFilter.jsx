@@ -243,7 +243,7 @@ const handleColorFilterChange = (color) => {
               </Link>
 
               <div className="card-body text-black px-3 ">
-                <span>{card.serial}</span>
+                {/* <span>{card.serial}</span> */}
                 <h6 className="card-title">{card.name}</h6>
                 <div>
                   <RatingStarFeedback />

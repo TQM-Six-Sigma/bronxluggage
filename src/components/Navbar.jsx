@@ -93,36 +93,13 @@ function navBar() {
                 </NavDropdown>
 
                 <NavDropdown.Divider />
-                <NavDropdown
-                  title="BRICS'S"
-                  id="navbarScrollingDropdown"
+                <NavDropdown.Item
+                  as={Link}
+                  to="/fbBrics"
                   className="text-center"
                 >
-                  <NavDropdown.Item
-                    as={Link}
-                    to="/fbBrics"
-                    className="text-center"
-                  >
-                    Bellagio
-                  </NavDropdown.Item>
-                  <NavDropdown.Divider />
-                  <NavDropdown.Item
-                    as={Link}
-                    to="/fbBrics"
-                    className="text-center"
-                  >
-                    Venezia
-                  </NavDropdown.Item>
-                  <NavDropdown.Divider />
-                  <NavDropdown.Item
-                    as={Link}
-                    to="/fbBrics"
-                    className="text-center"
-                  >
-                    X-Travel
-                  </NavDropdown.Item>
-                  <NavDropdown.Divider />
-                </NavDropdown>
+                  Bric'S
+                </NavDropdown.Item>
                 <NavDropdown.Divider />
 
                 <NavDropdown.Item
