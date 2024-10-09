@@ -34,7 +34,7 @@ const blogPosts = [
       "Explore the Best Soft-Sided Luggage",
     url: "https://www.briggs-riley.com",
     content:
-      "The Baseline collection covers a full range of luggage sizes, from totes and laptop-secured backpacks to large weeknight bags—each great on its own or doubles as an active daypack. Each model is crafted with Briggs & Riley’s high-performance materials and attention to detail, including ballistic nylon and premium leather accents.S",
+      "The Baseline collection covers a full range of luggage sizes, from totes and laptop-secured backpacks to large weeknight bags—each great on its own or doubles as an active daypack. Each model is crafted with Briggs & Riley's high-performance materials and attention to detail, including ballistic nylon and premium leather accents.S",
   },
   {
     title: "Bellagio 3.0",
