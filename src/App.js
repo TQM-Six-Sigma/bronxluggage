@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import {Routes, Route ,HashRouter} from "react-router-dom";
 
 import Home from "./components/Home";
 import AboutUs from "./components/AboutUs";
@@ -19,7 +19,7 @@ import FBTravelPro from "./components/FBTravelPro";
 const App = () => {
   return (
     <>
-      <BrowserRouter>
+      <HashRouter>
         <div>
           <Navbar />
           <Routes>
@@ -42,7 +42,7 @@ const App = () => {
           </Routes>
           <Footer />
         </div>
-      </BrowserRouter>
+      </HashRouter>
     </>
   );
 };
