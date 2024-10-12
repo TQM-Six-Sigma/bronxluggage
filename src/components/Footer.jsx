@@ -3,7 +3,7 @@ import Ticker from "./Ticker";
 import "../css/Footer.css";
 const Footer = () => {
   return (
-    <footer className="footer mt-auto py-3 bg-dark">
+    <footer className="footer mt-3 py-3 bg-dark">
       <div className="container-fluid">
         <div className="row">
           <div className="col-md-4 ">

@@ -2,37 +2,37 @@
     {
       "name": "Luggage",
       "image": "HomeBriggsRileyCabinSpinner.png",
-      "link": "fbBriggRiley",
+      "link": "BronxFilter?keyword=luggage",
       "background": "HomeBriggsRileyBackground.png"
     },
     {
       "name": "Bags",
       "image": "HomeManStyle.png",
-      "link": "fbTravelPro",
+      "link": "BronxFilter?keyword=bag",
       "background": "HomeBriggsRileyBackground.png"
     },
     {
       "name": "Luxury Suitcase",
       "image": "HomeBricsBellagio.png",
-      "link": "fbBrics",
+      "link": "BronxFilter?keyword=luggage",
       "background": "HomeBriggsRileyBackground.png"
     },
     {
         "name": "Backpack",
         "image": "HomeDelsey.png",
-        "link": "fbDelseyParis",
+        "link": "BronxFilter?keyword=backpack",
       "background": "HomeBriggsRileyBackground.png"
       },
       {
         "name": "Accessories",
         "image": "HomeRicardo.png",
-        "link": "fbDelseyRicardo",
+        "link": "BronxFilter?keyword=accessories",
       "background": "HomeBriggsRileyBackground.png"
       },
       {
         "name": "Kid Style Samsonite",
         "image": "HomeSamsoniteKitte.png",
-        "link": "fbSamsonite",
+        "link": "BronxFilter?keyword=kid",
       "background": "HomeBriggsRileyBackground.png"
       },{
         "name": "Woman Style",

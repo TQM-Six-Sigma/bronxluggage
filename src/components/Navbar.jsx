@@ -13,7 +13,11 @@ import { FcGallery} from "react-icons/fc";
 import { FaBlog,FaHome } from "react-icons/fa";
 import { IoIosContacts } from "react-icons/io";
 import { ImSearch } from "react-icons/im";
-import { BsFillLuggageFill } from "react-icons/bs";
+import { BsFillLuggageFill,BsFillHandbagFill,BsFillWalletFill } from "react-icons/bs";
+import { MdLuggage } from "react-icons/md";
+import { PiBackpackFill } from "react-icons/pi";
+
+
 import "../css/BackToTop.css";
 import BackToTopButton from "./BacktoTopButton";
 
@@ -42,6 +46,18 @@ function navBar() {
             >
               <Nav.Link as={Link} to="/">
                 <FaHome style={{ fontSize: "45px" }} />
+              </Nav.Link>
+              <Nav.Link as={Link} to="/BronxFilter?keyword=luggage">
+                <MdLuggage style={{ fontSize: "45px" }} /> Luggage
+              </Nav.Link>
+              <Nav.Link as={Link} to="/BronxFilter?keyword=bag">
+                <BsFillHandbagFill style={{ fontSize: "45px" }} /> Bags
+              </Nav.Link>
+              <Nav.Link as={Link} to="/BronxFilter?keyword=backpack">
+                <PiBackpackFill style={{ fontSize: "45px" }} /> Backpack
+              </Nav.Link>
+              <Nav.Link as={Link} to="/BronxFilter?keyword=accessories">
+                <BsFillWalletFill style={{ fontSize: "45px" }} /> Accessories
               </Nav.Link>
 
               <NavDropdown
