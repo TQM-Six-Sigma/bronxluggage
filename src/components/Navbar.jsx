@@ -57,7 +57,7 @@ function navBar() {
                 <PiBackpackFill style={{ fontSize: "45px" }} /> Backpack
               </Nav.Link>
               <Nav.Link as={Link} to="/BronxFilter?keyword=accessories">
-                <BsFillWalletFill style={{ fontSize: "45px" }} /> Accessories
+                <BsFillWalletFill style={{ fontSize: "40px" }} /> Accessories
               </Nav.Link>
 
               <NavDropdown
@@ -125,9 +125,32 @@ function navBar() {
               <Nav.Link as={Link} to="/blog">
               <FaBlog style={{ fontSize: "40px" }} /> BLOG
               </Nav.Link>
-              <Nav.Link as={Link} to="/about">
-              <IoIosContacts style={{ fontSize: "45px" }} /> ABOUT US
-              </Nav.Link>
+              <NavDropdown
+                title={
+                  <span>
+                    <IoIosContacts style={{ fontSize: "45px" }} /> About Us
+                  </span>
+                }
+                id="navbarScrollingDropdown"
+              >
+                <NavDropdown.Item
+                  as={Link}
+                  to="/aboutUs"
+                  className="text-center"
+                >
+                  About Bronx Luggage
+                </NavDropdown.Item>
+                <NavDropdown.Divider />
+                
+                <NavDropdown.Item
+                  as={Link}
+                  to="/contactUs"
+                  className="text-center"
+                >
+                  Contact Us
+                </NavDropdown.Item>
+                </NavDropdown>
+             
             </Nav>
             <Form className="d-flex">
               <BLFeedback>

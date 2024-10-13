@@ -1,0 +1,14 @@
+.dtp-titleShadow {
+  font-size: 35pt;
+  font-family: serif;
+  color: black;
+  text-align: center;
+  font-style: oblique;
+  margin: 25px;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+  transform: skew(-10deg);
+}
+/* .dtp-contactus-container {
+height: 4000px;
+
+} */

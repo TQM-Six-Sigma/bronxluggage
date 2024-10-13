@@ -7,18 +7,9 @@ const AboutUs = () => {
       <div className="about-us">
         <div className="img-list">
           <h1
-            style={{
-              fontSize: "30pt",
-              fontFamily: "serif;",
-              color: "black",
-              textAlign: "center",
-              fontStyle: "oblique",
-              margin: "25px",
-              textShadow: "3px 3px 5px rgba(0, 0, 0, 0.3)",
-              transform: "skew(-10deg)",
-            }}
+            className="d-flex justify-content-center dtp-titleShadow"
           >
-            About US Bronx Luggage
+            About Bronx Luggage
           </h1>
         </div>
         <div className="ratio ratio-16x9">

@@ -16,13 +16,13 @@ const Footer = () => {
           <div className="col-md-4  d-flex justify-content-center">
             <ul className="list-unstyled">
               <li>
-                <Link>Site Map</Link>
+                <Link to="/sitemap">Site Map</Link>
               </li>
               <li>
                 <Link to="/">- Home</Link>
               </li>
               <li>
-                <Link>- Feature Brands</Link>
+                <Link to="/feedbacks">- Feedbacks</Link>
               </li>
               <li>
                 <Link to="/gallery">- Gallery</Link>
@@ -31,14 +31,17 @@ const Footer = () => {
                 <Link to="/blog">- Blog</Link>
               </li>
               <li>
-                <Link to="/about">- About Us</Link>
+                <Link to="/aboutUs">- About Us</Link>
+              </li>
+              <li>
+                <Link to="/contactUs">- Contact Us</Link>
               </li>
             </ul>
           </div>
           <div className="col-md-4 ">
             <iframe
-              title="FPT Aptech"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.3221068532803!2d106.66377547428776!3d10.786623259007067!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f631cb7c4b7%3A0xd152d83450f68d15!2sFPT%20Aptech!5e0!3m2!1sen!2s!4v1712736880973!5m2!1sen!2s"
+              title="FPT Aptech CMT8"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.3241473192493!2d106.66363827688237!3d10.786466689362975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752feb31e24595%3A0xb3d6bce53f82a7c9!2sFPT%20Aptech!5e0!3m2!1sen!2sus!4v1728794961909!5m2!1sen!2sus"
               width="100%"
               height="200"
               style={{ border: 0 }}
