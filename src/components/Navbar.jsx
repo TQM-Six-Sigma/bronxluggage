@@ -48,22 +48,22 @@ function navBar() {
                 <FaHome style={{ fontSize: "45px" }} />
               </Nav.Link>
               <Nav.Link as={Link} to="/BronxFilter?keyword=luggage">
-                <MdLuggage style={{ fontSize: "45px" }} /> Luggage
+                <MdLuggage style={{ fontSize: "45px" }} /> LUGGAGE
               </Nav.Link>
               <Nav.Link as={Link} to="/BronxFilter?keyword=bag">
-                <BsFillHandbagFill style={{ fontSize: "45px" }} /> Bags
+                <BsFillHandbagFill style={{ fontSize: "45px" }} /> BAGS
               </Nav.Link>
               <Nav.Link as={Link} to="/BronxFilter?keyword=backpack">
-                <PiBackpackFill style={{ fontSize: "45px" }} /> Backpack
+                <PiBackpackFill style={{ fontSize: "45px" }} />BACKPACKS
               </Nav.Link>
               <Nav.Link as={Link} to="/BronxFilter?keyword=accessories">
-                <BsFillWalletFill style={{ fontSize: "40px" }} /> Accessories
+                <BsFillWalletFill style={{ fontSize: "45px" }} /> ACCESSORIES
               </Nav.Link>
 
               <NavDropdown
                 title={
                   <span>
-                    <BsFillLuggageFill style={{ fontSize: "40px" }} /> BRANDS
+                    <BsFillLuggageFill style={{ fontSize: "45px" }} /> BRANDS
                     
                   </span>
                 }

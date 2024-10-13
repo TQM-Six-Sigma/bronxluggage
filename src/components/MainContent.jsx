@@ -6,7 +6,7 @@ const MainContent = ({ data }) => {
     <div className="dtp-wrapper">
       {data.map((item, index) => (
         <div key={index} className="dtp-content-container">
-          <h2 className="dtp-title-brand">{item.brandTitle}</h2>
+          <h2  className="dtp-title-brand dtp-titleShadow">{item.brandTitle}</h2>
           <h3 className="dtp-subtitle-brand">{item.subBrandTitle}</h3>
           <p className="dtp-title-article">{item.articleTitle}</p>
           <div>
