@@ -1,5 +1,5 @@
 import React, { useState, useEffect, createRef } from "react";
-import { Container, Row, Col, Form, Carousel, Button } from "react-bootstrap";
+import { Container, Row, Col, Form, Carousel } from "react-bootstrap";
 import cardData from "../databaseJSON/BronxFilter.json";
 import RatingStarFeedback from "./RatingStarFeedback";
 import { Link, useLocation } from "react-router-dom";
@@ -137,9 +137,14 @@ const Search = () => {
       setTypeFilter([...typeFilter, type]);
     }
   };
-  const FilterCheckbox = ({ filter, label, handleFilterChange, filterState }) => {
+  const FilterCheckbox = ({
+    filter,
+    label,
+    handleFilterChange,
+    filterState,
+  }) => {
     return (
-      <div className="form-check">
+      <div className="form-check" >
         <input
           className="form-check-input"
           type="checkbox"
@@ -154,7 +159,7 @@ const Search = () => {
   return (
     <Container className="BronxFilter-Container">
       <Row className="BronxFilter-Filter mb-2 col-12 d-flex justify-content-center">
-        <h1 className="d-flex justify-content-center">
+        <h1 className="d-flex justify-content-center dtp-titleShadow">
           {searchItem.toUpperCase()}
         </h1>
       </Row>
@@ -208,6 +213,14 @@ const Search = () => {
                   <FilterCheckbox
                     filter="Delsey"
                     label="Delsey"
+                    handleFilterChange={handleBrandFilterChange}
+                    filterState={brandFilter}
+                  />
+                </Dropdown.Item>
+                <Dropdown.Item>
+                  <FilterCheckbox
+                    filter="Samsonite"
+                    label="Samsonite"
                     handleFilterChange={handleBrandFilterChange}
                     filterState={brandFilter}
                   />
@@ -373,10 +386,19 @@ const Search = () => {
                 </Dropdown.Item>
                 <Dropdown.Item>
                   <FilterCheckbox
+                    filter="Pink"
+                    label="Pink"
+                    handleFilterChange={handleColorFilterChange}
+                    filterState={colorFilter}
+                  />
+                </Dropdown.Item>
+                <Dropdown.Item>
+                  <FilterCheckbox
                     filter="Red"
                     label="Red"
                     handleFilterChange={handleColorFilterChange}
                     filterState={colorFilter}
+                    className="red-checkbox"
                   />
                 </Dropdown.Item>
                 <Dropdown.Item>
@@ -403,7 +425,7 @@ const Search = () => {
                     filterState={colorFilter}
                   />
                 </Dropdown.Item>
-                  <Dropdown.Item>
+                <Dropdown.Item>
                   <FilterCheckbox
                     filter="Orange"
                     label="Orange"
@@ -411,10 +433,74 @@ const Search = () => {
                     filterState={colorFilter}
                   />
                 </Dropdown.Item>
-                  <Dropdown.Item>
+                <Dropdown.Item>
                   <FilterCheckbox
                     filter="Brown"
                     label="Brown"
+                    handleFilterChange={handleColorFilterChange}
+                    filterState={colorFilter}
+                  />
+                </Dropdown.Item>
+                <Dropdown.Item>
+                  <FilterCheckbox
+                    filter="Eggplant"
+                    label="Eggplant"
+                    handleFilterChange={handleColorFilterChange}
+                    filterState={colorFilter}
+                  />
+                </Dropdown.Item>
+                <Dropdown.Item>
+                  <FilterCheckbox
+                    filter="Purple"
+                    label="Purple"
+                    handleFilterChange={handleColorFilterChange}
+                    filterState={colorFilter}
+                  />
+                </Dropdown.Item>
+                <Dropdown.Item>
+                  <FilterCheckbox
+                    filter="Clear"
+                    label="Clear"
+                    handleFilterChange={handleColorFilterChange}
+                    filterState={colorFilter}
+                  />
+                </Dropdown.Item>
+                <Dropdown.Item>
+                  <FilterCheckbox
+                    filter="White"
+                    label="White"
+                    handleFilterChange={handleColorFilterChange}
+                    filterState={colorFilter}
+                  />
+                </Dropdown.Item>
+                <Dropdown.Item>
+                  <FilterCheckbox
+                    filter="Cognac"
+                    label="Cognac"
+                    handleFilterChange={handleColorFilterChange}
+                    filterState={colorFilter}
+                  />
+                </Dropdown.Item>
+                <Dropdown.Item>
+                  <FilterCheckbox
+                    filter="Navy"
+                    label="Navy"
+                    handleFilterChange={handleColorFilterChange}
+                    filterState={colorFilter}
+                  />
+                </Dropdown.Item>
+                <Dropdown.Item>
+                  <FilterCheckbox
+                    filter="Olive"
+                    label="Olive"
+                    handleFilterChange={handleColorFilterChange}
+                    filterState={colorFilter}
+                  />
+                </Dropdown.Item>
+                <Dropdown.Item>
+                  <FilterCheckbox
+                    filter="Grey"
+                    label="Grey"
                     handleFilterChange={handleColorFilterChange}
                     filterState={colorFilter}
                   />
@@ -428,13 +514,13 @@ const Search = () => {
         <Col xs={12} md={6} lg={4}>
           <Form>
             <div class="input-group">
-            <Form.Control
-              type="text"
-              value={searchItem}
-              onChange={handleInputChange}
-              placeholder="Search by name, price, brand..."
-              ref={searchInputRef}
-            />
+              <Form.Control
+                type="text"
+                value={searchItem}
+                onChange={handleInputChange}
+                placeholder="Search by name, price, brand..."
+                ref={searchInputRef}
+              />
               <button
                 className="btn btn-outline-secondary"
                 type="button"
@@ -444,7 +530,7 @@ const Search = () => {
                 Clear
               </button>
             </div>
-            
+
             <Form.Select
               className="mt-2"
               value={priceRange}
