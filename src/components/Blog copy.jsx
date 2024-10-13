@@ -8,16 +8,22 @@ const Blog = () => {
       <h2 className="blog-header1">
       New trending products
       </h2>
-      <ul className="blog-grid col-sm-12">
+      <ul className="blog-grid">
         {blogPosts.map((post, index) => (
           <li key={index} className="blog-grid-item">
-            <h2>{post.title}</h2>
-            <img src={post.image} alt={post.title}  />
-            <h3>{post.description}</h3>
-            <div class="content">{post.content}</div>
-            <button>
-              <a className="a" href={post.url}>Read More</a>
-            </button>
+            <div className="blog-grid-item-inner">
+              <h2>{post.title}</h2>
+              <img
+                src={post.image}
+                alt={post.title}
+                style={{ width: "100%", height: "auto" }}
+              />
+              <h3>{post.description}</h3>
+              <div className="content" style={{ textAlign: "justify" }}>{post.content}</div>
+              <button>
+                <a className="a" href={post.url}>Read More</a>
+              </button>
+            </div>
           </li>
         ))}
       </ul>

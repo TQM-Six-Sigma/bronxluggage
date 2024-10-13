@@ -242,8 +242,8 @@ const Search = () => {
               <Dropdown.Menu>
                 <Dropdown.Item>
                   <FilterCheckbox
-                    filter="woman"
-                    label="Woman"
+                    filter="women"
+                    label="Women"
                     handleFilterChange={handleIndividualFilterChange}
                     filterState={individualFilter}
                   />
