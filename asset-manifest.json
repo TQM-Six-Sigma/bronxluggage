@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/bronxluggage/static/css/main.e8ee0447.css",
-    "main.js": "/bronxluggage/static/js/main.831d2307.js",
+    "main.js": "/bronxluggage/static/js/main.80dcfe6e.js",
     "static/media/BricsCream595FirenzeTuscanTrainCase3.png": "/bronxluggage/static/media/BricsCream595FirenzeTuscanTrainCase3.f092fc960f17abccb4e0.png",
     "static/media/BricsCream595FirenzeTuscanTrainCase4.png": "/bronxluggage/static/media/BricsCream595FirenzeTuscanTrainCase4.ab36c25e7567193ef6c1.png",
     "static/media/BricsBlack449MySafariExpandableSpinner3.png": "/bronxluggage/static/media/BricsBlack449MySafariExpandableSpinner3.63acd83674dc786c1cff.png",
@@ -220,7 +220,6 @@
     "static/media/HomeWomanStyle.png": "/bronxluggage/static/media/HomeWomanStyle.451069e4d763fc91eb88.png",
     "static/media/HomeWomanStyle1.png": "/bronxluggage/static/media/HomeWomanStyle1.451069e4d763fc91eb88.png",
     "static/media/HomeDelsey1.png": "/bronxluggage/static/media/HomeDelsey1.5a7bc53f253e79c63ac5.png",
-    "static/media/Maxlite1.png": "/bronxluggage/static/media/Maxlite1.725a55259221cef07954.png",
     "static/media/TravelProBlack1159PlatinumEliteLuggage1.png": "/bronxluggage/static/media/TravelProBlack1159PlatinumEliteLuggage1.52685dd26ebe66458ea9.png",
     "static/media/BriggsBlack799BaselineMediumExpandableSpinner3.png": "/bronxluggage/static/media/BriggsBlack799BaselineMediumExpandableSpinner3.0e45adb60a78fc4378c4.png",
     "static/media/SamsoniteBlack76SmallBagAndantewheeledDuffel1.png": "/bronxluggage/static/media/SamsoniteBlack76SmallBagAndantewheeledDuffel1.012f43f72fee40dadea9.png",
@@ -231,10 +230,8 @@
     "static/media/SearchBackGround.png": "/bronxluggage/static/media/SearchBackGround.674e3cba5bf5bbb41368.png",
     "static/media/BricsOrange279ManUlisseExpandableSpinner1.png": "/bronxluggage/static/media/BricsOrange279ManUlisseExpandableSpinner1.5f2f731d620e1d40349b.png",
     "static/media/BricsYellow279ManUlisseExpandableSpinner1.png": "/bronxluggage/static/media/BricsYellow279ManUlisseExpandableSpinner1.b9097ae8951bc340bb1a.png",
-    "static/media/maxlite4.png": "/bronxluggage/static/media/maxlite4.0a7581a5e4c976619247.png",
     "static/media/BriggsBlackExpandableSpinner4.png": "/bronxluggage/static/media/BriggsBlackExpandableSpinner4.0cbf6d320f40439325e1.png",
     "static/media/BricsOrange279ManUlisseExpandableSpinner4.png": "/bronxluggage/static/media/BricsOrange279ManUlisseExpandableSpinner4.d1b1878611519bdde513.png",
-    "static/media/maxlite3.png": "/bronxluggage/static/media/maxlite3.831804c85f9ef3397192.png",
     "static/media/BricsBlack279ManUlisseExpandableSpinner1.png": "/bronxluggage/static/media/BricsBlack279ManUlisseExpandableSpinner1.edff1b192981dc6e086a.png",
     "static/media/BriggsGreenExpandableSpinner4.png": "/bronxluggage/static/media/BriggsGreenExpandableSpinner4.022a555f12c2731de614.png",
     "static/media/BriggsBlue779BaselineMediumExpandableSpinner3.png": "/bronxluggage/static/media/BriggsBlue779BaselineMediumExpandableSpinner3.48721f2520fb4324a2c0.png",
@@ -243,33 +240,22 @@
     "static/media/BricsBlack279ManUlisseExpandableSpinner2.png": "/bronxluggage/static/media/BricsBlack279ManUlisseExpandableSpinner2.95cb273962b2bedff5f3.png",
     "static/media/HomeBriggsRileyCabinSpinner4.png": "/bronxluggage/static/media/HomeBriggsRileyCabinSpinner4.f9ea1eb8aa3884b9c5c9.png",
     "static/media/GarmentDuffle4.png": "/bronxluggage/static/media/GarmentDuffle4.58c217f33500ecfb5519.png",
-    "static/media/X4.png": "/bronxluggage/static/media/X4.2d396bf5f35945b9745b.png",
-    "static/media/maxlite2.png": "/bronxluggage/static/media/maxlite2.6981ee6ba200fa80bf08.png",
     "static/media/BriggsBlack629LargeSpinnerBrief3.png": "/bronxluggage/static/media/BriggsBlack629LargeSpinnerBrief3.796c44a29065123cb400.png",
-    "static/media/X2.png": "/bronxluggage/static/media/X2.030cbe43258676e83ba7.png",
-    "static/media/X5.png": "/bronxluggage/static/media/X5.59db2ae5c5ada9881b23.png",
     "static/media/logoAptechFPT1999.png": "/bronxluggage/static/media/logoAptechFPT1999.e41ae24ddee8eeefc922.png",
     "static/media/BriggsGreen799BaselineMediumExpandableSpinner2.png": "/bronxluggage/static/media/BriggsGreen799BaselineMediumExpandableSpinner2.c629a2021ccf61300b2c.png",
-    "static/media/X1.png": "/bronxluggage/static/media/X1.7877260569849662aaab.png",
     "static/media/HomeBriggsRileyCabinSpinner2.png": "/bronxluggage/static/media/HomeBriggsRileyCabinSpinner2.f4cc1fc6672ffcf92656.png",
-    "static/media/X3.png": "/bronxluggage/static/media/X3.fc41348ffe31bb4e20cd.png",
-    "static/media/X6.png": "/bronxluggage/static/media/X6.6be62effe2cdd3154027.png",
     "static/media/BriggsBlack779CarryWheeledGarmentSpinner4.png": "/bronxluggage/static/media/BriggsBlack779CarryWheeledGarmentSpinner4.4b3514754a59074d2b2b.png",
-    "static/media/Ric2.png": "/bronxluggage/static/media/Ric2.197e40bbf69723a24f14.png",
-    "static/media/Ric3.png": "/bronxluggage/static/media/Ric3.14ac55d2a8077eda5cb5.png",
     "static/media/BriggsBlackExpandableSpinner3.png": "/bronxluggage/static/media/BriggsBlackExpandableSpinner3.beb785f47a0a5ef419e7.png",
-    "static/media/Ric1.png": "/bronxluggage/static/media/Ric1.71d8799885febc169d36.png",
     "static/media/HomeBriggsRileyCabinSpinner3.png": "/bronxluggage/static/media/HomeBriggsRileyCabinSpinner3.4c2605576b7f23dfd3f3.png",
-    "static/media/Ric4.png": "/bronxluggage/static/media/Ric4.1c8c2ed84cbffd7d2f03.png",
     "static/media/HomeBricsBellagio4.png": "/bronxluggage/static/media/HomeBricsBellagio4.a1ef094d20d459758c8b.png",
     "static/media/BricsCognac1870LifePelleSpinnerCarryOn3.png": "/bronxluggage/static/media/BricsCognac1870LifePelleSpinnerCarryOn3.e1a66178e6d4e2a3ab21.png",
     "static/media/BriggsBlack799BaselineMediumExpandableSpinner4.png": "/bronxluggage/static/media/BriggsBlack799BaselineMediumExpandableSpinner4.2d8eb1b1288c135fc47a.png",
     "index.html": "/bronxluggage/index.html",
     "main.e8ee0447.css.map": "/bronxluggage/static/css/main.e8ee0447.css.map",
-    "main.831d2307.js.map": "/bronxluggage/static/js/main.831d2307.js.map"
+    "main.80dcfe6e.js.map": "/bronxluggage/static/js/main.80dcfe6e.js.map"
   },
   "entrypoints": [
     "static/css/main.e8ee0447.css",
-    "static/js/main.831d2307.js"
+    "static/js/main.80dcfe6e.js"
   ]
 }
