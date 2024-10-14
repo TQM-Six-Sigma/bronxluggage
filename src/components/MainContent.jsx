@@ -22,8 +22,8 @@ const MainContent = ({ data }) => {
                 alt={item.name + " 1"}
               />
             </div>
-            <div className="dtp-col-right col-md-6 col-sm-8">
-              <div className="dtp-col-right-row-1 col-md-6 col-sm-8">
+            <div className="dtp-col-right col-md-6 ">
+              <div className="dtp-col-right-row-1 col-md-6 ">
                 <div className="dtp-col-right-row-img">
                   <img
                     src={require(`../../public/images/${item.image2}.png`)}
@@ -68,8 +68,8 @@ const MainContent = ({ data }) => {
                 alt={item.name + " 7"}
               />
             </div>
-            <div className="dtp-col-right col-md-6 col-sm-8">
-              <div className="dtp-col-right-row-1 col-md-6 col-sm-8">
+            <div className="dtp-col-right col-md-6 ">
+              <div className="dtp-col-right-row-1 col-md-6 ">
                 <div className="dtp-col-right-row-img">
                   <img
                     src={require(`../../public/images/${item.image8}.png`)}

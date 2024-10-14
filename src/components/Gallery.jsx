@@ -1,15 +1,16 @@
 
 import React from 'react';
 import GalleryLayout from "./GalleryLayout";
-import ContentData from "../databaseJSON/Gallery.json"
-
+import ContentData1 from "../databaseJSON/GalleryLayout1.json"
+import ContentData2 from "../databaseJSON/GalleryLayout2.json"
 const Gallery
  = () => {
   return (
     <>
       <div>
-        <GalleryLayout data={ContentData}
-         />
+        <h1 className="dtp-titleShadow">GALLERY</h1>
+        <GalleryLayout data={ContentData1} />
+        <GalleryLayout data={ContentData2} />
       </div>
     </>
   );

@@ -1,0 +1,25 @@
+[
+    {
+        
+        "name": "GalleryLayout2",
+      "image1": "GalleryLayout/Layout2/square1",
+      "image2": "GalleryLayout/Layout2/imgUpper1",
+      "image3": "GalleryLayout/Layout2/imgUpper2",
+      "image4": "GalleryLayout/Layout2/imgUpper3",
+      "image5": "GalleryLayout/Layout2/imgUpper4",
+      "image6": "GalleryLayout/Layout2/Landscape1",
+      "image7": "GalleryLayout/Layout2/square2",
+      "image8": "GalleryLayout/Layout2/imgLower1",
+      "image9": "GalleryLayout/Layout2/imgLower2",
+      "image10": "GalleryLayout/Layout2/imgLower3",
+      "image11": "GalleryLayout/Layout2/imgLower4",
+      "image12": "GalleryLayout/Layout2/Landscape2",
+      "image13": "GalleryLayout/Layout2/rowImg1",
+      "image14": "GalleryLayout/Layout2/rowImg2",
+      "image15": "GalleryLayout/Layout2/rowImg3",
+      "image16": "GalleryLayout/Layout2/rowImg4"
+    }
+      
+     
+  ]
+

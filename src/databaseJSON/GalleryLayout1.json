@@ -1,5 +1,7 @@
 [
     {
+      
+        "name": "GalleryLayout1",
       "image1": "GalleryLayout/Layout1/square1",
       "image2": "GalleryLayout/Layout1/imgUpper1",
       "image3": "GalleryLayout/Layout1/imgUpper2",
@@ -11,7 +13,11 @@
       "image9": "GalleryLayout/Layout1/imgLower2",
       "image10": "GalleryLayout/Layout1/imgLower3",
       "image11": "GalleryLayout/Layout1/imgLower4",
-      "image12": "GalleryLayout/Layout1/Landscape2"
+      "image12": "GalleryLayout/Layout1/Landscape2",
+      "image13": "GalleryLayout/Layout1/rowImg1",
+      "image14": "GalleryLayout/Layout1/rowImg2",
+      "image15": "GalleryLayout/Layout1/rowImg3",
+      "image16": "GalleryLayout/Layout1/rowImg4"
     }
       
      
