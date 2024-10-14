@@ -1,16 +1,19 @@
-import React from "react";
-import CardPage from "./CardPage";
 
-const Gallery = () => {
+import React from 'react';
+import GalleryLayout from "./GalleryLayout";
+import ContentData from "../databaseJSON/Gallery.json"
+
+const Gallery
+ = () => {
   return (
     <>
-      
       <div>
-        <CardPage />
+        <GalleryLayout data={ContentData}
+         />
       </div>
-      
     </>
   );
 };
 
-export default Gallery;
+export default Gallery
+;
