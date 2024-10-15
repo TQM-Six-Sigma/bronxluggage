@@ -22,6 +22,8 @@ eProject documentation at https://github.com/TQM-Six-Sigma/tree/main/Documents
 
 Public Website : https://tqm-six-sigma.github.io/bronxluggage/
 
+Our Function : https://www.youtube.com/watch?v=b_dVFLFr8hI
+
 ============================
 
 Thank you for spending your time to look at our work.
