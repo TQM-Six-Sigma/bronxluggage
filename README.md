@@ -18,7 +18,7 @@ Project title: Bronx Luggage
 ============================
 Our Main Project at : https://github.com/TQM-Six-Sigma/bronxluggage.git
 
-eProject documentation at https://github.com/TQM-Six-Sigma/tree/main/Documents
+eProject documentation at https://github.com/TQM-Six-Sigma/bronxluggage/tree/main/Documents
 
 Public Website : https://tqm-six-sigma.github.io/bronxluggage/
 
